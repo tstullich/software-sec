@@ -1,0 +1,5 @@
+uart_read_char = 0x00008550
+uart_write_char = 0x0000856C
+delay = 0x00008128
+input_buffer = 0x00007E00
+return_address = 0x00008070

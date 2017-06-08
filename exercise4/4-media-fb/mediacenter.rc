@@ -1,0 +1,50 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          mediacenter
+# Required-Start:    dbus $syslog $network $local_fs 
+# Required-Stop:     
+# Default-Start:     2 3 4 5
+# Default-Stop:	     0 1 6
+# Short-Description: Start mediacenter.
+### END INIT INFO
+set -e
+
+DESC="mediacenter application"
+NAME=mediacenter
+DAEMON=/usr/bin/$NAME
+
+case "$1" in
+  start)
+        echo -n "Starting $DESC: "
+	umask 0
+        start-stop-daemon -S -c media -b -x $DAEMON
+        echo "OK"
+        ;;
+  stop)
+        echo -n "Stopping $DESC: "
+        start-stop-daemon -K -x $DAEMON
+        echo "OK"
+        ;;
+  restart|force-reload)
+        $0 stop || true
+        sleep 1
+        $0 start
+        ;;
+  status)
+	echo -n "Checking $DESC: "
+	PID=$(pidof $DAEMON || true)
+	if [ -z "$PID" ]; then
+		echo "not running"
+		exit 1
+	else
+		echo "running (pid $PID)"
+		exit 0
+	fi
+	;;
+  *)
+        echo "Usage: $0 {start|stop|status|restart|force-reload}" >&2
+        exit 1
+        ;;
+esac
+
+exit 0

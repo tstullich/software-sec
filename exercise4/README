@@ -1,0 +1,13 @@
+This is a quick description of what my files are supposed to do, since I was not able to find a correct solution but thought I got close.
+
+1. shellscript.sh
+   This is the shell script that I intended to run in the mp3 file
+2. %1094795520x%9$n%B8&?
+   This file was supposed to write the value 41414100 into the buffer pointed at the address 0x0001264c
+3. %p..%p..%p..%p..%p..%p..%p..%p..mp3
+   This file verified that the arguments that needed to be consumed before hitting my buffer was 8
+
+My intention at the end was to write the "/bin/sh" into the address 0x0001264c and then executing the
+file through the play mechanism of the media server.
+Unfortunately I was not able to resolve how I could read the values I had written and if they were at all correct,
+so it became difficult trying to verify what I was doing was right.

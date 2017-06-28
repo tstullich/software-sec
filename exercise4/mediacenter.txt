@@ -1,0 +1,4317 @@
+    134 /lib/ld-linux-armhf.so.3
+    779 libmedialog.so
+    788 openmedialog
+    795 malloc
+    79c vsnprintf
+    7a6 sprintf
+    7ae strlen
+    7b5 free
+    7ba libmagic.so.1
+    7c8 _ITM_deregisterTMCloneTable
+    7e4 __gmon_start__
+    7f3 _Jv_RegisterClasses
+    807 _ITM_registerTMCloneTable
+    821 _fini
+    827 magic_open
+    832 magic_file
+    83d magic_load
+    848 libpthread.so.0
+    858 close
+    85e fork
+    863 send
+    868 waitpid
+    870 read
+    875 accept
+    87c recv
+    881 libc.so.6
+    88b socket
+    892 strcpy
+    899 exit
+    89e htonl
+    8a4 readdir
+    8ac htons
+    8b2 strncmp
+    8ba closedir
+    8c3 inet_ntoa
+    8cd signal
+    8d4 inotify_rm_watch
+    8e5 listen
+    8ec select
+    8f3 abort
+    8f9 getpid
+    900 mmap
+    905 memset
+    90c bind
+    911 memcpy
+    918 opendir
+    920 clone
+    926 ioctl
+    92c inotify_init
+    939 munmap
+    940 execve
+    947 strchr
+    94e inotify_add_watch
+    960 sleep
+    966 syscall
+    96e strcmp
+    975 __libc_start_main
+    987 __xstat
+    98f _edata
+    996 __bss_start
+    9a2 __bss_start__
+    9b0 __bss_end__
+    9bc __end__
+    9c4 _end
+    9c9 GLIBC_2.4
+   11bd `z`;`
+   11c9 F;a;i
+   11d5 hZ`;i
+   11dd `;izh
+   11e3 `;i:h
+   1230 ! {h
+   12f9 h{a{i
+   1304 {i:i
+   1316 x`{h
+   135a ! {h
+   13f9 hZh{h
+   1435 hZh{h
+   149a 9F;F
+   14ef F;FS
+   153d F;F 2S
+   158d F;F@2S
+   15d6 x`9`{h
+   15eb F{a{i
+   1685 3;aC
+   16c5 h{a<
+   16d2 x`xi:!
+   16dc 8`{h
+   16ec :h{h
+   172f 3;a{h
+   1735 3{a;i
+   1ace t1[j
+   1b2a t1[jZ
+   1b32 t1Zb
+   1bbc t1[j
+   1cda x`{h
+   1cf9 h,32
+   1e3e x`xhB
+   1f05 F(F!F
+   1f47 F(F!F
+   1fc9 F(F!F
+   206b F;`8h
+   2085 F9hO
+   2092 x`{h
+   20a2 {h:h
+   20ae {h:h
+   20bb ;{`{h
+   231d Fyh@
+   2413 F{`C
+   2591 h{`{h
+   25c5 ?8FAFJF
+   25fc /media
+   2604 %s/%s
+   260c media
+   2614 /media
+   261c /media
+   2624 audio/ogg
+   2630 /usr/bin/ogg123
+   2640 audio/mpeg
+   264c /usr/bin/mpg123
+   265c /etc/media.mime
+   266c %s/%s
+   2674 /media
+   267c Error, cannot access %s tree...
+   26a0 %s/%s
+   26a8 %s/.
+   26b0 %s/..
+   26b8 New file: 
+   26c8 Found new files in %s! Now %d tracks.
+   26f0 Directory %s gone! Now %d tracks.
+   2714 /media
+   2720 /media
+   2728 Available commands:
+   2740   - help    Displays this text
+   2760   - list    Emits the current list of multimedia files
+   2798   - next    Advances the cursor to the next file
+   27cc   - play    Plays the file at the cursor, then advances
+   2804   - scan    Force rescan of media directories
+   2834 list
+   2850 help
+   2858 next
+   2860 play
+   2868 scan
+   2870 Received command "%s" from %s.
+   2890 /media
+   2898 Directory added to inotify as ID %x.
+   28c0 Inotify ID %x removed.
+   28d8 Inotify triggered (ID %x, mask %x) - flagging directory for rescan.
+   2920 Unknown inotify trigger (ID %x, mask %x)!
+   321c GCC: (Debian 4.9.2-10) 4.9.2
+   3239 GCC: (Debian 4.8.4-1) 4.8.4
+   325a aeabi
+   53ca /usr/include
+   53d7 /usr/include/arm-linux-gnueabihf/sys
+   53fc /usr/include/arm-linux-gnueabihf/bits
+   5422 /usr/include/arm-linux-gnueabihf/gnu
+   5447 /usr/lib/gcc/arm-linux-gnueabihf/4.9/include
+   5474 /usr/include/arm-linux-gnueabihf/asm
+   5499 /usr/include/asm-generic
+   54b2 /usr/include/linux
+   54c5 ../x-deps/libmedialog
+   54dc main.c
+   54e6 signal.h
+   54f2 stdint.h
+   54fe inotify.h
+   550b mediacenter.h
+   551c stdc-predef.h
+   552d stdio.h
+   5538 features.h
+   5546 cdefs.h
+   5551 wordsize.h
+   555f stubs.h
+   556a stubs-hard.h
+   557a stddef.h
+   5586 types.h
+   5591 typesizes.h
+   55a0 libio.h
+   55ab _G_config.h
+   55ba wchar.h
+   55c5 stdarg.h
+   55d1 stdio_lim.h
+   55e0 sys_errlist.h
+   55f1 string.h
+   55fd xlocale.h
+   560a stdlib.h
+   5616 waitflags.h
+   5625 waitstatus.h
+   5635 endian.h
+   5641 endian.h
+   564d byteswap.h
+   565b byteswap-16.h
+   566c types.h
+   5677 time.h
+   5681 select.h
+   568d select.h
+   5699 sigset.h
+   56a5 time.h
+   56af sysmacros.h
+   56be pthreadtypes.h
+   56d0 alloca.h
+   56dc stdlib-float.h
+   56ee unistd.h
+   56fa posix_opt.h
+   5709 environments.h
+   571b confname.h
+   5729 getopt.h
+   5735 signal.h
+   5741 signum.h
+   574d siginfo.h
+   575a sigaction.h
+   5769 sigcontext.h
+   5779 sigcontext.h
+   5789 sigstack.h
+   5797 ucontext.h
+   57a5 sigthread.h
+   57b4 wait.h
+   57be stat.h
+   57c8 stat.h
+   57d2 fcntl.h
+   57dd fcntl.h
+   57e8 fcntl.h
+   57f3 fcntl-linux.h
+   5804 stdint.h
+   5810 wchar.h
+   581b inotify.h
+   5828 ioctl.h
+   5833 ioctls.h
+   583f ioctls.h
+   584b ioctls.h
+   5857 ioctl.h
+   5862 ioctl.h
+   586d ioctl.h
+   5878 ioctl-types.h
+   5889 ttydefaults.h
+   589a syslog.h
+   58a6 syslog.h
+   58b2 syslog-path.h
+   58c3 medialog.h
+   58ed "u=KYuK
+   5912 uL0/0
+   594f /usr/include/arm-linux-gnueabihf/sys
+   5974 /usr/include
+   5981 /usr/include/arm-linux-gnueabihf/bits
+   59a7 /usr/include/arm-linux-gnueabihf/gnu
+   59cc /usr/lib/gcc/arm-linux-gnueabihf/4.9/include
+   59fa mev.c
+   5a03 select.h
+   5a0f mediacenter.h
+   5a20 stdc-predef.h
+   5a31 features.h
+   5a3f cdefs.h
+   5a4a wordsize.h
+   5a58 stubs.h
+   5a63 stubs-hard.h
+   5a73 types.h
+   5a7e typesizes.h
+   5a8d select.h
+   5a99 sigset.h
+   5aa5 time.h
+   5aaf time.h
+   5ab9 stdlib.h
+   5ac5 stddef.h
+   5ad1 waitflags.h
+   5ae0 waitstatus.h
+   5af0 endian.h
+   5afc endian.h
+   5b08 byteswap.h
+   5b16 byteswap-16.h
+   5b27 types.h
+   5b32 sysmacros.h
+   5b41 pthreadtypes.h
+   5b53 alloca.h
+   5b5f stdlib-float.h
+   5b71 string.h
+   5b7d xlocale.h
+   5bc2 K=>M
+   5bd0 gu=#ug=Y=
+   5c42 /usr/include/arm-linux-gnueabihf/bits
+   5c68 /usr/include
+   5c75 /usr/include/arm-linux-gnueabihf/sys
+   5c9a /usr/include/arm-linux-gnueabihf/gnu
+   5cbf /usr/lib/gcc/arm-linux-gnueabihf/4.9/include
+   5ced content.c
+   5cfa types.h
+   5d05 unistd.h
+   5d11 mediacenter.h
+   5d22 stdc-predef.h
+   5d33 stdlib.h
+   5d3f features.h
+   5d4d cdefs.h
+   5d58 wordsize.h
+   5d66 stubs.h
+   5d71 stubs-hard.h
+   5d81 stddef.h
+   5d8d waitflags.h
+   5d9c waitstatus.h
+   5dac endian.h
+   5db8 endian.h
+   5dc4 byteswap.h
+   5dd2 typesizes.h
+   5de1 byteswap-16.h
+   5df2 types.h
+   5dfd time.h
+   5e07 select.h
+   5e13 select.h
+   5e1f sigset.h
+   5e2b time.h
+   5e35 sysmacros.h
+   5e44 pthreadtypes.h
+   5e56 alloca.h
+   5e62 stdlib-float.h
+   5e74 stdio.h
+   5e7f libio.h
+   5e8a _G_config.h
+   5e99 wchar.h
+   5ea4 stdarg.h
+   5eb0 stdio_lim.h
+   5ebf sys_errlist.h
+   5ed0 posix_opt.h
+   5edf environments.h
+   5ef1 confname.h
+   5eff getopt.h
+   5f0b fcntl.h
+   5f16 fcntl.h
+   5f21 fcntl-linux.h
+   5f32 stat.h
+   5f3c stat.h
+   5f46 string.h
+   5f52 xlocale.h
+   5f5f syslog.h
+   5f6b syslog.h
+   5f77 syslog-path.h
+   5f93 YiK==u>
+   5fb0 Kgg>/!YYK
+   5fd2 /ZM=
+   6005 /usr/include/arm-linux-gnueabihf/bits
+   602b /usr/include
+   6038 /usr/include/arm-linux-gnueabihf/sys
+   605d /usr/include/arm-linux-gnueabihf/gnu
+   6082 /usr/lib/gcc/arm-linux-gnueabihf/4.9/include
+   60af /usr/include/linux
+   60c3 scan.c
+   60cd types.h
+   60d8 time.h
+   60e2 dirent.h
+   60ee unistd.h
+   60fa stat.h
+   6104 magic.h
+   610f mediacenter.h
+   6120 dirent.h
+   612c stdc-predef.h
+   613d stdlib.h
+   6149 features.h
+   6157 cdefs.h
+   6162 wordsize.h
+   6170 stubs.h
+   617b stubs-hard.h
+   618b stddef.h
+   6197 waitflags.h
+   61a6 waitstatus.h
+   61b6 endian.h
+   61c2 endian.h
+   61ce byteswap.h
+   61dc typesizes.h
+   61eb byteswap-16.h
+   61fc types.h
+   6207 select.h
+   6213 select.h
+   621f sigset.h
+   622b time.h
+   6235 sysmacros.h
+   6244 pthreadtypes.h
+   6256 alloca.h
+   6262 stdlib-float.h
+   6274 stdio.h
+   627f libio.h
+   628a _G_config.h
+   6299 wchar.h
+   62a4 stdarg.h
+   62b0 stdio_lim.h
+   62bf sys_errlist.h
+   62d0 posix1_lim.h
+   62e0 local_lim.h
+   62ef limits.h
+   62fb posix_opt.h
+   630a environments.h
+   631c confname.h
+   632a getopt.h
+   6336 string.h
+   6342 xlocale.h
+   634f stat.h
+   6359 mman.h
+   6363 mman.h
+   636d mman-linux.h
+   637d syslog.h
+   6389 syslog.h
+   6395 syslog-path.h
+   63b3 =g=>
+   63c3 K>!ZP
+   63e4 KZ/u
+   63ea g/5YCgZ"L
+   6435 ]Mg!
+   645b QN=uv1gY
+   6494 /usr/lib/gcc/arm-linux-gnueabihf/4.9/include
+   64c1 /usr/include
+   64ce /usr/include/arm-linux-gnueabihf/sys
+   64f3 /usr/include/arm-linux-gnueabihf/bits
+   6519 /usr/include/arm-linux-gnueabihf/gnu
+   653e ../x-deps/libmedialog
+   6555 misc.c
+   655f stdarg.h
+   656b stdio.h
+   6576 <built-in>
+   6584 mediacenter.h
+   6595 stdc-predef.h
+   65a6 features.h
+   65b4 cdefs.h
+   65bf wordsize.h
+   65cd stubs.h
+   65d8 stubs-hard.h
+   65e8 stddef.h
+   65f4 types.h
+   65ff typesizes.h
+   660e libio.h
+   6619 _G_config.h
+   6628 wchar.h
+   6633 stdio_lim.h
+   6642 sys_errlist.h
+   6653 syslog.h
+   665f syslog.h
+   666b syslog-path.h
+   667c string.h
+   6688 xlocale.h
+   6695 medialog.h
+   66d5 /usr/include/arm-linux-gnueabihf/bits
+   66fb /usr/include
+   6708 /usr/include/netinet
+   671d /usr/include/arm-linux-gnueabihf/sys
+   6742 /usr/include/arm-linux-gnueabihf/gnu
+   6767 /usr/lib/gcc/arm-linux-gnueabihf/4.9/include
+   6794 /usr/include/arm-linux-gnueabihf/asm
+   67b9 /usr/include/asm-generic
+   67d2 /usr/include/arpa
+   67e5 network.c
+   67f2 types.h
+   67fd sockaddr.h
+   680b socket.h
+   6817 unistd.h
+   6823 stdint.h
+   682f in.h
+   6837 mediacenter.h
+   6848 socket_type.h
+   6859 stdc-predef.h
+   686a socket.h
+   6876 features.h
+   6884 cdefs.h
+   688f wordsize.h
+   689d stubs.h
+   68a8 stubs-hard.h
+   68b8 uio.h
+   68c1 types.h
+   68cc typesizes.h
+   68db time.h
+   68e5 stddef.h
+   68f1 endian.h
+   68fd endian.h
+   6909 byteswap.h
+   6917 byteswap-16.h
+   6928 select.h
+   6934 select.h
+   6940 sigset.h
+   694c time.h
+   6956 sysmacros.h
+   6965 pthreadtypes.h
+   6977 uio.h
+   6980 socket.h
+   698c socket.h
+   6998 sockios.h
+   69a5 sockios.h
+   69b2 string.h
+   69be xlocale.h
+   69cb syslog.h
+   69d7 syslog.h
+   69e3 stdarg.h
+   69ef syslog-path.h
+   6a00 stdlib.h
+   6a0c waitflags.h
+   6a1b waitstatus.h
+   6a2b alloca.h
+   6a37 stdlib-float.h
+   6a49 stdio.h
+   6a54 libio.h
+   6a5f _G_config.h
+   6a6e wchar.h
+   6a79 stdio_lim.h
+   6a88 sys_errlist.h
+   6a99 posix_opt.h
+   6aa8 environments.h
+   6aba confname.h
+   6ac8 getopt.h
+   6ad4 inet.h
+   6ade stdint.h
+   6aea wchar.h
+   6af5 in.h
+   6b5d 0L=ig
+   6b7a ?=L/g
+   6bb3 /usr/include/arm-linux-gnueabihf/sys
+   6bd8 /usr/include
+   6be5 /usr/lib/gcc/arm-linux-gnueabihf/4.9/include
+   6c12 /usr/include/arm-linux-gnueabihf/bits
+   6c38 /usr/include/arm-linux-gnueabihf/gnu
+   6c5d /usr/include/arm-linux-gnueabihf/asm
+   6c82 /usr/include/asm-generic
+   6c9b /usr/include/linux
+   6caf notify.c
+   6cbb inotify.h
+   6cc8 mediacenter.h
+   6cd9 stdint.h
+   6ce5 stdc-predef.h
+   6cf6 stdint.h
+   6d02 features.h
+   6d10 cdefs.h
+   6d1b wordsize.h
+   6d29 stubs.h
+   6d34 stubs-hard.h
+   6d44 wchar.h
+   6d4f inotify.h
+   6d5c ioctl.h
+   6d67 ioctls.h
+   6d73 ioctls.h
+   6d7f ioctls.h
+   6d8b ioctl.h
+   6d96 ioctl.h
+   6da1 ioctl.h
+   6dac ioctl-types.h
+   6dbd ttydefaults.h
+   6dce mman.h
+   6dd8 types.h
+   6de3 typesizes.h
+   6df2 stddef.h
+   6dfe mman.h
+   6e08 mman-linux.h
+   6e18 syscall.h
+   6e25 unistd.h
+   6e31 syscall.h
+   6e3e signal.h
+   6e4a sigset.h
+   6e56 signum.h
+   6e62 time.h
+   6e6c siginfo.h
+   6e79 sigaction.h
+   6e88 sigcontext.h
+   6e98 sigcontext.h
+   6ea8 sigstack.h
+   6eb6 ucontext.h
+   6ec4 pthreadtypes.h
+   6ed6 endian.h
+   6ee2 endian.h
+   6eee byteswap.h
+   6efc byteswap-16.h
+   6f0d sigthread.h
+   6f1c syslog.h
+   6f28 syslog.h
+   6f34 stdarg.h
+   6f40 syslog-path.h
+   6f51 stdlib.h
+   6f5d waitflags.h
+   6f6c waitstatus.h
+   6f7c xlocale.h
+   6f89 types.h
+   6f94 select.h
+   6fa0 select.h
+   6fac time.h
+   6fb6 sysmacros.h
+   6fc5 alloca.h
+   6fd1 stdlib-float.h
+   6fe3 stdio.h
+   6fee libio.h
+   6ff9 _G_config.h
+   7008 wchar.h
+   7013 stdio_lim.h
+   7022 sys_errlist.h
+   7033 unistd.h
+   703f posix_opt.h
+   704e environments.h
+   7060 confname.h
+   706e getopt.h
+   707a string.h
+   7086 sched.h
+   7091 sched.h
+   70af K0KYh
+   70e7 =uuK
+   7114 !>K=
+   7119 "=uYYY
+   712f !L?uYYY
+   75d4 makedev(maj,min) gnu_dev_makedev (maj, min)
+   7600 __LACCUM_EPSILON__ 0x1P-31LK
+   761d __thumb__ 1
+   7629 __GCC_HAVE_DWARF2_CFI_ASM 1
+   7645 __ldiv_t_defined 1
+   7658 _POSIX_THREADS 200809L
+   766f __S_IFDIR 0040000
+   7681 __UACCUM_FBIT__ 16
+   7694 __APCS_32__ 1
+   76a2 __LFRACT_EPSILON__ 0x1P-31LR
+   76bf __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+   76ec SIG_ATOMIC_MAX (2147483647)
+   7708 __sigword(sig) (((sig) - 1) / (8 * sizeof (unsigned long int)))
+   7748 TIOCM_CD TIOCM_CAR
+   775b __SIZEOF_PTHREAD_CONDATTR_T 4
+   7779 __W_STOPCODE(sig) ((sig) << 8 | 0x7f)
+   779f _IOW(type,nr,size) _IOC(_IOC_WRITE,(type),(nr),(_IOC_TYPECHECK(size)))
+   77e6 si_status _sifields._sigchld.si_status
+   780d SIOCDIFADDR 0x8936
+   7820 N_PPP 3
+   7828 _CS_POSIX_V7_ILP32_OFFBIG_LINTFLAGS _CS_POSIX_V7_ILP32_OFFBIG_LINTFLAGS
+   7870 __USACCUM_MIN__ 0.0UHK
+   7887 _SC_LINE_MAX _SC_LINE_MAX
+   78a1 _SC_XOPEN_XCU_VERSION _SC_XOPEN_XCU_VERSION
+   78cd __DBL_EPSILON__ ((double)2.2204460492503131e-16L)
+   78ff F_GETLK 5
+   7909 __UACCUM_IBIT__ 16
+   791c _SYS_SELECT_H 1
+   792c _SC_CLK_TCK _SC_CLK_TCK
+   7944 _SC_ARG_MAX _SC_ARG_MAX
+   795c _SC_V7_ILP32_OFFBIG _SC_V7_ILP32_OFFBIG
+   7984 __ASMNAME(cname) __ASMNAME2 (__USER_LABEL_PREFIX__, cname)
+   79bf _BSD_SOURCE
+   79cb __STDC_ISO_10646__ 201103L
+   79e6 __USE_POSIX199506
+   79f8 _SC_BC_SCALE_MAX _SC_BC_SCALE_MAX
+   7a1a __FLT_MAX_10_EXP__ 38
+   7a30 _IO_va_list __gnuc_va_list
+   7a4b LOG_USER (1<<3)
+   7a5b _XOPEN_UNIX 1
+   7a69 __USE_MISC 1
+   7a76 _SC_LEVEL2_CACHE_ASSOC _SC_LEVEL2_CACHE_ASSOC
+   7aa4 _POSIX_MESSAGE_PASSING 200809L
+   7ac3 __FSFILCNT_T_TYPE __ULONGWORD_TYPE
+   7ae6 F_SHLCK 8
+   7af0 __ARM_PCS_VFP 1
+   7b00 _XOPEN_XPG2 1
+   7b0e _POSIX_THREAD_CPUTIME 0
+   7b26 __BEGIN_NAMESPACE_STD 
+   7b3d R_OK 4
+   7b44 __pid_t_defined 
+   7b55 __USQ_IBIT__ 0
+   7b64 _SC_GETGR_R_SIZE_MAX _SC_GETGR_R_SIZE_MAX
+   7b8e __fortify_function __extern_always_inline __attribute_artificial__
+   7bd1 _CS_XBS5_ILP32_OFF32_LINTFLAGS _CS_XBS5_ILP32_OFF32_LINTFLAGS
+   7c0f si_int _sifields._rt.si_sigval.sival_int
+   7c38 st_atime st_atim.tv_sec
+   7c50 WNOWAIT 0x01000000
+   7c63 _POSIX_V7_LPBIG_OFFBIG -1
+   7c7d POLL_OUT POLL_OUT
+   7c8f LOG_LOCAL3 (19<<3)
+   7ca2 _BITS_WCHAR_H 1
+   7cb2 _STAT_VER_KERNEL 1
+   7cc5 TIOCGSOFTCAR 0x5419
+   7cd9 _SC_PII_OSI_M _SC_PII_OSI_M
+   7cf5 _STATBUF_ST_RDEV 
+   7d07 __LDBL_REDIR(name,proto) name proto
+   7d2b __ULLFRACT_IBIT__ 0
+   7d3f watch_fd
+   7d48 _SC_PAGE_SIZE _SC_PAGESIZE
+   7d63 __SA_FBIT__ 15
+   7d72 __DEC128_MIN_EXP__ (-6142)
+   7d8d SIOCGIFTXQLEN 0x8942
+   7da2 __UDA_FBIT__ 32
+   7db2 _CS_XBS5_ILP32_OFFBIG_LINTFLAGS _CS_XBS5_ILP32_OFFBIG_LINTFLAGS
+   7df2 __LEAF_ATTR __attribute__ ((__leaf__))
+   7e19 __OFF_T_TYPE __SLONGWORD_TYPE
+   7e37 __UINT64_TYPE__ long long unsigned int
+   7e5e __DBL_MAX_10_EXP__ 308
+   7e75 __attribute_warn_unused_result__ __attribute__ ((__warn_unused_result__))
+   7ebf NCC 8
+   7ec5 _SC_NETWORKING _SC_NETWORKING
+   7ee3 SIGCLD SIGCHLD
+   7ef2 _SC_LEVEL4_CACHE_LINESIZE _SC_LEVEL4_CACHE_LINESIZE
+   7f26 _SC_RTSIG_MAX _SC_RTSIG_MAX
+   7f42 __WCHAR_TYPE__ unsigned int
+   7f5e N_R3964 9
+   7f68 __SA_IBIT__ 16
+   7f77 _SC_PII_XTI _SC_PII_XTI
+   7f8f BUS_MCEERR_AR BUS_MCEERR_AR
+   7fab __ELF__ 1
+   7fb5 __SIZEOF_LONG__ 4
+   7fc7 _POSIX_SPORADIC_SERVER -1
+   7fe1 __ARM_ARCH 7
+   7fee SIGRTMIN (__libc_current_sigrtmin ())
+   8014 _POSIX_SPAWN 200809L
+   8029 _CS_XBS5_LP64_OFF64_CFLAGS _CS_XBS5_LP64_OFF64_CFLAGS
+   805f _STDINT_H 1
+   806b _IOS_NOCREATE 32
+   807c SIOCGRARP 0x8961
+   808d _IO_DONT_CLOSE 0100000
+   80a4 __WCHAR_T__ 
+   80b1 __PTRDIFF_MAX__ 2147483647
+   80cc _STDLIB_H 1
+   80d8 _SC_SYSTEM_DATABASE_R _SC_SYSTEM_DATABASE_R
+   8104 ILL_PRVOPC ILL_PRVOPC
+   811a _WCHAR_T_DECLARED 
+   812d __need___va_list
+   813e CWERASE CTRL('w')
+   8150 major(dev) gnu_dev_major (dev)
+   816f __UINT_LEAST64_TYPE__ long long unsigned int
+   819c _IOC_SIZEMASK ((1 << _IOC_SIZEBITS)-1)
+   81c3 _IO_flockfile(_fp) 
+   81d7 CEOT CEOF
+   81e1 _IO_uid_t __uid_t
+   81f3 _SC_2_PBS_CHECKPOINT _SC_2_PBS_CHECKPOINT
+   821d __DQ_FBIT__ 63
+   822c __DBL_HAS_INFINITY__ 1
+   8243 __UACCUM_EPSILON__ 0x1P-16UK
+   8260 _SVID_SOURCE 1
+   826f SIOCSIFMEM 0x8920
+   8281 _CS_XBS5_LP64_OFF64_LINTFLAGS _CS_XBS5_LP64_OFF64_LINTFLAGS
+   82bd _SC_PRIORITIZED_IO _SC_PRIORITIZED_IO
+   82e3 __FLT_HAS_INFINITY__ 1
+   82fa __INT_LEAST16_MAX__ 32767
+   8314 __INT_MAX__ 2147483647
+   832b _XOPEN_SHM 1
+   8338 _BITS_BYTESWAP_H 1
+   834b __DEC64_MIN_EXP__ (-382)
+   8364 __FD_SETSIZE 1024
+   8376 _POSIX_SEMAPHORES 200809L
+   8390 O_DIRECTORY __O_DIRECTORY
+   83aa N_HCI 15
+   83b3 minor(dev) gnu_dev_minor (dev)
+   83d2 LOG_PRIMASK 0x07
+   83e3 __THROWNL __attribute__ ((__nothrow__))
+   840b _IO_ftrylockfile(_fp) 
+   8422 POLL_PRI POLL_PRI
+   8434 __WORDSIZE 32
+   8442 _BITS_SIGTHREAD_H 1
+   8456 TIOCM_RTS 0x004
+   8466 _SC_POLL _SC_POLL
+   8478 __SIZEOF_PTHREAD_BARRIERATTR_T 4
+   8499 __USE_SVID
+   84a4 w_retcode __wait_terminated.__w_retcode
+   84cc SIOCGIFBRDADDR 0x8919
+   84e2 SIOCGIFMTU 0x8921
+   84f4 __ARM_ARCH_ISA_THUMB 2
+   850b INT_LEAST16_MIN (-32767-1)
+   8526 SIOCSRARP 0x8962
+   8537 __uid_t_defined 
+   8548 _PC_PATH_MAX _PC_PATH_MAX
+   8562 __WCLONE 0x80000000
+   8576 S_IXGRP (S_IXUSR >> 3)
+   858d __U32_TYPE unsigned int
+   85a5 IN_MOVE (IN_MOVED_FROM | IN_MOVED_TO)
+   85cb _IO_USER_LOCK 0x8000
+   85e0 TIOCGSERIAL 0x541E
+   85f3 _CS_POSIX_V7_LPBIG_OFFBIG_LIBS _CS_POSIX_V7_LPBIG_OFFBIG_LIBS
+   8631 LOG_ALERT 1
+   863d S_IRGRP (S_IRUSR >> 3)
+   8654 _CS_POSIX_V7_ILP32_OFFBIG_LIBS _CS_POSIX_V7_ILP32_OFFBIG_LIBS
+   8692 _POSIX_RAW_SOCKETS 200809L
+   86ad _IO_IS_FILEBUF 0x2000
+   86c3 SEEK_SET 0
+   86ce si_band _sifields._sigpoll.si_band
+   86f1 TIOCGSID 0x5429
+   8701 _IO_BUFSIZ _G_BUFSIZ
+   8716 _SC_BC_STRING_MAX _SC_BC_STRING_MAX
+   873a __W_EXITCODE(ret,sig) ((ret) << 8 | (sig))
+   8765 _VA_LIST_DEFINED 
+   8777 __DEC128_MANT_DIG__ 34
+   878e __nlink_t_defined 
+   87a1 TIOCPKT_FLUSHREAD 1
+   87b5 _POSIX_SHELL 1
+   87c4 _OLD_STDIO_MAGIC 0xFABC0000
+   87e0 _POSIX_VDISABLE '\0'
+   87f5 __ARM_NEON_FP 4
+   8805 __wchar_t__ 
+   8812 BUS_ADRERR BUS_ADRERR
+   8828 _XBS5_ILP32_OFFBIG 1
+   883d __S_IREAD 0400
+   884c O_SYNC 04010000
+   885c __USE_XOPEN_EXTENDED
+   8871 LOG_LPR (6<<3)
+   8880 _IO_file_flags _flags
+   8896 _POSIX_V6_LPBIG_OFFBIG -1
+   88b0 __stub_get_kernel_syms 
+   88c8 __LDBL_REDIR1_NTH(name,proto,alias) name proto __THROW
+   88ff L_tmpnam 20
+   890b __MODE_T_TYPE __U32_TYPE
+   8924 SI_QUEUE SI_QUEUE
+   8936 __O_DIRECTORY 040000
+   894b si_syscall _sifields._sigsys._syscall
+   8971 LOG_EMERG 0
+   897d O_EXCL 0200
+   8989 SIGALRM 14
+   8994 _IOC_DIR(nr) (((nr) >> _IOC_DIRSHIFT) & _IOC_DIRMASK)
+   89ca __LLACCUM_MIN__ (-0X1P31LLK-0X1P31LLK)
+   89f1 _SC_EQUIV_CLASS_MAX _SC_EQUIV_CLASS_MAX
+   8a19 __GCC_ATOMIC_CHAR_LOCK_FREE 2
+   8a37 w_termsig __wait_terminated.__w_termsig
+   8a5f POSIX_FADV_DONTNEED __POSIX_FADV_DONTNEED
+   8a89 BUS_MCEERR_AO BUS_MCEERR_AO
+   8aa5 O_RDONLY 00
+   8ab1 _SC_SINGLE_PROCESS _SC_SINGLE_PROCESS
+   8ad7 CTRL(x) (x&037)
+   8ae7 _IO_FLAGS2_USER_WBUF 8
+   8afe __SIZEOF_INT__ 4
+   8b0f __ARMEL__ 1
+   8b1b uint32_t
+   8b24 __SIZEOF_PTHREAD_MUTEX_T 24
+   8b40 __need_time_t
+   8b4e LOG_PRI(p) ((p) & LOG_PRIMASK)
+   8b6d CLNEXT CTRL('v')
+   8b7e __USE_ATFILE
+   8b8b SIGEV_NONE SIGEV_NONE
+   8ba1 _IO_peekc_unlocked(_fp) (_IO_BE ((_fp)->_IO_read_ptr >= (_fp)->_IO_read_end, 0) && __underflow (_fp) == EOF ? EOF : *(unsigned char *) (_fp)->_IO_read_ptr)
+   8c3d S_IWOTH (S_IWGRP >> 3)
+   8c54 __SIG_ATOMIC_TYPE__ int
+   8c6c _BSD_SIZE_T_DEFINED_ 
+   8c82 INT_FAST32_MIN (-2147483647-1)
+   8ca1 TIOCPKT 0x5420
+   8cb0 si_overrun _sifields._timer.si_overrun
+   8cd7 ACCESSPERMS (S_IRWXU|S_IRWXG|S_IRWXO)
+   8cfd SIOCDARP 0x8953
+   8d0d UINT_FAST8_MAX (255)
+   8d22 __intN_t(N,MODE) typedef int int ##N ##_t __attribute__ ((__mode__ (MODE)))
+   8d6e SIGINT 2
+   8d77 __UINT_LEAST64_MAX__ 18446744073709551615ULL
+   8da4 __UINT16_C(c) c
+   8db4 __F_GETSIG 11
+   8dc2 __PRAGMA_REDEFINE_EXTNAME 1
+   8dde __INT_LEAST64_TYPE__ long long int
+   8e01 LOG_CRIT 2
+   8e0c _IO_ferror_unlocked(__fp) (((__fp)->_flags & _IO_ERR_SEEN) != 0)
+   8e4d WCOREFLAG __WCOREFLAG
+   8e63 _SC_ASYNCHRONOUS_IO _SC_ASYNCHRONOUS_IO
+   8e8b _XOPEN_XPG3 1
+   8e99 F_GETFL 3
+   8ea3 ___int_wchar_t_h 
+   8eb5 SV_RESETHAND (1 << 2)
+   8ecb L_SET SEEK_SET
+   8eda __USE_ISOC11
+   8ee7 __INT32_MAX__ 2147483647
+   8f00 SIOCSIFSLAVE 0x8930
+   8f14 _IOC_NRSHIFT 0
+   8f23 __QQ_FBIT__ 7
+   8f31 LOG_UUCP (8<<3)
+   8f41 _IO_va_list _G_va_list
+   8f58 TIOCSPGRP 0x5410
+   8f69 _BITS_STAT_H 1
+   8f78 _SC_LEVEL1_ICACHE_LINESIZE _SC_LEVEL1_ICACHE_LINESIZE
+   8fae __bswap_constant_32(x) ((((x) & 0xff000000u) >> 24) | (((x) & 0x00ff0000u) >> 8) | (((x) & 0x0000ff00u) << 8) | (((x) & 0x000000ffu) << 24))
+   903b _LFS_LARGEFILE 1
+   904c N_SYNC_PPP 14
+   905a _POSIX_VERSION 200809L
+   9071 _IO_SKIPWS 01
+   907f __va_list__ 
+   908c S_IXOTH (S_IXGRP >> 3)
+   90a3 __BIGGEST_ALIGNMENT__ 8
+   90bb __UINT8_TYPE__ unsigned char
+   90d8 __UINT_FAST16_MAX__ 4294967295U
+   90f8 TIOCM_CAR 0x040
+   9108 S_IROTH (S_IRGRP >> 3)
+   911f _SC_2_FORT_RUN _SC_2_FORT_RUN
+   913d SIOCADDMULTI 0x8931
+   9151 INT32_MIN (-2147483647-1)
+   916b __ULLACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULLK
+   9197 __ULLACCUM_IBIT__ 32
+   91ac LOG_KERN (0<<3)
+   91bc _SC_2_SW_DEV _SC_2_SW_DEV
+   91d6 _IO_FIXED 010000
+   91e7 SIGPROF 27
+   91f2 S_IRWXO (S_IRWXG >> 3)
+   9209 _PC_SOCK_MAXBUF _PC_SOCK_MAXBUF
+   9229 _IO_OCT 040
+   9235 _SC_THREADS _SC_THREADS
+   924d SA_STACK SA_ONSTACK
+   9261 F_RDLCK 0
+   926b _SC_NL_LANGMAX _SC_NL_LANGMAX
+   9289 _POSIX_THREAD_PROCESS_SHARED 200809L
+   92ae __SACCUM_IBIT__ 8
+   92c0 __UINT16_TYPE__ short unsigned int
+   92e3 _IO_NO_READS 4
+   92f2 _XLOCALE_H 1
+   92ff __F_SETSIG 10
+   930d _CS_LFS_LINTFLAGS _CS_LFS_LINTFLAGS
+   9331 __UINT_LEAST8_MAX__ 255
+   9349 w_stopval __wait_stopped.__w_stopval
+   936e _SC_TTY_NAME_MAX _SC_TTY_NAME_MAX
+   9390 _CS_POSIX_V7_ILP32_OFF32_LDFLAGS _CS_POSIX_V7_ILP32_OFF32_LDFLAGS
+   93d2 __WIFEXITED(status) (__WTERMSIG(status) == 0)
+   9400 __attribute_malloc__ __attribute__ ((__malloc__))
+   9432 _PC_PRIO_IO _PC_PRIO_IO
+   944a SIGPOLL SIGIO
+   9458 _SC_V7_LPBIG_OFFBIG _SC_V7_LPBIG_OFFBIG
+   9480 __INTPTR_MAX__ 2147483647
+   949a htobe64(x) __bswap_64 (x)
+   94b4 INT_FAST16_MAX (2147483647)
+   94d0 CLD_CONTINUED CLD_CONTINUED
+   94ec __FD_ISSET(d,s) ((__FDS_BITS (s)[__FD_ELT (d)] & __FD_MASK (d)) != 0)
+   9532 __USE_SVID 1
+   953f sa_sigaction __sigaction_handler.sa_sigaction
+   956d sigev_notify_function _sigev_un._sigev_thread._function
+   95a5 __INT8_C(c) c
+   95b3 __stub_query_module 
+   95c8 __LDBL_REDIR_DECL(name) 
+   95e1 _SIGNAL_H 
+   95ec TIOCSCTTY 0x540E
+   95fd __bswap_constant_16(x) ((unsigned short int)((((x) >> 8) & 0xffu) | (((x) & 0xffu) << 8)))
+   9658 _IOS_INPUT 1
+   9665 __stub_getpmsg 
+   9675 IN_CLOSE (IN_CLOSE_WRITE | IN_CLOSE_NOWRITE)
+   96a2 __thumb2__ 1
+   96af ____mbstate_t_defined 1
+   96c7 _IOC_TYPECHECK(t) (sizeof(t))
+   96e5 __WCOREDUMP(status) ((status) & __WCOREFLAG)
+   9712 _SC_LEVEL1_DCACHE_ASSOC _SC_LEVEL1_DCACHE_ASSOC
+   9742 __FLT_MAX_EXP__ 128
+   9756 WUNTRACED 2
+   9762 __ATOMIC_SEQ_CST 5
+   9775 _GCC_SIZE_T 
+   9782 __stub_setlogin 
+   9793 _CS_POSIX_V7_ILP32_OFF32_LIBS _CS_POSIX_V7_ILP32_OFF32_LIBS
+   97cf _SC_PAGESIZE _SC_PAGESIZE
+   97e9 LOCK_SH 1
+   97f3 _PATH_LOG "/dev/log"
+   9808 _SC_2_PBS_LOCATE _SC_2_PBS_LOCATE
+   982a st_ctime st_ctim.tv_sec
+   9842 __stub_stty 
+   984f __UTA_FBIT__ 64
+   985f __DBL_DIG__ 15
+   986e _CS_LFS_LDFLAGS _CS_LFS_LDFLAGS
+   988e __UINTMAX_TYPE__ long long unsigned int
+   98b6 __DECIMAL_DIG__ 17
+   98c9 __long_double_t long double
+   98e5 LOCK_NB 4
+   98ef N_MASC 8
+   98f8 __END_NAMESPACE_C99 
+   990d _XBS5_LPBIG_OFFBIG -1
+   9923 __SQUAD_TYPE __quad_t
+   9939 _POSIX_SYNCHRONIZED_IO 200809L
+   9958 SEGV_MAPERR SEGV_MAPERR
+   9970 S_IFMT __S_IFMT
+   9980 _SC_2_FORT_DEV _SC_2_FORT_DEV
+   999e __WIFSIGNALED(status) (((signed char) (((status) & 0x7f) + 1) >> 1) > 0)
+   99e7 __GCC_IEC_559_COMPLEX 2
+   99ff _SC_XBS5_LPBIG_OFFBIG _SC_XBS5_LPBIG_OFFBIG
+   9a2b __S32_TYPE int
+   9a3a TIOCCBRK 0x5428
+   9a4a SIG_BLOCK 0
+   9a56 _SYS_TTYDEFAULTS_H_ 
+   9a6b _SC_TYPED_MEMORY_OBJECTS _SC_TYPED_MEMORY_OBJECTS
+   9a9d LOG_LOCAL1 (17<<3)
+   9ab0 __LFRACT_IBIT__ 0
+   9ac2 TIOCM_SR 0x010
+   9ad1 __USER_LABEL_PREFIX__ 
+   9ae8 S_IFLNK __S_IFLNK
+   9afa _SIZE_T_DECLARED 
+   9b0c _POSIX_REENTRANT_FUNCTIONS 1
+   9b29 SEGV_ACCERR SEGV_ACCERR
+   9b41 __SWORD_TYPE int
+   9b52 __need_getopt
+   9b60 __QQ_IBIT__ 0
+   9b6e N_AX25 5
+   9b77 _IO_wint_t wint_t
+   9b89 P_tmpdir "/tmp"
+   9b99 SI_USER SI_USER
+   9ba9 _POSIX2_VERSION __POSIX2_THIS_VERSION
+   9bcf __attribute_format_arg__(x) __attribute__ ((__format_arg__ (x)))
+   9c10 __DBL_MIN__ ((double)2.2250738585072014e-308L)
+   9c3f __stub_lchmod 
+   9c4e _SC_XOPEN_VERSION _SC_XOPEN_VERSION
+   9c72 __ino_t_defined 
+   9c83 GNU C 4.9.2 -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -g3
+   9cdd BYTE_ORDER __BYTE_ORDER
+   9cf5 _SC_TRACE _SC_TRACE
+   9d09 _G_HAVE_ST_BLKSIZE defined (_STATBUF_ST_BLKSIZE)
+   9d3a __stub_revoke 
+   9d49 SIGURG 23
+   9d53 __DEC_EVAL_METHOD__ 2
+   9d69 __TIME_T_TYPE __SLONGWORD_TYPE
+   9d88 _CS_POSIX_V7_LPBIG_OFFBIG_LDFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_LDFLAGS
+   9dcc CFLUSH CDISCARD
+   9ddc W_STOPCODE(sig) __W_STOPCODE (sig)
+   9dff __S_TYPEISSEM(buf) ((buf)->st_mode - (buf)->st_mode)
+   9e34 TIOCPKT_FLUSHWRITE 2
+   9e49 SIGBUS 7
+   9e52 _XBS5_LP64_OFF64 -1
+   9e66 __LLACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LLK
+   9e90 _G_HAVE_MMAP 1
+   9e9f __UINT32_MAX__ 4294967295U
+   9eba LOG_DAEMON (3<<3)
+   9ecc __LDBL_MIN_EXP__ (-1021)
+   9ee5 alloca
+   9eec MB_CUR_MAX (__ctype_get_mb_cur_max ())
+   9f13 TIOCGPTLCK _IOR('T', 0x39, int)
+   9f33 _CS_POSIX_V7_WIDTH_RESTRICTED_ENVS _CS_V7_WIDTH_RESTRICTED_ENVS
+   9f73 _POSIX_PRIORITY_SCHEDULING 200809L
+   9f96 __S_ISTYPE(mode,mask) (((mode) & __S_IFMT) == (mask))
+   9fcc IN_ACCESS 0x00000001
+   9fe1 _T_SIZE_ 
+   9feb __FLT_MIN_10_EXP__ (-37)
+   a004 __sigemptyset(set) (__extension__ ({ int __cnt = _SIGSET_NWORDS; sigset_t *__set = (set); while (--__cnt >= 0) __set->__val[__cnt] = 0; 0; }))
+   a093 _CS_XBS5_LPBIG_OFFBIG_LDFLAGS _CS_XBS5_LPBIG_OFFBIG_LDFLAGS
+   a0cf LOG_FACMASK 0x03f8
+   a0e2 _POSIX_SPIN_LOCKS 200809L
+   a0fc REG_R11 REG_R11
+   a10c SIGEV_THREAD_ID SIGEV_THREAD_ID
+   a12c __SIZEOF_PTHREAD_MUTEXATTR_T 4
+   a14b __UDQ_IBIT__ 0
+   a15a _CS_XBS5_ILP32_OFF32_LIBS _CS_XBS5_ILP32_OFF32_LIBS
+   a18e __DBL_MANT_DIG__ 53
+   a1a2 __SACCUM_MIN__ (-0X1P7HK-0X1P7HK)
+   a1c4 CDSUSP CTRL('y')
+   a1d5 REG_R12 REG_R12
+   a1e5 _UNISTD_H 1
+   a1f1 __USE_POSIX 1
+   a1ff _XOPEN_XPG4 1
+   a20d __USE_POSIX
+   a219 _SC_WORD_BIT _SC_WORD_BIT
+   a233 __ULLACCUM_MIN__ 0.0ULLK
+   a24c __INT_WCHAR_T_H 
+   a25d __stub_fattach 
+   a26d REG_R13 REG_R13
+   a27d TCSETAW 0x5407
+   a28c INT_LEAST16_MAX (32767)
+   a2a4 __DEC32_EPSILON__ 1E-6DF
+   a2bd si_addr _sifields._sigfault.si_addr
+   a2e1 FIONBIO 0x5421
+   a2f0 REG_R14 REG_R14
+   a300 _SC_DEVICE_SPECIFIC _SC_DEVICE_SPECIFIC
+   a328 __USE_ISOC99 1
+   a337 __FD_ZERO(s) do { unsigned int __i; fd_set *__arr = (s); for (__i = 0; __i < sizeof (fd_set) / sizeof (__fd_mask); ++__i) __FDS_BITS (__arr)[__i] = 0; } while (0)
+   a3da _POSIX_SOURCE
+   a3e8 __size_t 
+   a3f2 REG_R15 REG_R15
+   a402 _SC_MAPPED_FILES _SC_MAPPED_FILES
+   a424 _SC_SPIN_LOCKS _SC_SPIN_LOCKS
+   a442 SIGIO 29
+   a44b AT_FDCWD -100
+   a459 UINT_FAST32_MAX (4294967295U)
+   a477 _IO_cleanup_region_start(_fct,_fp) 
+   a49b TCGETS2 _IOR('T', 0x2A, struct termios2)
+   a4c4 _POSIX_V7_ILP32_OFF32 1
+   a4dc _CS_POSIX_V6_LPBIG_OFFBIG_LIBS _CS_POSIX_V6_LPBIG_OFFBIG_LIBS
+   a51a __USACCUM_FBIT__ 8
+   a52d _CS_POSIX_V6_ILP32_OFFBIG_LIBS _CS_POSIX_V6_ILP32_OFFBIG_LIBS
+   a56b __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+   a58f __FLT_EPSILON__ 1.1920928955078125e-7F
+   a5b6 __ARM_EABI__ 1
+   a5c5 __glibc_likely(cond) __builtin_expect ((cond), 1)
+   a5f7 __UINT8_C(c) c
+   a606 FD_CLOEXEC 1
+   a613 __mode_t_defined 
+   a625 O_RDWR 02
+   a62f INT_FAST8_MIN (-128)
+   a644 INT_FAST16_MIN (-2147483647-1)
+   a663 _SC_XOPEN_XPG3 _SC_XOPEN_XPG3
+   a681 _SC_THREAD_THREADS_MAX _SC_THREAD_THREADS_MAX
+   a6af _POSIX2_LOCALEDEF __POSIX2_THIS_VERSION
+   a6d7 _SC_XOPEN_CRYPT _SC_XOPEN_CRYPT
+   a6f7 __ULFRACT_MAX__ 0XFFFFFFFFP-32ULR
+   a719 SIOCSIFPFLAGS 0x8934
+   a72e TIOCSSOFTCAR 0x541A
+   a742 _IOW_BAD(type,nr,size) _IOC(_IOC_WRITE,(type),(nr),sizeof(size))
+   a783 __REDIRECT_NTH(name,proto,alias) name proto __asm__ (__ASMNAME (#alias)) __THROW
+   a7d4 _IO_SCIENTIFIC 04000
+   a7e9 LOG_LOCAL0 (16<<3)
+   a7fc __ULLFRACT_MIN__ 0.0ULLR
+   a815 S_ISUID __S_ISUID
+   a827 FPE_FLTINV FPE_FLTINV
+   a83d TIOCSERGSTRUCT 0x5458
+   a853 N_IRDA 11
+   a85d FPE_INTOVF FPE_INTOVF
+   a873 __gid_t_defined 
+   a884 WIFEXITED(status) __WIFEXITED (__WAIT_INT (status))
+   a8b8 __SIGRTMAX (_NSIG - 1)
+   a8cf __LONG_LONG_MAX__ 9223372036854775807LL
+   a8f7 CREPRINT CTRL('r')
+   a90a _SC_THREAD_ROBUST_PRIO_PROTECT _SC_THREAD_ROBUST_PRIO_PROTECT
+   a948 getc(_fp) _IO_getc (_fp)
+   a961 __ORDER_LITTLE_ENDIAN__ 1234
+   a97e _SC_MQ_PRIO_MAX _SC_MQ_PRIO_MAX
+   a99e SI_KERNEL SI_KERNEL
+   a9b2 _SC_TRACE_USER_EVENT_MAX _SC_TRACE_USER_EVENT_MAX
+   a9e4 __SYSCALL_ULONG_TYPE __ULONGWORD_TYPE
+   aa0a TCSETSF2 _IOW('T', 0x2D, struct termios2)
+   aa34 _LINUX_IOCTL_H 
+   aa44 __FLT_DIG__ 6
+   aa52 SIOCDELRT 0x890C
+   aa63 _SC_READER_WRITER_LOCKS _SC_READER_WRITER_LOCKS
+   aa93 __INT_LEAST64_MAX__ 9223372036854775807LL
+   aabd _SC_BASE _SC_BASE
+   aacf __DBL_MAX_EXP__ 1024
+   aae4 _STATBUF_ST_NSEC 
+   aaf6 __USE_ISOC95
+   ab03 __ULACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULK
+   ab2d __USE_ISOC99
+   ab3a INT_LEAST8_MAX (127)
+   ab4f _PC_CHOWN_RESTRICTED _PC_CHOWN_RESTRICTED
+   ab79 TTYDEF_SPEED (B9600)
+   ab8e _POSIX_THREAD_SAFE_FUNCTIONS 200809L
+   abb3 __ULFRACT_FBIT__ 32
+   abc7 _FCNTL_H 1
+   abd2 MINSIGSTKSZ 2048
+   abe3 __SIZEOF_SIZE_T__ 4
+   abf7 IMG_TEST 0
+   ac02 TIOCNOTTY 0x5422
+   ac13 __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+   ac4d TIOCPKT_STOP 4
+   ac5c __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+   ac81 _CS_GNU_LIBC_VERSION _CS_GNU_LIBC_VERSION
+   acab __REDIRECT_LDBL(name,proto,alias) __REDIRECT (name, proto, alias)
+   aced TIOCSERGWILD 0x5454
+   ad01 BIG_ENDIAN __BIG_ENDIAN
+   ad19 __USE_XOPEN2K
+   ad27 L_INCR SEEK_CUR
+   ad37 __S_TYPEISSHM(buf) ((buf)->st_mode - (buf)->st_mode)
+   ad6c __NTH(fct) __attribute__ ((__nothrow__ __LEAF)) fct
+   ada0 __unix__ 1
+   adab _SC_SCHAR_MAX _SC_SCHAR_MAX
+   adc7 __NLINK_T_TYPE __UWORD_TYPE
+   ade3 _IOWR(type,nr,size) _IOC(_IOC_READ|_IOC_WRITE,(type),(nr),(_IOC_TYPECHECK(size)))
+   ae35 st_mtime st_mtim.tv_sec
+   ae4d SIOCSIFENCAP 0x8926
+   ae61 IN_ONLYDIR 0x01000000
+   ae77 __S_TYPEISMQ(buf) ((buf)->st_mode - (buf)->st_mode)
+   aeab be64toh(x) __bswap_64 (x)
+   aec5 __INO_T_TYPE __ULONGWORD_TYPE
+   aee3 F_SETLKW 7
+   aeee __SFRACT_FBIT__ 7
+   af00 _PC_SYNC_IO _PC_SYNC_IO
+   af18 _SYS_IOCTL_H 1
+   af27 __LLACCUM_EPSILON__ 0x1P-31LLK
+   af46 _BITS_POSIX_OPT_H 1
+   af5a UINT_LEAST8_MAX (255)
+   af70 _CS_XBS5_ILP32_OFF32_LDFLAGS _CS_XBS5_ILP32_OFF32_LDFLAGS
+   afaa _IOS_TRUNC 16
+   afb8 __wur 
+   afbf __DBL_DECIMAL_DIG__ 17
+   afd6 __SIZEOF_LONG_LONG__ 8
+   afed __INT_FAST32_TYPE__ int
+   b005 __WIFCONTINUED(status) ((status) == __W_CONTINUED)
+   b038 _SC_TIMERS _SC_TIMERS
+   b04e _SC_STREAMS _SC_STREAMS
+   b066 _IO_IN_BACKUP 0x100
+   b07a F_GETLK64 12
+   b087 P_PID
+   b08d _SC_THREAD_KEYS_MAX _SC_THREAD_KEYS_MAX
+   b0b5 __clock_t_defined 1
+   b0c9 __ARM_ARCH_PROFILE 65
+   b0df __timespec_defined 1
+   b0f4 _DEFAULT_SOURCE 1
+   b106 __SIG_ATOMIC_MAX__ 2147483647
+   b124 _SC_NL_ARGMAX _SC_NL_ARGMAX
+   b140 TCSETSW2 _IOW('T', 0x2C, struct termios2)
+   b16a P_ALL
+   b170 _SC_RE_DUP_MAX _SC_RE_DUP_MAX
+   b18e _IO_STDIO_H 
+   b19b _SC_SYSTEM_DATABASE _SC_SYSTEM_DATABASE
+   b1c3 S_ISREG(mode) __S_ISTYPE((mode), __S_IFREG)
+   b1ef _SC_ATEXIT_MAX _SC_ATEXIT_MAX
+   b20d IN_UNMOUNT 0x00002000
+   b223 __SIZE_MAX__ 4294967295U
+   b23c _CS_POSIX_V6_ILP32_OFF32_CFLAGS _CS_POSIX_V6_ILP32_OFF32_CFLAGS
+   b27c __THROW __attribute__ ((__nothrow__ __LEAF))
+   b2a9 __intptr_t_defined 
+   b2bd TIOCSWINSZ 0x5414
+   b2cf INT64_MAX (__INT64_C(9223372036854775807))
+   b2fa INT_LEAST32_MAX (2147483647)
+   b317 __LDBL_REDIR1(name,proto,alias) name proto
+   b342 __FLT_MANT_DIG__ 24
+   b356 __stub_getmsg 
+   b365 TIOCGPKT _IOR('T', 0x38, int)
+   b383 __ARM_FP 12
+   b38f TTYDEF_IFLAG (BRKINT | ISTRIP | ICRNL | IMAXBEL | IXON | IXANY)
+   b3cf __ULACCUM_FBIT__ 32
+   b3e3 __INT_FAST8_MAX__ 127
+   b3f9 _CS_POSIX_V7_LPBIG_OFFBIG_CFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_CFLAGS
+   b43b _SC_DEVICE_SPECIFIC_R _SC_DEVICE_SPECIFIC_R
+   b467 _BITS_PTHREADTYPES_H 1
+   b47e ILL_PRVREG ILL_PRVREG
+   b494 IN_ISDIR 0x40000000
+   b4a8 AT_REMOVEDIR 0x200
+   b4bb __USE_XOPEN2K8XSI
+   b4cd __need_FILE 
+   b4da TCSETXF 0x5434
+   b4e9 __timer_t_defined 1
+   b4fd _SC_THREAD_PRIORITY_SCHEDULING _SC_THREAD_PRIORITY_SCHEDULING
+   b53b SIOCDELMULTI 0x8932
+   b54f S_TYPEISSEM(buf) __S_TYPEISSEM(buf)
+   b573 __SIGRTMIN 32
+   b581 __need___va_list 
+   b593 __HAVE_COLUMN 
+   b5a2 INT_FAST8_MAX (127)
+   b5b6 __DEC32_MIN__ 1E-95DF
+   b5cc __FLT_MIN_EXP__ (-125)
+   b5e3 _XOPEN_REALTIME 1
+   b5f5 __UINT_FAST64_MAX__ 18446744073709551615ULL
+   b621 __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+   b648 __UINT64_C(c) c ## ULL
+   b65f _SYS_UCONTEXT_H 1
+   b671 __FRACT_IBIT__ 0
+   b682 _ENDIAN_H 1
+   b68e __FLT_RADIX__ 2
+   b69e __INT32_C(c) c
+   b6ad __USA_FBIT__ 16
+   b6bd _ANSI_STDARG_H_ 
+   b6ce TIOCGETD 0x5424
+   b6de _SC_PII_INTERNET _SC_PII_INTERNET
+   b700 TIOCOUTQ 0x5411
+   b710 __LDBL_EPSILON__ 2.2204460492503131e-16L
+   b739 __ASM_ARM_IOCTLS_H 
+   b74d F_OK 0
+   b754 TCSBRK 0x5409
+   b762 UINT64_MAX (__UINT64_C(18446744073709551615))
+   b790 _SC_XOPEN_REALTIME _SC_XOPEN_REALTIME
+   b7b6 _SC_XOPEN_XPG4 _SC_XOPEN_XPG4
+   b7d4 __SQ_FBIT__ 31
+   b7e3 _POSIX_V6_ILP32_OFFBIG 1
+   b7fc __USA_IBIT__ 16
+   b80c _POSIX_READER_WRITER_LOCKS 200809L
+   b82f __INTPTR_TYPE__ int
+   b843 __BIG_ENDIAN 4321
+   b855 __LACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LK
+   b87d _POSIX2_SW_DEV __POSIX2_THIS_VERSION
+   b8a2 __stub_fdetach 
+   b8b2 _SC_V6_ILP32_OFF32 _SC_V6_ILP32_OFF32
+   b8d8 __O_CLOEXEC 02000000
+   b8ed __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+   b914 __INT64_MAX__ 9223372036854775807LL
+   b938 __KERNEL_STRICT_NAMES
+   b94e __COMPAR_FN_T 
+   b95d __FRACT_EPSILON__ 0x1P-15R
+   b978 TCSETXW 0x5435
+   b987 _SC_TRACE_NAME_MAX _SC_TRACE_NAME_MAX
+   b9ad _IO_LINE_BUF 0x200
+   b9c0 _IO_BE(expr,res) __builtin_expect ((expr), res)
+   b9f0 __UINT_FAST8_TYPE__ unsigned char
+   ba12 ILL_ILLTRP ILL_ILLTRP
+   ba28 SIOCSIFMETRIC 0x891e
+   ba3d __CHAR32_TYPE__ unsigned int
+   ba5a __ID_T_TYPE __U32_TYPE
+   ba71 _PC_MAX_CANON _PC_MAX_CANON
+   ba8d _IO_SHOWBASE 0200
+   ba9f __WEXITSTATUS(status) (((status) & 0xff00) >> 8)
+   bad0 LOG_ODELAY 0x04
+   bae0 POSIX_FADV_WILLNEED 3
+   baf6 TIOCSRS485 0x542F
+   bb08 FAPPEND O_APPEND
+   bb19 __USE_LARGEFILE64
+   bb2b _POSIX_TIMEOUTS 200809L
+   bb43 __O_TMPFILE 020200000
+   bb59 __BIT_TYPES_DEFINED__ 1
+   bb71 __always_inline __inline __attribute__ ((__always_inline__))
+   bbae REG_R2 REG_R2
+   bbbc __dev_t_defined 
+   bbcd __SFRACT_IBIT__ 0
+   bbdf __U16_TYPE unsigned short int
+   bbfd htobe32(x) __bswap_32 (x)
+   bc17 _IO_HAVE_ST_BLKSIZE _G_HAVE_ST_BLKSIZE
+   bc3e _SC_REGEXP _SC_REGEXP
+   bc54 _SYS_STAT_H 1
+   bc62 DEFFILEMODE (S_IRUSR|S_IWUSR|S_IRGRP|S_IWGRP|S_IROTH|S_IWOTH)
+   bca0 __POSIX_FADV_DONTNEED 4
+   bcb8 w_stopsig __wait_stopped.__w_stopsig
+   bcdd __attribute_pure__ __attribute__ ((__pure__))
+   bd0b __SI_MAX_SIZE 128
+   bd1d __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+   bd3f va_arg(v,l) __builtin_va_arg(v,l)
+   bd61 __INT16_TYPE__ short int
+   bd7a NGREG 18
+   bd83 __WAIT_STATUS_DEFN int *
+   bd9c TCGETX 0x5432
+   bdaa __FRACT_MIN__ (-0.5R-0.5R)
+   bdc5 _SC_TRACE_EVENT_FILTER _SC_TRACE_EVENT_FILTER
+   bdf3 _SC_NL_TEXTMAX _SC_NL_TEXTMAX
+   be11 POSIX_FADV_NORMAL 0
+   be25 ___int_size_t_h 
+   be36 __UINT_LEAST32_TYPE__ unsigned int
+   be59 _IOC_READ 2U
+   be66 SI_TKILL SI_TKILL
+   be78 __GCC_ATOMIC_LONG_LOCK_FREE 2
+   be96 PDP_ENDIAN __PDP_ENDIAN
+   beae SA_RESETHAND 0x80000000
+   bec6 _CS_V6_WIDTH_RESTRICTED_ENVS _CS_V6_WIDTH_RESTRICTED_ENVS
+   bf00 __GXX_TYPEINFO_EQUALITY_INLINE 0
+   bf21 UINT_FAST64_MAX (__UINT64_C(18446744073709551615))
+   bf54 LOG_MAKEPRI(fac,pri) ((fac) | (pri))
+   bf79 __UHQ_FBIT__ 16
+   bf89 __WINT_MIN__ 0U
+   bf99 __S_IFREG 0100000
+   bfab _PC_2_SYMLINKS _PC_2_SYMLINKS
+   bfc9 si_stime _sifields._sigchld.si_stime
+   bfee _BSD_SOURCE 1
+   bffc __stub_fchflags 
+   c00d si_timerid _sifields._timer.si_tid
+   c030 IOCSIZE_MASK (_IOC_SIZEMASK << _IOC_SIZESHIFT)
+   c05f __ULONGWORD_TYPE unsigned long int
+   c082 _SC_SPAWN _SC_SPAWN
+   c096 __DEC128_MAX_EXP__ 6145
+   c0ae REG_R3 REG_R3
+   c0bc TIOCSETD 0x5423
+   c0cc __USE_XOPEN
+   c0d8 __WCHAR_MIN__ 0U
+   c0e9 _IO_DELETE_DONT_CLOSE 0x40
+   c104 sv_onstack sv_flags
+   c118 O_CLOEXEC __O_CLOEXEC
+   c12e _LFS64_ASYNCHRONOUS_IO 1
+   c147 _GCC_WCHAR_T 
+   c155 _WCHAR_T_DEFINED_ 
+   c168 __S64_TYPE __quad_t
+   c17c _SC_PII_OSI_CLTS _SC_PII_OSI_CLTS
+   c19e _SC_THREAD_PRIO_INHERIT _SC_THREAD_PRIO_INHERIT
+   c1ce __DEV_T_TYPE __UQUAD_TYPE
+   c1e8 __need_timer_t
+   c1f7 __WCOREFLAG 0x80
+   c208 WCHAR_MIN __WCHAR_MIN
+   c21e SIGILL 4
+   c227 __need___FILE
+   c235 SIGTTIN 21
+   c240 __DADDR_T_TYPE __S32_TYPE
+   c25a __FRACT_FBIT__ 15
+   c26c TIOCMGET 0x5415
+   c27c SIOCADDDLCI 0x8980
+   c28f _IO_peekc(_fp) _IO_peekc_unlocked (_fp)
+   c2b7 SV_ONSTACK (1 << 0)
+   c2cb __need_size_t 
+   c2da va_start(v,l) __builtin_va_start(v,l)
+   c300 TIOCM_ST 0x008
+   c30f TRAP_BRKPT TRAP_BRKPT
+   c325 __CHAR_UNSIGNED__ 1
+   c339 _CS_POSIX_V7_ILP32_OFF32_CFLAGS _CS_POSIX_V7_ILP32_OFF32_CFLAGS
+   c379 O_ACCMODE 0003
+   c388 _LFS64_LARGEFILE 1
+   c39b LOG_CONS 0x02
+   c3a9 _SC_SIGNALS _SC_SIGNALS
+   c3c1 __clockid_t_defined 1
+   c3d7 _BSD_WCHAR_T_
+   c3e5 _SC_THREAD_DESTRUCTOR_ITERATIONS _SC_THREAD_DESTRUCTOR_ITERATIONS
+   c427 _SC_NPROCESSORS_CONF _SC_NPROCESSORS_CONF
+   c451 REG_R4 REG_R4
+   c45f _SC_XBS5_ILP32_OFF32 _SC_XBS5_ILP32_OFF32
+   c489 _IOS_NOREPLACE 64
+   c49b IN_CREATE 0x00000100
+   c4b0 __UINTMAX_MAX__ 18446744073709551615ULL
+   c4d8 _POSIX_FSYNC 200809L
+   c4ed _POSIX_CHOWN_RESTRICTED 0
+   c507 W_OK 2
+   c50e _SC_SIGQUEUE_MAX _SC_SIGQUEUE_MAX
+   c530 __need_size_t
+   c53e __need_siginfo_t
+   c54f __ULLFRACT_MAX__ 0XFFFFFFFFFFFFFFFFP-64ULLR
+   c57b __need_timespec 
+   c58c w_coredump __wait_terminated.__w_coredump
+   c5b6 _SC_SYMLOOP_MAX _SC_SYMLOOP_MAX
+   c5d6 si_ptr _sifields._rt.si_sigval.sival_ptr
+   c5ff SIOCGIFNETMASK 0x891b
+   c615 TIOCGLCKTRMIOS 0x5456
+   c62b TIOCSBRK 0x5427
+   c63b _POSIX_V6_ILP32_OFF32 1
+   c653 _POSIX_TRACE_LOG -1
+   c667 _IO_stdin ((_IO_FILE*)(&_IO_2_1_stdin_))
+   c690 __UACCUM_MIN__ 0.0UK
+   c6a5 __has_include(STR) __has_include__(STR)
+   c6cd TIOCEXCL 0x540C
+   c6dd _SC_UCHAR_MAX _SC_UCHAR_MAX
+   c6f9 _SC_2_PBS_ACCOUNTING _SC_2_PBS_ACCOUNTING
+   c723 S_ISCHR(mode) __S_ISTYPE((mode), __S_IFCHR)
+   c74f _SC_NL_NMAX _SC_NL_NMAX
+   c767 FIOQSIZE 0x545E
+   c777 TCSETX 0x5433
+   c785 __SIGEV_PAD_SIZE ((__SIGEV_MAX_SIZE / sizeof (int)) - 3)
+   c7be __DEC64_MANT_DIG__ 16
+   c7d4 SIOCSIFLINK 0x8911
+   c7e7 _IOC(dir,type,nr,size) (((dir) << _IOC_DIRSHIFT) | ((type) << _IOC_TYPESHIFT) | ((nr) << _IOC_NRSHIFT) | ((size) << _IOC_SIZESHIFT))
+   c86c __FLT_HAS_QUIET_NAN__ 1
+   c884 _GCC_WRAP_STDINT_H 
+   c898 __LDBL_MIN__ 2.2250738585072014e-308L
+   c8be __WAIT_INT(status) (__extension__ (((union { __typeof(status) __in; int __i; }) { .__in = (status) }).__i))
+   c92a _SC_UIO_MAXIOV _SC_UIO_MAXIOV
+   c948 __USE_UNIX98
+   c955 __SIGEV_MAX_SIZE 64
+   c969 __malloc_and_calloc_defined 
+   c986 _SC_IOV_MAX _SC_IOV_MAX
+   c99e LOG_PERROR 0x20
+   c9ae __CONCAT(x,y) x ## y
+   c9c3 _IO_UNITBUF 020000
+   c9d6 REG_R5 REG_R5
+   c9e4 _PC_NO_TRUNC _PC_NO_TRUNC
+   c9fe F_DUPFD 0
+   ca08 __stub_gtty 
+   ca15 _POSIX_MEMORY_PROTECTION 200809L
+   ca36 CEOL _POSIX_VDISABLE
+   ca4b __ORDER_PDP_ENDIAN__ 3412
+   ca65 __ATOMIC_ACQUIRE 2
+   ca78 _IOC_TYPESHIFT (_IOC_NRSHIFT+_IOC_NRBITS)
+   caa2 _IO_FLAGS2_NOTCANCEL 2
+   cab9 _IO_STDIO 040000
+   caca _SC_HOST_NAME_MAX _SC_HOST_NAME_MAX
+   caee __INT_FAST64_TYPE__ long long int
+   cb10 SIOCGIFCONF 0x8912
+   cb23 __UINT_FAST32_MAX__ 4294967295U
+   cb43 __ACCUM_FBIT__ 15
+   cb55 SIOCADDRT 0x890B
+   cb66 __ARM_FEATURE_LDREX 15
+   cb7d S_ISVTX __S_ISVTX
+   cb8f _POSIX_THREAD_PRIO_INHERIT 200809L
+   cbb2 _SC_REALTIME_SIGNALS _SC_REALTIME_SIGNALS
+   cbdc __ARM_FEATURE_QBIT 1
+   cbf1 _CS_XBS5_ILP32_OFF32_CFLAGS _CS_XBS5_ILP32_OFF32_CFLAGS
+   cc29 INT_LEAST8_MIN (-128)
+   cc3f _IO_off_t __off_t
+   cc51 __need_clock_t 
+   cc61 __ARM_FEATURE_UNALIGNED 1
+   cc7b _SC_PII _SC_PII
+   cc8b __SACCUM_MAX__ 0X7FFFP-7HK
+   cca6 _SC_THREAD_PRIO_PROTECT _SC_THREAD_PRIO_PROTECT
+   ccd6 __ACCUM_IBIT__ 16
+   cce8 __fsblkcnt_t_defined 
+   ccfe _SC_BARRIERS _SC_BARRIERS
+   cd18 _SC_SHRT_MIN _SC_SHRT_MIN
+   cd32 _CS_POSIX_V6_ILP32_OFFBIG_LDFLAGS _CS_POSIX_V6_ILP32_OFFBIG_LDFLAGS
+   cd76 __KERNEL_STRICT_NAMES 
+   cd8d LITTLE_ENDIAN __LITTLE_ENDIAN
+   cdab TCSETS2 _IOW('T', 0x2B, struct termios2)
+   cdd4 __GNUC_VA_LIST 
+   cde4 TIOCSERSWILD 0x5455
+   cdf8 _SC_LEVEL1_ICACHE_SIZE _SC_LEVEL1_ICACHE_SIZE
+   ce26 __need_mbstate_t 
+   ce38 __fsfilcnt_t_defined 
+   ce4e _SC_SELECT _SC_SELECT
+   ce64 WNOHANG 1
+   ce6e _CS_POSIX_V6_ILP32_OFFBIG_CFLAGS _CS_POSIX_V6_ILP32_OFFBIG_CFLAGS
+   ceb0 _SC_AIO_PRIO_DELTA_MAX _SC_AIO_PRIO_DELTA_MAX
+   cede __ACCUM_EPSILON__ 0x1P-15K
+   cef9 SA_INTERRUPT 0x20000000
+   cf11 __need_wint_t
+   cf1f __ARM_32BIT_STATE 1
+   cf33 __ATOMIC_RELAXED 0
+   cf46 N_6PACK 7
+   cf50 __warndecl(name,msg) extern void name (void) __attribute__((__warning__ (msg)))
+   cfa0 O_WRONLY 01
+   cfac __ULACCUM_IBIT__ 32
+   cfc0 CONFIG_CONFIGURABLE_HANDLERS 1
+   cfdf __GNU_LIBRARY__
+   cfef _IO_INTERNAL 010
+   d000 __THUMB_INTERWORK__ 1
+   d016 _CS_V7_WIDTH_RESTRICTED_ENVS _CS_V7_WIDTH_RESTRICTED_ENVS
+   d050 _BITS_TYPESIZES_H 1
+   d064 _CS_PATH _CS_PATH
+   d076 _POSIX_MEMLOCK_RANGE 200809L
+   d093 _IOS_APPEND 8
+   d0a1 _IONBF 2
+   d0aa SIOCGARP 0x8954
+   d0ba _IOS_OUTPUT 2
+   d0c8 TIOCM_DTR 0x002
+   d0d8 SIOCGIFNAME 0x8910
+   d0eb __FRACT_MAX__ 0X7FFFP-15R
+   d105 S_IFBLK __S_IFBLK
+   d117 __LDBL_DIG__ 15
+   d127 TIOCMSET 0x5418
+   d137 __socklen_t_defined 
+   d14c __GCC_IEC_559 2
+   d15c UINT_LEAST32_MAX (4294967295U)
+   d17b __UDQ_FBIT__ 64
+   d18b __USE_ISOC95 1
+   d19a _SC_TRACE_LOG _SC_TRACE_LOG
+   d1b6 __UFRACT_IBIT__ 0
+   d1c8 CTIME 0
+   d1d0 TMP_MAX 238328
+   d1df _EXTERN_INLINE __extern_inline
+   d1fe _SC_TIMEOUTS _SC_TIMEOUTS
+   d218 WSTOPPED 2
+   d223 _XOPEN_VERSION 700
+   d236 __LONG_MAX__ 2147483647L
+   d24f __DBL_DENORM_MIN__ ((double)4.9406564584124654e-324L)
+   d285 __sig_atomic_t_defined 
+   d29d __blksize_t_defined 
+   d2b2 htole32(x) (x)
+   d2c1 __have_pthread_attr_t 1
+   d2d9 sigcontext_struct sigcontext
+   d2f6 __have_siginfo_t 1
+   d309 WEXITED 4
+   d313 REG_R7 REG_R7
+   d321 _CS_POSIX_V5_WIDTH_RESTRICTED_ENVS _CS_V5_WIDTH_RESTRICTED_ENVS
+   d361 SIOCGIFHWADDR 0x8927
+   d376 __need___FILE 
+   d385 __RLIM64_T_TYPE __UQUAD_TYPE
+   d3a2 _MKNOD_VER _MKNOD_VER_LINUX
+   d3be _PC_FILESIZEBITS _PC_FILESIZEBITS
+   d3e0 __stub_sstk 
+   d3ed __ARM_ARCH_ISA_ARM 1
+   d402 __USING_NAMESPACE_STD(name) 
+   d41f _PC_PIPE_BUF _PC_PIPE_BUF
+   d439 __ATOMIC_RELEASE 3
+   d44c SIGQUIT 3
+   d456 _DEFAULT_SOURCE
+   d466 __GXX_ABI_VERSION 1002
+   d47d __need_getopt 
+   d48c _POSIX_MAPPED_FILES 200809L
+   d4a8 __int8_t_defined 
+   d4ba __INT_FAST16_TYPE__ int
+   d4d2 TIOCMBIS 0x5416
+   d4e2 _SC_T_IOV_MAX _SC_T_IOV_MAX
+   d4fe __FDS_BITS(set) ((set)->__fds_bits)
+   d522 CQUIT 034
+   d52c __UTQ_IBIT__ 0
+   d53b O_CREAT 0100
+   d548 TIOCM_LE 0x001
+   d557 _IOR(type,nr,size) _IOC(_IOC_READ,(type),(nr),(_IOC_TYPECHECK(size)))
+   d59d _POSIX_TIMERS 200809L
+   d5b3 _IO_UPPERCASE 01000
+   d5c7 putc(_ch,_fp) _IO_putc (_ch, _fp)
+   d5e9 __UTA_IBIT__ 64
+   d5f9 _CS_POSIX_V7_LP64_OFF64_LINTFLAGS _CS_POSIX_V7_LP64_OFF64_LINTFLAGS
+   d63d __SIZEOF_WINT_T__ 4
+   d651 __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+   d67e IN_CLOSE_WRITE 0x00000008
+   d698 TCGETA 0x5405
+   d6a6 FIONCLEX 0x5450
+   d6b6 __ARM_FEATURE_SAT 1
+   d6ca __sighandler_t
+   d6d9 __off_t_defined 
+   d6ea __stub_chflags 
+   d6fa REG_R8 REG_R8
+   d708 SIGUNUSED 31
+   d715 __FLT_MAX__ 3.4028234663852886e+38F
+   d739 __INT_LEAST8_TYPE__ signed char
+   d759 F_WRLCK 1
+   d763 SIOCGIFPFLAGS 0x8935
+   d778 WCONTINUED 8
+   d785 CSUSP CTRL('z')
+   d795 _CS_POSIX_V6_LPBIG_OFFBIG_LDFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_LDFLAGS
+   d7d9 _CS_POSIX_V6_LP64_OFF64_LINTFLAGS _CS_POSIX_V6_LP64_OFF64_LINTFLAGS
+   d81d _IO(type,nr) _IOC(_IOC_NONE,(type),(nr),0)
+   d848 __SLONGWORD_TYPE long int
+   d862 __LFRACT_FBIT__ 31
+   d875 _SC_AIO_LISTIO_MAX _SC_AIO_LISTIO_MAX
+   d89b _PC_SYMLINK_MAX _PC_SYMLINK_MAX
+   d8bb __SIZEOF_WCHAR_T__ 4
+   d8d0 __USACCUM_MAX__ 0XFFFFP-8UHK
+   d8ed __USE_REENTRANT
+   d8fd __GLIBC__ 2
+   d909 _SC_XOPEN_XPG2 _SC_XOPEN_XPG2
+   d927 _SYS_SYSMACROS_H 1
+   d93a IN_MOVED_TO 0x00000080
+   d951 INT32_MAX (2147483647)
+   d968 N_PROFIBUS_FDL 10
+   d97a _POSIX_ASYNCHRONOUS_IO 200809L
+   d999 _IO_va_list
+   d9a5 _SC_SEM_NSEMS_MAX _SC_SEM_NSEMS_MAX
+   d9c9 _IO_funlockfile(_fp) 
+   d9df _SC_V7_ILP32_OFF32 _SC_V7_ILP32_OFF32
+   da05 S_ISDIR(mode) __S_ISTYPE((mode), __S_IFDIR)
+   da31 si_value _sifields._rt.si_sigval
+   da52 SIOCSARP 0x8955
+   da62 __P(args) args
+   da71 __USACCUM_EPSILON__ 0x1P-8UHK
+   da8f SEEK_END 2
+   da9a __need_FILE
+   daa6 TTYDEF_OFLAG (OPOST | ONLCR | XTABS)
+   dacb N_MOUSE 2
+   dad5 _SC_VERSION _SC_VERSION
+   daed _IO_LINKED 0x80
+   dafd IN_DELETE 0x00000200
+   db12 __USFRACT_EPSILON__ 0x1P-8UHR
+   db30 CSTART CTRL('q')
+   db41 __INTMAX_C(c) c ## LL
+   db57 __LACCUM_MIN__ (-0X1P31LK-0X1P31LK)
+   db7b __useconds_t_defined 
+   db91 _IO_RIGHT 04
+   db9e __UINT_FAST64_TYPE__ long long unsigned int
+   dbca _CS_V6_ENV _CS_V6_ENV
+   dbe0 _CS_POSIX_V7_LP64_OFF64_LIBS _CS_POSIX_V7_LP64_OFF64_LIBS
+   dc1a LOG_LOCAL2 (18<<3)
+   dc2d TIOCPKT_DATA 0
+   dc3c REG_R9 REG_R9
+   dc4a __F_GETOWN_EX 16
+   dc5b FPE_FLTUND FPE_FLTUND
+   dc71 _SC_BC_DIM_MAX _SC_BC_DIM_MAX
+   dc8f __UFRACT_EPSILON__ 0x1P-16UR
+   dcac _SC_NZERO _SC_NZERO
+   dcc0 _IOC_NONE 0U
+   dccd LOG_MAIL (2<<3)
+   dcdd __USE_FORTIFY_LEVEL
+   dcf1 __O_DIRECT 0200000
+   dd04 S_ISBLK(mode) __S_ISTYPE((mode), __S_IFBLK)
+   dd30 TIOCGRS485 0x542E
+   dd42 __USE_BSD
+   dd4c htole64(x) (x)
+   dd5b CEOF CTRL('d')
+   dd6a __suseconds_t_defined 
+   dd81 __F_GETOWN 9
+   dd8e __USECONDS_T_TYPE __U32_TYPE
+   ddab INT8_MAX (127)
+   ddba FD_CLR(fd,fdsetp) __FD_CLR (fd, fdsetp)
+   dde2 _STRUCT_TIMEVAL 1
+   ddf4 __O_PATH 010000000
+   de07 _SC_REGEX_VERSION _SC_REGEX_VERSION
+   de2b LOG_WARNING 4
+   de39 __S_IFIFO 0010000
+   de4b __USE_XOPEN2K8
+   de5a __SQ_IBIT__ 0
+   de68 _STDIO_H 1
+   de73 _IO_fpos_t _G_fpos_t
+   de88 _CS_POSIX_V6_ILP32_OFF32_LIBS _CS_POSIX_V6_ILP32_OFF32_LIBS
+   dec4 __BLKCNT_T_TYPE __SLONGWORD_TYPE
+   dee5 __FD_SET(d,s) ((void) (__FDS_BITS (s)[__FD_ELT(d)] |= __FD_MASK(d)))
+   df2a TIOCLINUX 0x541C
+   df3b _SC_PASS_MAX _SC_PASS_MAX
+   df55 _SC_JOB_CONTROL _SC_JOB_CONTROL
+   df75 FPE_FLTRES FPE_FLTRES
+   df8b __UHQ_IBIT__ 0
+   df9a _SC_DELAYTIMER_MAX _SC_DELAYTIMER_MAX
+   dfc0 FPE_INTDIV FPE_INTDIV
+   dfd6 __BEGIN_NAMESPACE_C99 
+   dfed CLD_EXITED CLD_EXITED
+   e003 SA_NOCLDWAIT 2
+   e012 __USE_LARGEFILE
+   e022 __DEC32_MIN_EXP__ (-94)
+   e03a S_IWRITE S_IWUSR
+   e04b _STDARG_H 
+   e056 __SFRACT_MIN__ (-0.5HR-0.5HR)
+   e074 _POSIX_SAVED_IDS 1
+   e087 __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+   e0ac __LACCUM_FBIT__ 31
+   e0bf __bos(ptr) __builtin_object_size (ptr, __USE_FORTIFY_LEVEL > 1)
+   e0ff _SC_MQ_OPEN_MAX _SC_MQ_OPEN_MAX
+   e11f __ULACCUM_MIN__ 0.0ULK
+   e136 TCSETA 0x5406
+   e144 __USE_POSIX199309 1
+   e158 WCHAR_MAX __WCHAR_MAX
+   e16e __UINT32_TYPE__ unsigned int
+   e18b _SC_COLL_WEIGHTS_MAX _SC_COLL_WEIGHTS_MAX
+   e1b5 _SC_CHARCLASS_NAME_MAX _SC_CHARCLASS_NAME_MAX
+   e1e3 S_TYPEISMQ(buf) __S_TYPEISMQ(buf)
+   e205 __RLIM_T_TYPE __ULONGWORD_TYPE
+   e224 CSTATUS _POSIX_VDISABLE
+   e23c si_call_addr _sifields._sigsys._call_addr
+   e266 __LACCUM_IBIT__ 32
+   e279 N_HDLC 13
+   e283 CLD_DUMPED CLD_DUMPED
+   e299 __need_timespec
+   e2a9 __END_DECLS 
+   e2b6 sizetype
+   e2bf _POSIX_V6_LP64_OFF64 -1
+   e2d7 _MKNOD_VER_LINUX 1
+   e2ea __DEC64_EPSILON__ 1E-15DD
+   e304 FILENAME_MAX 4096
+   e316 __need_NULL
+   e322 IN_OPEN 0x00000020
+   e335 _SC_FILE_SYSTEM _SC_FILE_SYSTEM
+   e355 _STRING_H 1
+   e361 _SC_THREAD_ROBUST_PRIO_INHERIT _SC_THREAD_ROBUST_PRIO_INHERIT
+   e39f _IO_iconv_t _G_iconv_t
+   e3b6 __DEC32_MAX_EXP__ 97
+   e3cb _POSIX_BARRIERS 200809L
+   e3e3 O_APPEND 02000
+   e3f2 __SACCUM_EPSILON__ 0x1P-7HK
+   e40e _SC_CHAR_BIT _SC_CHAR_BIT
+   e428 evlen
+   e42e _IOC_NRMASK ((1 << _IOC_NRBITS)-1)
+   e451 TIOCSTI 0x5412
+   e460 _LFS_ASYNCHRONOUS_IO 1
+   e477 __O_LARGEFILE 0400000
+   e48d TIOCMBIC 0x5417
+   e49d _SC_IPV6 _SC_IPV6
+   e4af FPE_FLTSUB FPE_FLTSUB
+   e4c5 CERASE 0177
+   e4d1 SIOCGIFDSTADDR 0x8917
+   e4e7 _SC_DEVICE_IO _SC_DEVICE_IO
+   e503 IOC_OUT (_IOC_READ << _IOC_DIRSHIFT)
+   e528 TIOCSSERIAL 0x541F
+   e53b _STATBUF_ST_BLKSIZE 
+   e550 __size_t__ 
+   e55c __USE_XOPEN2K 1
+   e56c _SC_LEVEL1_DCACHE_LINESIZE _SC_LEVEL1_DCACHE_LINESIZE
+   e5a2 LOG_SYSLOG (5<<3)
+   e5b4 _SC_LEVEL1_DCACHE_SIZE _SC_LEVEL1_DCACHE_SIZE
+   e5e2 IN_NONBLOCK IN_NONBLOCK
+   e5fa FNONBLOCK O_NONBLOCK
+   e60f __attribute_used__ __attribute__ ((__used__))
+   e63d __ULLACCUM_EPSILON__ 0x1P-32ULLK
+   e65e __CHAR_BIT__ 8
+   e66d __time_t_defined 1
+   e680 be32toh(x) __bswap_32 (x)
+   e69a FD_SET(fd,fdsetp) __FD_SET (fd, fdsetp)
+   e6c2 SIGUSR1 10
+   e6cd EOF (-1)
+   e6d6 TIOCSLCKTRMIOS 0x5457
+   e6ec _XOPEN_REALTIME_THREADS 1
+   e706 __va_copy(d,s) __builtin_va_copy(d,s)
+   e72c INTMAX_MAX (__INT64_C(9223372036854775807))
+   e758 SIOCSIFBRDADDR 0x891a
+   e76e _IO_LEFT 02
+   e77a _SC_TRACE_INHERIT _SC_TRACE_INHERIT
+   e79e __INT16_MAX__ 32767
+   e7b2 _SC_2_C_DEV _SC_2_C_DEV
+   e7ca _SC_C_LANG_SUPPORT_R _SC_C_LANG_SUPPORT_R
+   e7f4 _LFS64_STDIO 1
+   e803 _SC_PRIORITY_SCHEDULING _SC_PRIORITY_SCHEDULING
+   e833 _FEATURES_H 1
+   e841 _MKNOD_VER_SVR4 2
+   e853 _BSD_SIZE_T_ 
+   e861 __va_arg_pack_len() __builtin_va_arg_pack_len ()
+   e892 PTRDIFF_MIN (-2147483647-1)
+   e8ae __O_NOFOLLOW 0100000
+   e8c3 __attribute_deprecated__ __attribute__ ((__deprecated__))
+   e8fd __has_include_next(STR) __has_include_next__(STR)
+   e92f _CS_POSIX_V6_WIDTH_RESTRICTED_ENVS _CS_V6_WIDTH_RESTRICTED_ENVS
+   e96f TCSBRKP 0x5425
+   e97e _SC_MESSAGE_PASSING _SC_MESSAGE_PASSING
+   e9a6 _PC_REC_XFER_ALIGN _PC_REC_XFER_ALIGN
+   e9cc _CS_V7_ENV _CS_V7_ENV
+   e9e2 _SC_GETPW_R_SIZE_MAX _SC_GETPW_R_SIZE_MAX
+   ea0c _POSIX_JOB_CONTROL 1
+   ea21 O_NOCTTY 0400
+   ea2f AT_SYMLINK_FOLLOW 0x400
+   ea47 TIOCSER_TEMT 0x01
+   ea59 __GCC_ATOMIC_POINTER_LOCK_FREE 2
+   ea7a IN_MOVE_SELF 0x00000800
+   ea92 FD_ZERO(fdsetp) __FD_ZERO (fdsetp)
+   eab5 STDOUT_FILENO 1
+   eac5 SA_ONSTACK 0x08000000
+   eadb __DBL_MAX__ ((double)1.7976931348623157e+308L)
+   eb0a __OFF64_T_TYPE __SQUAD_TYPE
+   eb26 _SC_LEVEL3_CACHE_SIZE _SC_LEVEL3_CACHE_SIZE
+   eb52 _SC_XOPEN_LEGACY _SC_XOPEN_LEGACY
+   eb74 SIG_ERR ((__sighandler_t) -1)
+   eb92 POSIX_FADV_SEQUENTIAL 2
+   ebaa _IO_SHOWPOINT 0400
+   ebbd _PC_REC_MAX_XFER_SIZE _PC_REC_MAX_XFER_SIZE
+   ebe9 S_IXUSR __S_IEXEC
+   ebfb __DEC64_MAX_EXP__ 385
+   ec11 TCSETSF 0x5404
+   ec20 _SC_THREAD_CPUTIME _SC_THREAD_CPUTIME
+   ec46 SIOCSIFDSTADDR 0x8918
+   ec5c O_RSYNC O_SYNC
+   ec6b _SC_V6_ILP32_OFFBIG _SC_V6_ILP32_OFFBIG
+   ec93 CSTOP CTRL('s')
+   eca3 F_LOCK 1
+   ecac __LDBL_HAS_DENORM__ 1
+   ecc2 IOC_IN (_IOC_WRITE << _IOC_DIRSHIFT)
+   ece7 __FD_MASK(d) ((__fd_mask) 1 << ((d) % __NFDBITS))
+   ed19 SS_DISABLE SS_DISABLE
+   ed2f TIOCGPGRP 0x540F
+   ed40 __LEAF , __leaf__
+   ed52 SIOCSIFNETMASK 0x891c
+   ed68 _CS_POSIX_V6_LP64_OFF64_LIBS _CS_POSIX_V6_LP64_OFF64_LIBS
+   eda2 WTERMSIG(status) __WTERMSIG (__WAIT_INT (status))
+   edd4 __uint32_t_defined 
+   ede8 TIOCM_RNG 0x080
+   edf8 __GCC_ATOMIC_INT_LOCK_FREE 2
+   ee15 __UINT32_C(c) c ## U
+   ee2a __sigfillset(set) (__extension__ ({ int __cnt = _SIGSET_NWORDS; sigset_t *__set = (set); while (--__cnt >= 0) __set->__val[__cnt] = ~0UL; 0; }))
+   eebb _SC_LEVEL3_CACHE_ASSOC _SC_LEVEL3_CACHE_ASSOC
+   eee9 F_SETOWN __F_SETOWN
+   eefd SA_ONESHOT SA_RESETHAND
+   ef15 S_IFSOCK __S_IFSOCK
+   ef29 __REGISTER_PREFIX__ 
+   ef3e TIOCPKT_IOCTL 64
+   ef4f _IO_MAGIC 0xFBAD0000
+   ef64 L_ctermid 9
+   ef70 F_DUPFD_CLOEXEC 1030
+   ef85 IN_EXCL_UNLINK 0x04000000
+   ef9f _IOS_BIN 128
+   efac S_IRUSR __S_IREAD
+   efbe __USFRACT_MAX__ 0XFFP-8UHR
+   efd9 STDIN_FILENO 0
+   efe8 __REDIRECT_NTH_LDBL(name,proto,alias) __REDIRECT_NTH (name, proto, alias)
+   f032 _XOPEN_ENH_I18N 1
+   f044 AT_EACCESS 0x200
+   f055 INT_FAST64_MIN (-__INT64_C(9223372036854775807)-1)
+   f088 _SC_MULTI_PROCESS _SC_MULTI_PROCESS
+   f0ac __SIZEOF_PTHREAD_RWLOCK_T 32
+   f0c9 _SC_2_C_VERSION _SC_2_C_VERSION
+   f0e9 O_NONBLOCK 04000
+   f0fa __errordecl(name,msg) extern void name (void) __attribute__((__error__ (msg)))
+   f149 __key_t_defined 
+   f15a SI_MESGQ SI_MESGQ
+   f16c L_XTND SEEK_END
+   f17c LOG_NDELAY 0x08
+   f18c SA_NOCLDSTOP 1
+   f19b _SC_PII_OSI _SC_PII_OSI
+   f1b3 __STD_TYPE __extension__ typedef
+   f1d4 SEEK_CUR 1
+   f1df _SC_NL_MSGMAX _SC_NL_MSGMAX
+   f1fb SIGTSTP 20
+   f206 SIGIOT 6
+   f20f _IO_BAD_SEEN 0x4000
+   f223 __GID_T_TYPE __U32_TYPE
+   f23b __LONG_LONG_PAIR(HI,LO) LO, HI
+   f25a __UFRACT_MAX__ 0XFFFFP-16UR
+   f276 __USQ_FBIT__ 32
+   f286 _SC_THREAD_SPORADIC_SERVER _SC_THREAD_SPORADIC_SERVER
+   f2bc __linux__ 1
+   f2c8 SIOCDELDLCI 0x8981
+   f2db P_PGID
+   f2e2 si_pid _sifields._kill.si_pid
+   f300 _SC_LEVEL4_CACHE_ASSOC _SC_LEVEL4_CACHE_ASSOC
+   f32e __need_siginfo_t 
+   f340 SIGXFSZ 25
+   f34b __ptr_t void *
+   f35a FOPEN_MAX 16
+   f367 __INT_FAST16_MAX__ 2147483647
+   f385 __stub_putmsg 
+   f394 O_TRUNC 01000
+   f3a2 _POSIX2_C_DEV __POSIX2_THIS_VERSION
+   f3c6 __O_NOATIME 01000000
+   f3db __STDC_HOSTED__ 1
+   f3ed __UINTMAX_C(c) c ## ULL
+   f405 __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+   f436 UINT32_MAX (4294967295U)
+   f44f POLL_HUP POLL_HUP
+   f461 __USE_POSIX_IMPLICITLY 1
+   f47a __UACCUM_MAX__ 0XFFFFFFFFP-16UK
+   f49a IN_CLOSE_NOWRITE 0x00000010
+   f4b6 __USE_ISOCXX11
+   f4c5 __need_sig_atomic_t
+   f4d9 _SC_THREAD_SAFE_FUNCTIONS _SC_THREAD_SAFE_FUNCTIONS
+   f50d _SC_OPEN_MAX _SC_OPEN_MAX
+   f527 _IOC_WRITE 1U
+   f535 __DBL_HAS_DENORM__ 1
+   f54a SIOCRTMSG 0x890D
+   f55b LOG_LOCAL6 (22<<3)
+   f56e __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+   f593 _PC_ALLOC_SIZE_MIN _PC_ALLOC_SIZE_MIN
+   f5b9 default_reaper
+   f5c8 _CS_XBS5_ILP32_OFFBIG_LIBS _CS_XBS5_ILP32_OFFBIG_LIBS
+   f5fe _WCHAR_T_DEFINED 
+   f610 _SC_PII_INTERNET_DGRAM _SC_PII_INTERNET_DGRAM
+   f63e __PTRDIFF_TYPE__ int
+   f653 _SC_XOPEN_UNIX _SC_XOPEN_UNIX
+   f671 INT8_MIN (-128)
+   f681 __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+   f6a3 UINT8_MAX (255)
+   f6b3 __REDIRECT_NTHNL(name,proto,alias) name proto __asm__ (__ASMNAME (#alias)) __THROWNL
+   f708 _SC_FILE_ATTRIBUTES _SC_FILE_ATTRIBUTES
+   f730 si_uid _sifields._kill.si_uid
+   f74e stdin stdin
+   f75a media_file
+   f765 __need_timeval 
+   f775 INTPTR_MIN (-2147483647-1)
+   f790 TIOCM_RI TIOCM_RNG
+   f7a3 SIGKILL 9
+   f7ad SIOCSIFNAME 0x8923
+   f7c0 __PMT(args) args
+   f7d1 _POSIX_TYPED_MEMORY_OBJECTS -1
+   f7f0 TTYDEF_LFLAG (ECHO | ICANON | ISIG | IEXTEN | ECHOE|ECHOKE|ECHOCTL)
+   f834 _SYS_CDEFS_H 1
+   f843 TIOCPKT_START 8
+   f853 FOPEN_MAX
+   f85d _IOWR_BAD(type,nr,size) _IOC(_IOC_READ|_IOC_WRITE,(type),(nr),sizeof(size))
+   f8a9 __UTQ_FBIT__ 128
+   f8ba _SC_XOPEN_SHM _SC_XOPEN_SHM
+   f8d6 __USE_BSD 1
+   f8e2 FNDELAY O_NDELAY
+   f8f3 _SC_THREAD_ATTR_STACKADDR _SC_THREAD_ATTR_STACKADDR
+   f927 F_ULOCK 0
+   f931 __need_timer_t 
+   f941 __FD_CLR(d,s) ((void) (__FDS_BITS (s)[__FD_ELT(d)] &= ~__FD_MASK(d)))
+   f987 LOG_NOTICE 5
+   f994 EXIT_SUCCESS 0
+   f9a3 _CS_GNU_LIBPTHREAD_VERSION _CS_GNU_LIBPTHREAD_VERSION
+   f9d9 _IO_SHOWPOS 02000
+   f9eb __INT8_MAX__ 127
+   f9fc SIGSTKSZ 8192
+   fa0a _POSIX_THREAD_ATTR_STACKADDR 200809L
+   fa2f SIOCGIFADDR 0x8915
+   fa42 F_TEST 3
+   fa4b _POSIX_MEMLOCK 200809L
+   fa62 __need_malloc_and_calloc
+   fa7b ILL_ILLOPN ILL_ILLOPN
+   fa91 SIG_IGN ((__sighandler_t) 1)
+   faae __INT_LEAST32_MAX__ 2147483647
+   facd _SC_LEVEL1_ICACHE_ASSOC _SC_LEVEL1_ICACHE_ASSOC
+   fafd __need_mbstate_t
+   fb0e __UQQ_FBIT__ 8
+   fb1d SIOCGIFINDEX 0x8933
+   fb31 _IOC_NRBITS 8
+   fb3f __SACCUM_FBIT__ 7
+   fb51 __HQ_FBIT__ 15
+   fb60 __LLACCUM_IBIT__ 32
+   fb74 _SYS_SYSLOG_H 1
+   fb84 _IO_cleanup_region_end(_Doit) 
+   fba3 __SIZE_T 
+   fbad __FSID_T_TYPE struct { int __val[2]; }
+   fbd4 __SHRT_MAX__ 32767
+   fbe7 _SC_CHILD_MAX _SC_CHILD_MAX
+   fc03 __LLFRACT_FBIT__ 63
+   fc17 __need_sigset_t
+   fc27 __stub_putpmsg 
+   fc37 CBRK CEOL
+   fc41 SIGRTMAX (__libc_current_sigrtmax ())
+   fc67 _SC_2_PBS_TRACK _SC_2_PBS_TRACK
+   fc87 _G_HAVE_MREMAP 1
+   fc98 TIOCINQ FIONREAD
+   fca9 __GCC_ATOMIC_SHORT_LOCK_FREE 2
+   fcc8 _SC_2_PBS_MESSAGE _SC_2_PBS_MESSAGE
+   fcec F_GETFD 1
+   fcf6 __F_SETOWN 8
+   fd03 __SIZEOF_POINTER__ 4
+   fd18 TIOCGWINSZ 0x5413
+   fd2a __ARM_SIZEOF_WCHAR_T 32
+   fd42 __S_IFLNK 0120000
+   fd54 _SC_LEVEL2_CACHE_LINESIZE _SC_LEVEL2_CACHE_LINESIZE
+   fd88 __SLONG32_TYPE long int
+   fda0 _PC_REC_MIN_XFER_SIZE _PC_REC_MIN_XFER_SIZE
+   fdcc _T_SIZE 
+   fdd5 UTIME_NOW ((1l << 30) - 1l)
+   fdf1 FIOCLEX 0x5451
+   fe00 TIOCMIWAIT 0x545C
+   fe12 __FD_ELT(d) ((d) / __NFDBITS)
+   fe30 __S_ISGID 02000
+   fe40 _SC_NPROCESSORS_ONLN _SC_NPROCESSORS_ONLN
+   fe6a S_ISFIFO(mode) __S_ISTYPE((mode), __S_IFIFO)
+   fe97 TIOCCONS 0x541D
+   fea7 __USE_POSIX2 1
+   feb6 _POSIX_TRACE_INHERIT -1
+   fece SIOCSIFBR 0x8941
+   fedf __flexarr []
+   feec __GNUC_PREREQ(maj,min) ((__GNUC__ << 16) + __GNUC_MINOR__ >= ((maj) << 16) + (min))
+   ff40 __ASMNAME2(prefix,cname) __STRING (prefix) cname
+   ff71 _BITS_TYPES_H 1
+   ff81 TIOCSIG _IOW('T', 0x36, int)
+   ff9e __WCHAR_MAX __WCHAR_MAX__
+   ffb8 UINT_LEAST16_MAX (65535)
+   ffd1 LOG_AUTHPRIV (10<<3)
+   ffe6 _IO_NO_WRITES 8
+   fff6 __SIZEOF_PTHREAD_BARRIER_T 20
+  10014 F_TLOCK 2
+  1001e __REDIRECT(name,proto,alias) name proto __asm__ (__ASMNAME (#alias))
+  10063 ILL_COPROC ILL_COPROC
+  10079 _SIGSET_NWORDS (1024 / (8 * sizeof (unsigned long int)))
+  100b2 _STAT_VER _STAT_VER_LINUX
+  100cc _T_WCHAR_ 
+  100d7 S_ISGID __S_ISGID
+  100e9 __LFRACT_MIN__ (-0.5LR-0.5LR)
+  10107 INT_LEAST32_MIN (-2147483647-1)
+  10127 SIGTRAP 5
+  10131 _POSIX_C_SOURCE
+  10141 __POSIX2_THIS_VERSION 200809L
+  1015f CLD_KILLED CLD_KILLED
+  10175 S_ISLNK(mode) __S_ISTYPE((mode), __S_IFLNK)
+  101a1 __LLFRACT_MIN__ (-0.5LLR-0.5LLR)
+  101c2 RAND_MAX 2147483647
+  101d6 _POSIX_CLOCK_SELECTION 200809L
+  101f5 F_UNLCK 2
+  101ff _CS_POSIX_V6_LPBIG_OFFBIG_CFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_CFLAGS
+  10241 LOG_LOCAL7 (23<<3)
+  10254 LOG_NOWAIT 0x10
+  10264 _SC_SCHAR_MIN _SC_SCHAR_MIN
+  10280 __GCC_ATOMIC_LLONG_LOCK_FREE 2
+  1029f __ULACCUM_EPSILON__ 0x1P-32ULK
+  102be _IO_HEX 0100
+  102cb FIOASYNC 0x5452
+  102db _PC_ASYNC_IO _PC_ASYNC_IO
+  102f5 __ULFRACT_EPSILON__ 0x1P-32ULR
+  10314 _SC_BC_BASE_MAX _SC_BC_BASE_MAX
+  10334 __NFDBITS (8 * (int) sizeof (__fd_mask))
+  1035d _SC_TRACE_SYS_MAX _SC_TRACE_SYS_MAX
+  10381 _POSIX_REALTIME_SIGNALS 200809L
+  103a1 _SC_2_C_BIND _SC_2_C_BIND
+  103bb __SIZEOF_PTHREAD_COND_T 48
+  103d6 LOG_MASK(pri) (1 << (pri))
+  103f1 _PC_REC_INCR_XFER_SIZE _PC_REC_INCR_XFER_SIZE
+  1041f O_DSYNC __O_DSYNC
+  10431 _SC_SEM_VALUE_MAX _SC_SEM_VALUE_MAX
+  10455 F_SETFL 4
+  1045f _IOS_ATEND 4
+  1046c S_IFDIR __S_IFDIR
+  1047e _CS_LFS64_LIBS _CS_LFS64_LIBS
+  1049c __LDBL_MAX__ 1.7976931348623157e+308L
+  104c2 __INO64_T_TYPE __UQUAD_TYPE
+  104de TIOCSPTLCK _IOW('T', 0x31, int)
+  104fe ILL_ILLADR ILL_ILLADR
+  10514 __stub_sigreturn 
+  10526 _SC_2_LOCALEDEF _SC_2_LOCALEDEF
+  10546 SIOCGIFMETRIC 0x891d
+  1055b __END_NAMESPACE_STD 
+  10570 __clockid_time_t
+  10581 _IO_BOOLALPHA 0200000
+  10597 __UINT8_MAX__ 255
+  105a9 __ULLACCUM_FBIT__ 32
+  105be _SC_LOGIN_NAME_MAX _SC_LOGIN_NAME_MAX
+  105e4 __u_intN_t(N,MODE) typedef unsigned int u_int ##N ##_t __attribute__ ((__mode__ (MODE)))
+  1063d SIGFPE 8
+  10646 __LDBL_HAS_QUIET_NAN__ 1
+  1065f SIOCSIFMAP 0x8971
+  10671 __ARM_FEATURE_DSP 1
+  10685 __POSIX_FADV_NOREUSE 5
+  1069c _SC_CHAR_MAX _SC_CHAR_MAX
+  106b6 __KEY_T_TYPE __S32_TYPE
+  106ce _SC_INT_MAX _SC_INT_MAX
+  106e6 va_end(v) __builtin_va_end(v)
+  10704 _XOPEN_XCU_VERSION 4
+  10719 IN_DELETE_SELF 0x00000400
+  10733 _POSIX_C_SOURCE 200809L
+  1074b IN_MASK_ADD 0x20000000
+  10762 __USING_NAMESPACE_C99(name) 
+  1077f __need_clock_t
+  1078e __bswap_constant_64(x) (__extension__ ((((x) & 0xff00000000000000ull) >> 56) | (((x) & 0x00ff000000000000ull) >> 40) | (((x) & 0x0000ff0000000000ull) >> 24) | (((x) & 0x000000ff00000000ull) >> 8) | (((x) & 0x00000000ff000000ull) << 8) | (((x) & 0x0000000000ff0000ull) << 24) | (((x) & 0x000000000000ff00ull) << 40) | (((x) & 0x00000000000000ffull) << 56)))
+  108f3 LOG_ERR 3
+  108fd __DEC32_MANT_DIG__ 7
+  10912 __WCHAR_MIN __WCHAR_MIN__
+  1092c __USE_ATFILE 1
+  1093b INTPTR_MAX (2147483647)
+  10953 __LDBL_MANT_DIG__ 53
+  10968 __have_sigevent_t 1
+  1097c __ULLFRACT_FBIT__ 64
+  10991 _SC_NL_SETMAX _SC_NL_SETMAX
+  109ad _CS_POSIX_V6_ILP32_OFFBIG_LINTFLAGS _CS_POSIX_V6_ILP32_OFFBIG_LINTFLAGS
+  109f5 __attribute_artificial__ __attribute__ ((__artificial__))
+  10a2f __DQ_IBIT__ 0
+  10a3d _POSIX_IPV6 200809L
+  10a51 S_IEXEC S_IXUSR
+  10a61 TIOCSERCONFIG 0x5453
+  10a76 _CS_POSIX_V7_ILP32_OFF32_LINTFLAGS _CS_POSIX_V7_ILP32_OFF32_LINTFLAGS
+  10abc STDERR_FILENO 2
+  10acc __FSBLKCNT64_T_TYPE __UQUAD_TYPE
+  10aed _SIZE_T_DEFINED 
+  10afe IN_ALL_EVENTS (IN_ACCESS | IN_MODIFY | IN_ATTRIB | IN_CLOSE_WRITE | IN_CLOSE_NOWRITE | IN_OPEN | IN_MOVED_FROM | IN_MOVED_TO | IN_CREATE | IN_DELETE | IN_DELETE_SELF | IN_MOVE_SELF)
+  10bb4 AT_SYMLINK_NOFOLLOW 0x100
+  10bce __UQQ_IBIT__ 0
+  10bdd __CLOCK_T_TYPE __SLONGWORD_TYPE
+  10bfd _IOC_DIRSHIFT (_IOC_SIZESHIFT+_IOC_SIZEBITS)
+  10c2a INT16_MIN (-32767-1)
+  10c3f __STD_TYPE
+  10c4a _SC_CHAR_MIN _SC_CHAR_MIN
+  10c64 __CLOCKID_T_TYPE __S32_TYPE
+  10c80 _CS_V5_WIDTH_RESTRICTED_ENVS _CS_V5_WIDTH_RESTRICTED_ENVS
+  10cba si_fd _sifields._sigpoll.si_fd
+  10cd9 __attribute_alloc_size__(params) __attribute__ ((__alloc_size__ params))
+  10d22 LOG_CRON (9<<3)
+  10d32 __ILP32_OFFBIG_CFLAGS "-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
+  10d75 __need_NULL 
+  10d82 N_SMSBLOCK 12
+  10d90 CKILL CTRL('u')
+  10da0 NULL ((void *)0)
+  10db1 LOCK_UN 8
+  10dbb _POSIX_THREAD_PRIORITY_SCHEDULING 200809L
+  10de5 __ARM_ARCH_7A__ 1
+  10df7 __bswap_16(x) (__extension__ ({ unsigned short int __bsx = (unsigned short int) (x); __bswap_constant_16 (__bsx); }))
+  10e6d S_IRWXU (__S_IREAD|__S_IWRITE|__S_IEXEC)
+  10e96 ALLPERMS (S_ISUID|S_ISGID|S_ISVTX|S_IRWXU|S_IRWXG|S_IRWXO)
+  10ed1 SIGWINCH 28
+  10edd _SC_MEMLOCK_RANGE _SC_MEMLOCK_RANGE
+  10f01 __ACCUM_MIN__ (-0X1P15K-0X1P15K)
+  10f22 __SCHAR_MAX__ 127
+  10f34 IN_Q_OVERFLOW 0x00004000
+  10f4d N_TTY 0
+  10f55 __ORDER_BIG_ENDIAN__ 4321
+  10f6f SIOCSIFMTU 0x8922
+  10f81 __gnu_linux__ 1
+  10f91 WIFSIGNALED(status) __WIFSIGNALED (__WAIT_INT (status))
+  10fc9 _SC_C_LANG_SUPPORT _SC_C_LANG_SUPPORT
+  10fef SIGPWR 30
+  10ff9 IN_ONESHOT 0x80000000
+  1100f _CS_POSIX_V6_ILP32_OFF32_LDFLAGS _CS_POSIX_V6_ILP32_OFF32_LDFLAGS
+  11051 TCGETS 0x5401
+  1105f LOG_INFO 6
+  1106a _SC_MONOTONIC_CLOCK _SC_MONOTONIC_CLOCK
+  11092 __UINT_FAST32_TYPE__ unsigned int
+  110b4 _SC_LONG_BIT _SC_LONG_BIT
+  110ce INT64_MIN (-__INT64_C(9223372036854775807)-1)
+  110fc _SYS_WAIT_H 1
+  1110a _CS_LFS_LIBS _CS_LFS_LIBS
+  11124 _SC_PIPE _SC_PIPE
+  11136 __STDC_IEC_559_COMPLEX__ 1
+  11151 _SC_STREAM_MAX _SC_STREAM_MAX
+  1116f __UINT_FAST16_TYPE__ unsigned int
+  11191 __LDBL_REDIR_NTH(name,proto) name proto __THROW
+  111c1 handle_mount
+  111ce _CS_XBS5_ILP32_OFFBIG_CFLAGS _CS_XBS5_ILP32_OFFBIG_CFLAGS
+  11208 SIGSYS 31
+  11212 _XBS5_ILP32_OFF32 1
+  11226 SIGTERM 15
+  11231 SIOCGIFSLAVE 0x8929
+  11245 __extern_inline extern __inline __attribute__ ((__gnu_inline__))
+  11286 __need_wchar_t
+  11295 __FLT_DECIMAL_DIG__ 9
+  112ab O_NDELAY O_NONBLOCK
+  112bf le32toh(x) (x)
+  112ce TIOCGPTN _IOR('T', 0x30, unsigned int)
+  112f5 __USACCUM_IBIT__ 8
+  11308 S_IFIFO __S_IFIFO
+  1131a _SC_TRACE_EVENT_NAME_MAX _SC_TRACE_EVENT_NAME_MAX
+  1134c _IO_stderr ((_IO_FILE*)(&_IO_2_1_stderr_))
+  11377 __ULFRACT_MIN__ 0.0ULR
+  1138e __linux 1
+  11398 total_count
+  113a4 __ARM_FEATURE_SIMD32 1
+  113bb __GLIBC_PREREQ(maj,min) ((__GLIBC__ << 16) + __GLIBC_MINOR__ >= ((maj) << 16) + (min))
+  11412 __UINTPTR_TYPE__ unsigned int
+  11430 INT16_MAX (32767)
+  11442 NSIG _NSIG
+  1144d __FINITE_MATH_ONLY__ 0
+  11464 __S_ISVTX 01000
+  11474 __id_t_defined 
+  11484 _SIGSET_H_fns 1
+  11494 __need_clockid_t 
+  114a6 _SC_FIFO _SC_FIFO
+  114b8 _CS_POSIX_V7_LP64_OFF64_LDFLAGS _CS_POSIX_V7_LP64_OFF64_LDFLAGS
+  114f8 _SYS_SIZE_T_H 
+  11507 SA_NODEFER 0x40000000
+  1151d _SC_2_CHAR_TERM _SC_2_CHAR_TERM
+  1153d __STDC__ 1
+  11548 F_SETLK64 13
+  11555 CINTR CTRL('c')
+  11565 _IOC_DIRMASK ((1 << _IOC_DIRBITS)-1)
+  1158a _SC_SHELL _SC_SHELL
+  1159e TTYDEF_CFLAG (CREAD | CS7 | PARENB | HUPCL)
+  115ca SI_SIGIO SI_SIGIO
+  115dc _STDC_PREDEF_H 1
+  115ed __SI_PAD_SIZE ((__SI_MAX_SIZE / sizeof (int)) - 3)
+  11620 _SC_USER_GROUPS _SC_USER_GROUPS
+  11640 _IO_putc_unlocked(_ch,_fp) (_IO_BE ((_fp)->_IO_write_ptr >= (_fp)->_IO_write_end, 0) ? __overflow (_fp, (unsigned char) (_ch)) : (unsigned char) (*(_fp)->_IO_write_ptr++ = (_ch)))
+  116f4 __UINT16_MAX__ 65535
+  11709 __daddr_t_defined 
+  1171c __extern_always_inline extern __always_inline __attribute__ ((__gnu_inline__))
+  1176b LOG_UPTO(pri) ((1 << ((pri)+1)) - 1)
+  11790 __ARM_SIZEOF_MINIMAL_ENUM 4
+  117ac _SC_XOPEN_ENH_I18N _SC_XOPEN_ENH_I18N
+  117d2 _SC_NGROUPS_MAX _SC_NGROUPS_MAX
+  117f2 __LLFRACT_EPSILON__ 0x1P-63LLR
+  11811 __WALL 0x40000000
+  11823 __INT32_TYPE__ int
+  11836 _SC_USER_GROUPS_R _SC_USER_GROUPS_R
+  1185a FIONREAD 0x541B
+  1186a __S_IFCHR 0020000
+  1187c __bos0(ptr) __builtin_object_size (ptr, 0)
+  118a7 __DA_FBIT__ 31
+  118b6 __BYTE_ORDER __LITTLE_ENDIAN
+  118d3 be16toh(x) __bswap_16 (x)
+  118ed _SC_ULONG_MAX _SC_ULONG_MAX
+  11909 _G_IO_IO_FILE_VERSION 0x20001
+  11927 CRPRNT CREPRINT
+  11937 __GCC_ATOMIC_BOOL_LOCK_FREE 2
+  11955 SIOCPROTOPRIVATE 0x89E0
+  1196d __DEC64_MAX__ 9.999999999999999E384DD
+  11993 _POSIX_MONOTONIC_CLOCK 0
+  119ac /run/shm/assignments/4-media-fb
+  119cc __WCHAR_MAX__ 4294967295U
+  119e6 __USE_FILE_OFFSET64
+  119fa _IOR_BAD(type,nr,size) _IOC(_IOC_READ,(type),(nr),sizeof(size))
+  11a3a __W_CONTINUED 0xffff
+  11a4f __DA_IBIT__ 32
+  11a5e SIOCDRARP 0x8960
+  11a6f __TQ_FBIT__ 127
+  11a7f __VFP_FP__ 1
+  11a8c __DBL_MIN_10_EXP__ (-307)
+  11aa6 stderr stderr
+  11ab4 __glibc_unlikely(cond) __builtin_expect ((cond), 0)
+  11ae8 __INT_LEAST8_MAX__ 127
+  11aff _IOC_NR(nr) (((nr) >> _IOC_NRSHIFT) & _IOC_NRMASK)
+  11b32 SIGTTOU 22
+  11b3d TIOCVHANGUP 0x5437
+  11b50 UINTPTR_MAX (4294967295U)
+  11b6a SIGPIPE 13
+  11b75 _SC_THREAD_STACK_MIN _SC_THREAD_STACK_MIN
+  11b9f __UFRACT_MIN__ 0.0UR
+  11bb4 __ULFRACT_IBIT__ 0
+  11bc7 _SC_THREAD_ATTR_STACKSIZE _SC_THREAD_ATTR_STACKSIZE
+  11bfb __nonnull(params) __attribute__ ((__nonnull__ params))
+  11c32 TIOCGEXCL _IOR('T', 0x40, int)
+  11c51 __BLKCNT64_T_TYPE __SQUAD_TYPE
+  11c70 _IO_CURRENTLY_PUTTING 0x800
+  11c8c si_utime _sifields._sigchld.si_utime
+  11cb1 __PDP_ENDIAN 3412
+  11cc3 _SC_MB_LEN_MAX _SC_MB_LEN_MAX
+  11ce1 _CS_POSIX_V7_ILP32_OFFBIG_LDFLAGS _CS_POSIX_V7_ILP32_OFFBIG_LDFLAGS
+  11d25 _IO_pid_t __pid_t
+  11d37 _ASMARM_SIGCONTEXT_H 
+  11d4d __sigset_t_defined 
+  11d61 REG_R6 REG_R6
+  11d6f SIOCGIFENCAP 0x8925
+  11d83 __SIZEOF_DOUBLE__ 8
+  11d97 __FLOAT_WORD_ORDER __BYTE_ORDER
+  11db7 __LDBL_MAX_EXP__ 1024
+  11dcd TIOCGICOUNT 0x545D
+  11de0 _SC_TIMER_MAX _SC_TIMER_MAX
+  11dfc TIOCSERGETMULTI 0x545A
+  11e13 _STDIO_USES_IOSTREAM 
+  11e29 S_BLKSIZE 512
+  11e37 _BSD_WCHAR_T_ 
+  11e46 REG_R1 REG_R1
+  11e54 sigmask(sig) __sigmask(sig)
+  11e70 __lldiv_t_defined 1
+  11e84 INT_LEAST64_MAX (__INT64_C(9223372036854775807))
+  11eb5 UINT_LEAST64_MAX (__UINT64_C(18446744073709551615))
+  11ee9 __SIZEOF_PTHREAD_ATTR_T 36
+  11f04 __attribute_noinline__ __attribute__ ((__noinline__))
+  11f3a ILL_BADSTK ILL_BADSTK
+  11f50 __SIZEOF_PTHREAD_RWLOCKATTR_T 8
+  11f70 __INT_FAST32_MAX__ 2147483647
+  11f8e _CS_POSIX_V6_LP64_OFF64_LDFLAGS _CS_POSIX_V6_LP64_OFF64_LDFLAGS
+  11fce SIGHUP 1
+  11fd7 _POSIX_THREAD_ROBUST_PRIO_INHERIT 200809L
+  12001 __LLACCUM_FBIT__ 31
+  12015 SIOCSIFHWBROADCAST 0x8937
+  1202f __USE_GNU
+  12039 LOG_PID 0x01
+  12046 __WIFSTOPPED(status) (((status) & 0xff) == 0x7f)
+  12077 __USE_POSIX2
+  12084 __have_sigval_t 1
+  12096 SIGSTKFLT 16
+  120a3 __need_timeval
+  120b2 __UINT_FAST8_MAX__ 255
+  120c9 __UDA_IBIT__ 32
+  120d9 _SC_2_UPE _SC_2_UPE
+  120ed S_IRWXG (S_IRWXU >> 3)
+  12104 SA_SIGINFO 4
+  12111 inotify_event
+  1211f TIOCSERGETLSR 0x5459
+  12134 __arm__ 1
+  1213e _SC_XBS5_LP64_OFF64 _SC_XBS5_LP64_OFF64
+  12166 _SC_RAW_SOCKETS _SC_RAW_SOCKETS
+  12186 _SC_CLOCK_SELECTION _SC_CLOCK_SELECTION
+  121ae TCSETS 0x5402
+  121bc __stub_create_module 
+  121d2 __USE_MISC
+  121dd __O_DSYNC 010000
+  121ee _SC_AIO_MAX _SC_AIO_MAX
+  12206 CDISCARD CTRL('o')
+  12219 WCOREDUMP(status) __WCOREDUMP (__WAIT_INT (status))
+  1224d SI_ASYNCIO SI_ASYNCIO
+  12263 _POSIX_V7_LP64_OFF64 -1
+  1227b media_path
+  12286 __USE_XOPEN2KXSI
+  12297 SIOCGIFMEM 0x891f
+  122a9 __S_ISUID 04000
+  122b9 _SC_SPORADIC_SERVER _SC_SPORADIC_SERVER
+  122e1 LOG_AUTH (4<<3)
+  122f1 _IOC_TYPE(nr) (((nr) >> _IOC_TYPESHIFT) & _IOC_TYPEMASK)
+  1232a __blkcnt_t_defined 
+  1233e __ATOMIC_ACQ_REL 4
+  12351 _SC_MEMORY_PROTECTION _SC_MEMORY_PROTECTION
+  1237d __WNOTHREAD 0x20000000
+  12394 _T_WCHAR 
+  1239e _SIZET_ 
+  123a7 __INT8_TYPE__ signed char
+  123c1 TIOCNXCL 0x540D
+  123d1 __LDBL_DENORM_MIN__ 4.9406564584124654e-324L
+  123fe UINT16_MAX (65535)
+  12411 _G_va_list __gnuc_va_list
+  1242b __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+  12450 SS_ONSTACK SS_ONSTACK
+  12466 SIG_DFL ((__sighandler_t) 0)
+  12483 SI_ASYNCNL SI_ASYNCNL
+  12499 IN_CLOEXEC IN_CLOEXEC
+  124af X_OK 1
+  124b6 _ATFILE_SOURCE 1
+  124c7 WAIT_ANY (-1)
+  124d5 _BITS_SYSLOG_PATH_H 1
+  124eb CMIN 1
+  124f2 _IOLBF 1
+  124fb _IOC_SIZESHIFT (_IOC_TYPESHIFT+_IOC_TYPEBITS)
+  12529 _CS_POSIX_V7_LPBIG_OFFBIG_LINTFLAGS _CS_POSIX_V7_LPBIG_OFFBIG_LINTFLAGS
+  12571 _SC_LEVEL4_CACHE_SIZE _SC_LEVEL4_CACHE_SIZE
+  1259d SIGEV_THREAD SIGEV_THREAD
+  125b7 SA_NOMASK SA_NODEFER
+  125cc SIOCSIFHWADDR 0x8924
+  125e1 __F_SETOWN_EX 15
+  125f2 _IOC_SIZE(nr) (((nr) >> _IOC_SIZESHIFT) & _IOC_SIZEMASK)
+  1262b BUFSIZ _IO_BUFSIZ
+  1263d _ALLOCA_H 1
+  12649 sa_handler __sigaction_handler.sa_handler
+  12673 _STAT_VER_LINUX 3
+  12685 _CS_XBS5_LPBIG_OFFBIG_LINTFLAGS _CS_XBS5_LPBIG_OFFBIG_LINTFLAGS
+  126c5 __INT_FAST8_TYPE__ signed char
+  126e4 _SYS_INOTIFY_H 1
+  126f5 TIOCGDEV _IOR('T', 0x32, unsigned int)
+  1271c le16toh(x) (x)
+  1272b __UINT_LEAST32_MAX__ 4294967295U
+  1274c TIOCM_DSR 0x100
+  1275c _SC_EXPR_NEST_MAX _SC_EXPR_NEST_MAX
+  12780 SIG_ATOMIC_MIN (-2147483647-1)
+  1279f __LLFRACT_IBIT__ 0
+  127b2 _POSIX_TRACE_EVENT_FILTER -1
+  127cf _SC_PII_INTERNET_STREAM _SC_PII_INTERNET_STREAM
+  127ff __GNUC_GNU_INLINE__ 1
+  12815 _SIGSET_H_types 1
+  12827 __WCHAR_T 
+  12832 dd_fd
+  12838 _PC_NAME_MAX _PC_NAME_MAX
+  12852 __S_IFBLK 0060000
+  12864 __u_char_defined 
+  12876 __STDC_IEC_559__ 1
+  12889 _SYS_TYPES_H 1
+  12898 __DEC64_MIN__ 1E-383DD
+  128af __INT16_C(c) c
+  128be __WINT_TYPE__ unsigned int
+  128d9 IN_MOVED_FROM 0x00000040
+  128f2 __need_wchar_t 
+  12902 __BLKSIZE_T_TYPE __SLONGWORD_TYPE
+  12924 _IO_IS_APPENDING 0x1000
+  1293c S_IWGRP (S_IWUSR >> 3)
+  12953 _POSIX_THREAD_ROBUST_PRIO_PROTECT -1
+  12978 __SIZEOF_SHORT__ 2
+  1298b POSIX_FADV_NOREUSE __POSIX_FADV_NOREUSE
+  129b3 N_SLIP 1
+  129bc WIFSTOPPED(status) __WIFSTOPPED (__WAIT_INT (status))
+  129f2 O_NOFOLLOW __O_NOFOLLOW
+  12a0a INTMAX_MIN (-__INT64_C(9223372036854775807)-1)
+  12a39 _XOPEN_LEGACY 1
+  12a49 SIGCHLD 17
+  12a54 FPE_FLTDIV FPE_FLTDIV
+  12a6a SIGEV_SIGNAL SIGEV_SIGNAL
+  12a84 SIOCDEVPRIVATE 0x89F0
+  12a9a _SC_USHRT_MAX _SC_USHRT_MAX
+  12ab6 _SC_LEVEL3_CACHE_LINESIZE _SC_LEVEL3_CACHE_LINESIZE
+  12aea __USFRACT_MIN__ 0.0UHR
+  12b01 _IOC_TYPEMASK ((1 << _IOC_TYPEBITS)-1)
+  12b28 _SC_TZNAME_MAX _SC_TZNAME_MAX
+  12b46 O_FSYNC O_SYNC
+  12b55 __DEC128_MIN__ 1E-6143DL
+  12b6e __BEGIN_DECLS 
+  12b7d _NSIG 65
+  12b86 __restrict_arr __restrict
+  12ba0 _SC_UINT_MAX _SC_UINT_MAX
+  12bba _CS_POSIX_V7_LP64_OFF64_CFLAGS _CS_POSIX_V7_LP64_OFF64_CFLAGS
+  12bf8 WEXITSTATUS(status) __WEXITSTATUS (__WAIT_INT (status))
+  12c30 __UINT64_MAX__ 18446744073709551615ULL
+  12c57 _G_config_h 1
+  12c65 _SC_PII_SOCKET _SC_PII_SOCKET
+  12c83 _POSIX_NO_TRUNC 1
+  12c95 _IO_FLAGS2_MMAP 1
+  12ca7 REG_R0 REG_R0
+  12cb5 SIGXCPU 24
+  12cc0 __STDC_NO_THREADS__ 1
+  12cd6 TCSETAF 0x5408
+  12ce5 __USE_POSIX199506 1
+  12cf9 __INT_FAST64_MAX__ 9223372036854775807LL
+  12d22 _PC_LINK_MAX _PC_LINK_MAX
+  12d3c _CS_POSIX_V7_ILP32_OFFBIG_CFLAGS _CS_POSIX_V7_ILP32_OFFBIG_CFLAGS
+  12d7e __need_time_t 
+  12d8d __SFRACT_EPSILON__ 0x1P-7HR
+  12da9 __ATOMIC_CONSUME 1
+  12dbc __WINT_MAX__ 4294967295U
+  12dd5 __FLT_MIN__ 1.1754943508222875e-38F
+  12df9 _SC_XBS5_ILP32_OFFBIG _SC_XBS5_ILP32_OFFBIG
+  12e25 _IO_MAGIC_MASK 0xFFFF0000
+  12e3f __ASM_GENERIC_IOCTLS_H 
+  12e57 __INTMAX_MAX__ 9223372036854775807LL
+  12e7c _SC_FILE_LOCKING _SC_FILE_LOCKING
+  12e9e __UID_T_TYPE __U32_TYPE
+  12eb6 __WTERMSIG(status) ((status) & 0x7f)
+  12edb _SC_2_VERSION _SC_2_VERSION
+  12ef7 _CS_LFS64_LDFLAGS _CS_LFS64_LDFLAGS
+  12f1b __USFRACT_FBIT__ 8
+  12f2e SIGSEGV 11
+  12f39 __USE_XOPEN2K8 1
+  12f4a FPE_FLTOVF FPE_FLTOVF
+  12f60 _IO_feof_unlocked(__fp) (((__fp)->_flags & _IO_EOF_SEEN) != 0)
+  12f9f _POSIX_TRACE -1
+  12faf __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+  12fd0 __INT_LEAST32_TYPE__ int
+  12fe9 __SIZEOF_PTRDIFF_T__ 4
+  13000 SIOCSIFFLAGS 0x8914
+  13014 POLL_IN POLL_IN
+  13024 _POSIX_REGEXP 1
+  13034 _IO_off64_t __off64_t
+  1304a __SSIZE_T_TYPE __SWORD_TYPE
+  13066 _SC_V6_LPBIG_OFFBIG _SC_V6_LPBIG_OFFBIG
+  1308e _IO_UNIFIED_JUMPTABLES 1
+  130a7 _VA_LIST_T_H 
+  130b5 __ssize_t_defined 
+  130c8 _SC_SSIZE_MAX _SC_SSIZE_MAX
+  130e4 _CS_XBS5_LP64_OFF64_LDFLAGS _CS_XBS5_LP64_OFF64_LDFLAGS
+  1311c N_STRIP 4
+  13126 _ATFILE_SOURCE
+  13135 _SC_ADVISORY_INFO _SC_ADVISORY_INFO
+  13159 _VA_LIST_ 
+  13164 __INT64_C(c) c ## LL
+  13179 __SUSECONDS_T_TYPE __SLONGWORD_TYPE
+  1319d TIOCPKT_NOSTOP 16
+  131af ____FILE_defined 1
+  131c2 __UINT_LEAST16_MAX__ 65535
+  131dd __DBL_MIN_EXP__ (-1021)
+  131f5 FD_ISSET(fd,fdsetp) __FD_ISSET (fd, fdsetp)
+  13221 __USE_POSIX199309
+  13233 _SC_SAVED_IDS _SC_SAVED_IDS
+  1324f TIOCPKT_DOSTOP 32
+  13261 _SC_LEVEL2_CACHE_SIZE _SC_LEVEL2_CACHE_SIZE
+  1328d S_IWUSR __S_IWRITE
+  132a0 __VERSION__ "4.9.2"
+  132b4 __LDBL_MAX_10_EXP__ 308
+  132cc SIOCGIFCOUNT 0x8938
+  132e0 __ACCUM_MAX__ 0X7FFFFFFFP-15K
+  132fe _SC_SEMAPHORES _SC_SEMAPHORES
+  1331c LOG_DEBUG 7
+  13328 _POSIX_SHARED_MEMORY_OBJECTS 200809L
+  1334d _POSIX_SOURCE 1
+  1335d _SC_FD_MGMT _SC_FD_MGMT
+  13375 __S_IWRITE 0200
+  13385 _POSIX_ADVISORY_INFO 200809L
+  133a2 alloca(size) __builtin_alloca (size)
+  133c7 __TA_FBIT__ 63
+  133d6 __DEC32_MAX__ 9.999999E96DF
+  133f2 _SC_SS_REPL_MAX _SC_SS_REPL_MAX
+  13412 UINTMAX_MAX (__UINT64_C(18446744073709551615))
+  13441 _CS_LFS64_LINTFLAGS _CS_LFS64_LINTFLAGS
+  13469 IN_DONT_FOLLOW 0x02000000
+  13483 _IO_ERR_SEEN 0x20
+  13495 SIGABRT 6
+  1349f _POSIX_THREAD_PRIO_PROTECT 200809L
+  134c2 __TIMER_T_TYPE void *
+  134d8 REG_R10 REG_R10
+  134e8 SIOCGIFBR 0x8940
+  134f9 LOG_LOCAL5 (21<<3)
+  1350c _IO_USER_BUF 1
+  1351b __UWORD_TYPE unsigned int
+  13535 _IOC_DIRBITS 2
+  13544 SIOCSIFADDR 0x8916
+  13557 S_IFCHR __S_IFCHR
+  13569 INT_FAST32_MAX (2147483647)
+  13585 __HA_IBIT__ 8
+  13593 __TA_IBIT__ 64
+  135a2 __LITTLE_ENDIAN 1234
+  135b7 htobe16(x) __bswap_16 (x)
+  135d1 SIGUSR2 12
+  135dc __HQ_IBIT__ 0
+  135ea __GNU_LIBRARY__ 6
+  135fc NFDBITS __NFDBITS
+  1360e __FLT_EVAL_METHOD__ 0
+  13624 __FSFILCNT64_T_TYPE __UQUAD_TYPE
+  13645 WINT_MIN (0u)
+  13653 _SC_V6_LP64_OFF64 _SC_V6_LP64_OFF64
+  13677 _IO_size_t size_t
+  13689 TCFLSH 0x540B
+  13697 _SC_2_PBS _SC_2_PBS
+  136ab EXIT_FAILURE 1
+  136ba _CS_POSIX_V6_LPBIG_OFFBIG_LINTFLAGS _CS_POSIX_V6_LPBIG_OFFBIG_LINTFLAGS
+  13702 __UHA_FBIT__ 8
+  13711 TRAP_TRACE TRAP_TRACE
+  13727 POSIX_FADV_RANDOM 1
+  1373b _POSIX2_CHAR_TERM 200809L
+  13755 __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+  1379a _SC_XOPEN_REALTIME_THREADS _SC_XOPEN_REALTIME_THREADS
+  137d0 __ARM_FEATURE_CLZ 1
+  137e4 _IOC_TYPEBITS 8
+  137f4 F_SETLK 6
+  137fe sigev_notify_attributes _sigev_un._sigev_thread._attribute
+  13839 _CS_LFS_CFLAGS _CS_LFS_CFLAGS
+  13857 _POSIX_CPUTIME 0
+  13868 _SVID_SOURCE
+  13875 SIOGIFINDEX SIOCGIFINDEX
+  1388e F_SETFD 2
+  13898 __ENUM_IDTYPE_T 1
+  138aa WSTOPSIG(status) __WSTOPSIG (__WAIT_INT (status))
+  138dc _CS_XBS5_LPBIG_OFFBIG_LIBS _CS_XBS5_LPBIG_OFFBIG_LIBS
+  13912 __SIZEOF_PTHREAD_COND_COMPAT_T 12
+  13934 _SC_PHYS_PAGES _SC_PHYS_PAGES
+  13952 S_IFREG __S_IFREG
+  13964 __WSTOPSIG(status) __WEXITSTATUS(status)
+  1398d _ASM_GENERIC_IOCTL_H 
+  139a3 SIZE_MAX (4294967295U)
+  139ba _SC_INT_MIN _SC_INT_MIN
+  139d2 LOG_NEWS (7<<3)
+  139e2 O_ASYNC 020000
+  139f1 _XOPEN_CRYPT 1
+  13a00 _SC_MEMLOCK _SC_MEMLOCK
+  13a18 si_addr_lsb _sifields._sigfault.si_addr_lsb
+  13a44 __PMT
+  13a4a main.c
+  13a51 __DBL_HAS_QUIET_NAN__ 1
+  13a69 __LDBL_MIN_10_EXP__ (-307)
+  13a84 _IO_PENDING_OUTPUT_COUNT(_fp) ((_fp)->_IO_write_ptr - (_fp)->_IO_write_base)
+  13ad1 __NO_INLINE__ 1
+  13ae1 _IO_TIED_PUT_GET 0x400
+  13af8 _POSIX2_C_BIND __POSIX2_THIS_VERSION
+  13b1d __UINTPTR_MAX__ 4294967295U
+  13b39 __USFRACT_IBIT__ 0
+  13b4c _SC_AVPHYS_PAGES _SC_AVPHYS_PAGES
+  13b6e WAIT_MYPGRP 0
+  13b7c __unix 1
+  13b85 _CS_XBS5_LP64_OFF64_LIBS _CS_XBS5_LP64_OFF64_LIBS
+  13bb7 __LDBL_HAS_INFINITY__ 1
+  13bcf _CS_LFS64_CFLAGS _CS_LFS64_CFLAGS
+  13bf1 __sigmask(sig) (((unsigned long int) 1) << (((sig) - 1) % (8 * sizeof (unsigned long int))))
+  13c4e __attribute_format_strfmon__(a,b) __attribute__ ((__format__ (__strfmon__, a, b)))
+  13ca1 SV_INTERRUPT (1 << 1)
+  13cb7 _STAT_VER_LINUX_OLD 1
+  13ccd __S_IEXEC 0100
+  13cdc _IOFBF 0
+  13ce5 __SFRACT_MAX__ 0X7FP-7HR
+  13cfe LOG_NFACILITIES 24
+  13d11 F_SETLKW64 14
+  13d1f INT_FAST64_MAX (__INT64_C(9223372036854775807))
+  13d4f le64toh(x) (x)
+  13d5e WINT_MAX (4294967295u)
+  13d75 _SC_SHARED_MEMORY_OBJECTS _SC_SHARED_MEMORY_OBJECTS
+  13da9 BUS_OBJERR BUS_OBJERR
+  13dbf _IO_EOF_SEEN 0x10
+  13dd1 _PC_MAX_INPUT _PC_MAX_INPUT
+  13ded __SIZEOF_LONG_DOUBLE__ 8
+  13e06 dev_name
+  13e0f LOG_FAC(p) (((p) & LOG_FACMASK) >> 3)
+  13e35 UINT_FAST16_MAX (4294967295U)
+  13e53 _STAT_VER_SVR4 2
+  13e64 __S_IFSOCK 0140000
+  13e77 PTRDIFF_MAX (2147483647)
+  13e90 __GLIBC_MINOR__ 19
+  13ea3 _IO_ssize_t __ssize_t
+  13eb9 __FLT_HAS_DENORM__ 1
+  13ece _PC_VDISABLE _PC_VDISABLE
+  13ee8 __THUMBEL__ 1
+  13ef6 __FSBLKCNT_T_TYPE __ULONGWORD_TYPE
+  13f19 N_X25 6
+  13f21 __INT_LEAST16_TYPE__ short int
+  13f40 __PID_T_TYPE __S32_TYPE
+  13f58 CLD_STOPPED CLD_STOPPED
+  13f70 FASYNC O_ASYNC
+  13f7f __TQ_IBIT__ 0
+  13f8d W_EXITCODE(ret,sig) __W_EXITCODE (ret, sig)
+  13fb9 _SC_FSYNC _SC_FSYNC
+  13fcd _POSIX_V7_ILP32_OFFBIG 1
+  13fe6 SIG_UNBLOCK 1
+  13ff4 __SIZEOF_FLOAT__ 4
+  14007 main
+  1400c __DEC128_EPSILON__ 1E-33DL
+  14027 __SIZE_T__ 
+  14033 _SC_PII_OSI_COTS _SC_PII_OSI_COTS
+  14055 __SIZE_TYPE__ unsigned int
+  14070 _POSIX_PRIORITIZED_IO 200809L
+  1408e IN_ATTRIB 0x00000004
+  140a3 _IO_UNBUFFERED 2
+  140b4 __UINT_LEAST8_TYPE__ unsigned char
+  140d7 IN_MODIFY 0x00000002
+  140ec S_TYPEISSHM(buf) __S_TYPEISSHM(buf)
+  14110 SIGCONT 18
+  1411b _SC_CPUTIME _SC_CPUTIME
+  14133 __warnattr(msg) __attribute__((__warning__ (msg)))
+  14166 __STRING(x) #x
+  14175 TCSETSW 0x5403
+  14184 LOCK_EX 2
+  1418e _G_BUFSIZ 8192
+  1419d S_ISSOCK(mode) __S_ISTYPE((mode), __S_IFSOCK)
+  141cb __FSWORD_T_TYPE __SWORD_TYPE
+  141e8 __CHAR16_TYPE__ short unsigned int
+  1420b __UQUAD_TYPE __u_quad_t
+  14223 __USE_FORTIFY_LEVEL 0
+  14239 __UFRACT_FBIT__ 16
+  1424c _POSIX_THREAD_ATTR_STACKSIZE 200809L
+  14271 _CS_POSIX_V6_ILP32_OFF32_LINTFLAGS _CS_POSIX_V6_ILP32_OFF32_LINTFLAGS
+  142b7 BUS_ADRALN BUS_ADRALN
+  142cd SA_RESTART 0x10000000
+  142e3 _SC_SHRT_MAX _SC_SHRT_MAX
+  142fd _CS_XBS5_LPBIG_OFFBIG_CFLAGS _CS_XBS5_LPBIG_OFFBIG_CFLAGS
+  14337 _SC_XOPEN_STREAMS _SC_XOPEN_STREAMS
+  1435b __attribute_const__ __attribute__ ((__const__))
+  1438b __S_IFMT 0170000
+  1439c S_IREAD S_IRUSR
+  143ac stdout stdout
+  143ba htole16(x) (x)
+  143c9 _IO_DEC 020
+  143d5 __INT64_TYPE__ long long int
+  143f2 SIG_SETMASK 2
+  14400 __UHA_IBIT__ 8
+  1440f _IO_fpos64_t _G_fpos64_t
+  14428 __SYSCALL_SLONG_TYPE __SLONGWORD_TYPE
+  1444e SIGVTALRM 26
+  1445b __LLFRACT_MAX__ 0X7FFFFFFFFFFFFFFFP-63LLR
+  14485 F_GETOWN __F_GETOWN
+  14499 _POSIX_THREAD_SPORADIC_SERVER -1
+  144ba __U64_TYPE __u_quad_t
+  144d0 free_ret
+  144d9 INT_LEAST64_MIN (-__INT64_C(9223372036854775807)-1)
+  1450d __S16_TYPE short int
+  14522 _POSIX_ASYNC_IO 1
+  14534 POLL_ERR POLL_ERR
+  14546 _SC_THREAD_PROCESS_SHARED _SC_THREAD_PROCESS_SHARED
+  1457a __GNUC_MINOR__ 9
+  1458b _IO_getc_unlocked(_fp) (_IO_BE ((_fp)->_IO_read_ptr >= (_fp)->_IO_read_end, 0) ? __uflow (_fp) : *(unsigned char *) (_fp)->_IO_read_ptr++)
+  14616 IOCSIZE_SHIFT (_IOC_SIZESHIFT)
+  14635 LOG_LOCAL4 (20<<3)
+  14648 __INTMAX_TYPE__ long long int
+  14666 __UINT_LEAST16_TYPE__ short unsigned int
+  1468f WIFCONTINUED(status) __WIFCONTINUED (__WAIT_INT (status))
+  146c9 __ULLFRACT_EPSILON__ 0x1P-64ULLR
+  146ea ILL_ILLOPC ILL_ILLOPC
+  14700 _SC_V7_LP64_OFF64 _SC_V7_LP64_OFF64
+  14724 FD_SETSIZE __FD_SETSIZE
+  1473c file_to_chunk(f) ((struct media_file_chunk *)(((intptr_t)f) & ~4095UL))
+  14784 TIOCSERSETMULTI 0x545B
+  1479b __GNUC__ 4
+  147a6 SI_TIMER SI_TIMER
+  147b8 __ULONG32_TYPE unsigned long int
+  147d9 SIOCGIFFLAGS 0x8913
+  147ed _SC_SYNCHRONIZED_IO _SC_SYNCHRONIZED_IO
+  14815 si_arch _sifields._sigsys._arch
+  14835 IOC_INOUT ((_IOC_WRITE|_IOC_READ) << _IOC_DIRSHIFT)
+  14869 FFSYNC O_FSYNC
+  14878 _IOC_SIZEBITS 14
+  14889 POLL_MSG POLL_MSG
+  1489b __FLT_DENORM_MIN__ 1.4012984643248171e-45F
+  148c6 SIGSTOP 19
+  148d1 SIOCGIFMAP 0x8970
+  148e3 TIOCM_CTS 0x020
+  148f3 F_EXLCK 4
+  148fd _CS_XBS5_ILP32_OFFBIG_LDFLAGS _CS_XBS5_ILP32_OFFBIG_LDFLAGS
+  14939 LOG_FTP (11<<3)
+  14949 UTIME_OMIT ((1l << 30) - 2l)
+  14966 __HA_FBIT__ 7
+  14974 CLD_TRAPPED CLD_TRAPPED
+  1498c _IO_stdout ((_IO_FILE*)(&_IO_2_1_stdout_))
+  149b7 TCXONC 0x540A
+  149c5 SIOCSIFTXQLEN 0x8943
+  149da IN_IGNORED 0x00008000
+  149f0 _CS_POSIX_V6_LP64_OFF64_CFLAGS _CS_POSIX_V6_LP64_OFF64_CFLAGS
+  14a2e __LFRACT_MAX__ 0X7FFFFFFFP-31LR
+  14a4e __GNUC_PATCHLEVEL__ 2
+  14a64 __va_arg_pack() __builtin_va_arg_pack ()
+  14a8d mevhdl
+  14a94 mev.c
+  14a9a mev_del
+  14aa2 __fd_mask
+  14aac mprev
+  14ab2 mevh
+  14ab7 master_fds
+  14ac2 __fds_bits
+  14acd mev_run
+  14ad5 mev_add
+  14add fd_set
+  14ae4 master_maxfd
+  14af1 max(a,b) ((a) > (b) ? (a) : (b))
+  14b12 next
+  14b17 COMPILE_TIME_HANDLERS { "audio/ogg", "/usr/bin/ogg123", "audio/mpeg", "/usr/bin/mpg123", NULL }
+  14b77 init_play_subsystem
+  14b8b media_default_handlers
+  14ba2 next_file_offset
+  14bb3 content.c
+  14bbd __intptr_t
+  14bc8 media_handlers
+  14bd7 nextnl
+  14bde play_file
+  14be8 files
+  14bee media_file_chunk
+  14bff colon
+  14c05 mime
+  14c0a find_handler
+  14c17 generic_exec
+  14c24 MAGIC_NO_CHECK_TOKENS 0x100000
+  14c43 MCL_CURRENT 1
+  14c51 MAP_HUGETLB 0x40000
+  14c65 MAP_DENYWRITE 0x00800
+  14c7b MAGIC_MIME_TYPE 0x000010
+  14c94 _POSIX_THREAD_KEYS_MAX 128
+  14caf _POSIX_THREAD_DESTRUCTOR_ITERATIONS 4
+  14cd5 _BITS_POSIX1_LIM_H 1
+  14cea XATTR_SIZE_MAX 65536
+  14cff _LINUX_LIMITS_H 
+  14d10 MAGIC_NO_CHECK_ASCII MAGIC_NO_CHECK_TEXT
+  14d39 PROT_EXEC 0x4
+  14d47 POSIX_MADV_SEQUENTIAL 2
+  14d5f forget_dir
+  14d6a PIPE_BUF 4096
+  14d78 POSIX_MADV_WILLNEED 3
+  14d8e _POSIX_TIMER_MAX 32
+  14da2 st_uid
+  14da9 PTHREAD_KEYS_MAX 1024
+  14dbf MAGIC_PARAM_ELF_PHNUM_MAX 2
+  14ddb MAGIC_NO_CHECK_ELF 0x010000
+  14df7 st_size
+  14dff MS_SYNC 4
+  14e09 _POSIX_STREAM_MAX 8
+  14e1d DT_LNK DT_LNK
+  14e2b XATTR_NAME_MAX 255
+  14e3e MAGIC_PARAM_ELF_NOTES_MAX 4
+  14e5a st_blksize
+  14e65 _DIRENT_H 1
+  14e71 DT_UNKNOWN DT_UNKNOWN
+  14e87 _POSIX_THREAD_THREADS_MAX 64
+  14ea4 SEM_VALUE_MAX (2147483647)
+  14ebf magic_t
+  14ec7 _DIRENT_HAVE_D_NAMLEN
+  14edd PROT_GROWSUP 0x02000000
+  14ef5 st_gid
+  14efc LINK_MAX 127
+  14f09 __syscall_slong_t
+  14f1b __undef_NR_OPEN 
+  14f2c st_ctim
+  14f34 MAP_HUGE_SHIFT 26
+  14f46 _POSIX_NAME_MAX 14
+  14f59 dest
+  14f5e __undef_OPEN_MAX
+  14f6f _DIRENT_HAVE_D_RECLEN 
+  14f86 _MAGIC_H 
+  14f90 MADV_DONTFORK 10
+  14fa1 MAP_NONBLOCK 0x10000
+  14fb6 _POSIX_NGROUPS_MAX 8
+  14fcb MAGIC_DEBUG 0x000001
+  14fe0 MADV_MERGEABLE 12
+  14ff2 __dev_t
+  14ffa DT_CHR DT_CHR
+  15008 MAGIC_MIME (MAGIC_MIME_TYPE|MAGIC_MIME_ENCODING)
+  15039 MAGIC_DEVICES 0x000008
+  15050 ARG_MAX 131072
+  1505f _POSIX_MQ_PRIO_MAX 32
+  15075 __blkcnt_t
+  15080 _POSIX_RE_DUP_MAX 255
+  15096 PROT_WRITE 0x2
+  150a5 DT_WHT DT_WHT
+  150b3 PROT_READ 0x1
+  150c1 no_dir1
+  150c9 HOST_NAME_MAX 64
+  150da MADV_DONTDUMP 16
+  150eb __mode_t
+  150f4 st_nlink
+  150fd DT_BLK DT_BLK
+  1510b find_existing_dirs
+  1511e AIO_PRIO_DELTA_MAX 20
+  15134 MAGIC_PARAM_ELF_SHNUM_MAX 3
+  15150 _POSIX_CHILD_MAX 25
+  15164 d_name
+  1516b MAP_GROWSDOWN 0x00100
+  15181 MAP_STACK 0x20000
+  15193 MAXNAMLEN NAME_MAX
+  151a6 MAP_FIXED 0x10
+  151b5 MAGIC_CONTINUE 0x000020
+  151cd MAGIC_PARAM_INDIR_MAX 0
+  151e5 st_atim
+  151ed _POSIX_SEM_NSEMS_MAX 256
+  15206 d_reclen
+  1520f _POSIX_CLOCKRES_MIN 20000000
+  1522c NR_OPEN 1024
+  15239 _POSIX_PIPE_BUF 512
+  1524d MAGIC_PARAM_NAME_MAX 1
+  15264 __pad1
+  1526b __nlink_t
+  15275 st_ino
+  1527c st_mode
+  15284 __undef_LINK_MAX 
+  15296 MAGIC_NO_CHECK_ENCODING 0x200000
+  152b7 MAP_ANON MAP_ANONYMOUS
+  152ce MAGIC_NO_CHECK_BUILTIN ( MAGIC_NO_CHECK_COMPRESS | MAGIC_NO_CHECK_TAR | MAGIC_NO_CHECK_APPTYPE | MAGIC_NO_CHECK_ELF | MAGIC_NO_CHECK_TEXT | MAGIC_NO_CHECK_CDF | MAGIC_NO_CHECK_TOKENS | MAGIC_NO_CHECK_ENCODING | 0 )
+  153a5 __glibc_reserved5
+  153b7 d_off
+  153bd MADV_HWPOISON 100
+  153cf DT_SOCK DT_SOCK
+  153df MQ_PRIO_MAX 32768
+  153f1 de_fullname
+  153fd _POSIX_TTY_NAME_MAX 9
+  15413 DTTOIF(dirtype) ((dirtype) << 12)
+  15435 scan.c
+  1543c _POSIX_HOST_NAME_MAX 255
+  15455 _POSIX_AIO_MAX 1
+  15466 NGROUPS_MAX 65536
+  15478 _POSIX_OPEN_MAX 20
+  1548b POSIX_MADV_RANDOM 1
+  1549f MADV_HUGEPAGE 14
+  154b0 MAGIC_SYMLINK 0x000002
+  154c7 _POSIX_AIO_LISTIO_MAX 2
+  154df _POSIX_PATH_MAX 256
+  154f3 MCL_FUTURE 2
+  15500 MAGIC_RAW 0x000100
+  15513 __time_t
+  1551c DT_DIR DT_DIR
+  1552a MAGIC_NO_CHECK_TAR 0x002000
+  15546 currChunk
+  15550 _POSIX_MAX_CANON 255
+  15565 _POSIX_TZNAME_MAX 6
+  15579 MADV_REMOVE 9
+  15587 __blksize_t
+  15593 advance_cursor
+  155a2 __undef_LINK_MAX
+  155b3 MAGIC_NO_CHECK_COMPRESS 0x001000
+  155d4 d_type
+  155db LIBMAGIC_FEATURE_BITS (MAGIC_MIME_TYPE | MAGIC_NO_CHECK_COMPRESS | MAGIC_NO_CHECK_CDF | MAGIC_NO_CHECK_ENCODING | MAGIC_NO_CHECK_TAR | MAGIC_NO_CHECK_TEXT | MAGIC_NO_CHECK_TOKENS)
+  1568f PROT_NONE 0x0
+  1569d RTSIG_MAX 32
+  156aa _POSIX_MQ_OPEN_MAX 8
+  156bf __dirstream
+  156cb _POSIX_SSIZE_MAX 32767
+  156e2 MAP_SHARED 0x01
+  156f2 MAP_POPULATE 0x08000
+  15707 MAGIC_PRESERVE_ATIME 0x000080
+  15725 MAGIC_NO_CHECK_APPTYPE 0x008000
+  15745 MAP_EXECUTABLE 0x01000
+  1575c __undef_OPEN_MAX 
+  1576e _POSIX_RTSIG_MAX 8
+  15781 TTY_NAME_MAX 32
+  15791 MS_INVALIDATE 2
+  157a1 __undef_ARG_MAX 
+  157b2 scan_dir
+  157bb MAGIC_NO_CHECK_SOFT 0x004000
+  157d8 LOGIN_NAME_MAX 256
+  157eb MAGIC_NONE 0x000000
+  157ff XATTR_LIST_MAX 65536
+  15814 MADV_UNMERGEABLE 13
+  15828 MAGIC_MIME_ENCODING 0x000400
+  15845 MAP_FAILED ((void *) -1)
+  1585e POSIX_MADV_DONTNEED 4
+  15874 _POSIX_DELAYTIMER_MAX 32
+  1588d DELAYTIMER_MAX 2147483647
+  158a7 __undef_ARG_MAX
+  158b7 MAP_ANONYMOUS 0x20
+  158ca MAGIC_ERROR 0x000200
+  158df MAP_PRIVATE 0x02
+  158f0 __pad2
+  158f7 MAGIC_NO_CHECK_TROFF 0x000000
+  15915 MAP_HUGE_MASK 0x3f
+  15928 IFTODT(mode) (((mode) & 0170000) >> 12)
+  15950 DT_REG DT_REG
+  1595e MADV_NOHUGEPAGE 15
+  15971 MAP_FILE 0
+  1597c SSIZE_MAX LONG_MAX
+  1598f MADV_DODUMP 17
+  1599e MAP_LOCKED 0x02000
+  159b1 dirent
+  159b8 _DIRENT_HAVE_D_TYPE 
+  159cd st_rdev
+  159d5 st_dev
+  159dc allocate_chunk
+  159eb _POSIX_MAX_INPUT 255
+  15a00 MS_ASYNC 1
+  15a0b MAGIC_APPLE 0x000800
+  15a20 MAGIC_VERSION 522
+  15a32 PROT_GROWSDOWN 0x01000000
+  15a4c MAGIC_NO_CHECK_TEXT 0x020000
+  15a69 __gid_t
+  15a71 PATH_MAX 4096
+  15a7f __undef_NR_OPEN
+  15a8f MAGIC_NO_CHECK_CDF 0x040000
+  15aab _POSIX_LOGIN_NAME_MAX 9
+  15ac3 st_blocks
+  15acd PTHREAD_STACK_MIN 16384
+  15ae5 _D_EXACT_NAMLEN(d) (strlen ((d)->d_name))
+  15b0f PTHREAD_THREADS_MAX
+  15b23 MAGIC_COMPRESS 0x000004
+  15b3b MAGIC_NO_CHECK_FORTRAN 0x000000
+  15b5b _DIRENT_HAVE_D_OFF 
+  15b6f init_scan_subsystem
+  15b83 _POSIX_LINK_MAX 8
+  15b95 POSIX_MADV_NORMAL 0
+  15ba9 DT_FIFO DT_FIFO
+  15bb9 tv_nsec
+  15bc1 _POSIX_SYMLOOP_MAX 8
+  15bd6 _POSIX_SIGQUEUE_MAX 32
+  15bed magic_set
+  15bf7 __ino_t
+  15bff MAP_NORESERVE 0x04000
+  15c15 FILEDATA_PER_CHUNK 4000
+  15c2d next_file
+  15c37 no_dir2
+  15c3f __glibc_reserved4
+  15c51 d_fileno d_ino
+  15c60 PTHREAD_DESTRUCTOR_ITERATIONS _POSIX_THREAD_DESTRUCTOR_ITERATIONS
+  15ca2 libmagic_cookie
+  15cb2 MAP_TYPE 0x0f
+  15cc0 _POSIX_ARG_MAX 4096
+  15cd4 _POSIX_SYMLINK_MAX 255
+  15ceb st_mtim
+  15cf3 _POSIX_SEM_VALUE_MAX 32767
+  15d0e _SYS_MMAN_H 1
+  15d1c _D_ALLOC_NAMLEN(d) (((char *) (d) + (d)->d_reclen) - &(d)->d_name[0])
+  15d62 MAGIC_CHECK 0x000040
+  15d77 MADV_DOFORK 11
+  15d86 level
+  15d8c misc.c
+  15d93 mediacenter_log
+  15da3 buffer
+  15daa __ap
+  15daf format
+  15db6 PF_DECnet 12
+  15dc3 SO_PEERSEC 31
+  15dd1 IPV6_RECVDSTOPTS 58
+  15de5 FIOGETOWN 0x8903
+  15df6 MCAST_JOIN_SOURCE_GROUP 46
+  15e11 IP_MULTICAST_IF 32
+  15e24 PF_UNSPEC 0
+  15e30 IPPROTO_AH IPPROTO_AH
+  15e46 IPPROTO_HOPOPTS IPPROTO_HOPOPTS
+  15e66 IP_PASSSEC 18
+  15e74 IPPROTO_SCTP IPPROTO_SCTP
+  15e8e SO_TIMESTAMPNS 35
+  15ea0 _ARPA_INET_H 1
+  15eaf unix_command
+  15ebc IPPROTO_DSTOPTS IPPROTO_DSTOPTS
+  15edc AF_IPX PF_IPX
+  15eea IPV6_MULTICAST_HOPS 18
+  15f01 SO_PRIORITY 12
+  15f10 IPV6_RTHDR 57
+  15f1e INADDR_MAX_LOCAL_GROUP ((in_addr_t) 0xe00000ff)
+  15f4e SCM_WIFI_STATUS SO_WIFI_STATUS
+  15f6d PF_RDS 21
+  15f77 __CONST_SOCKADDR_ARG const struct sockaddr *
+  15fa4 sockaddr_in
+  15fb0 sa_family_t
+  15fbc SO_ERROR 4
+  15fc7 IPV6_2292HOPOPTS 3
+  15fda handle_client_connection
+  15ff3 PF_INET 2
+  15ffd IPPROTO_BEETPH IPPROTO_BEETPH
+  1601b PF_WANPIPE 25
+  16029 SO_ATTACH_FILTER 26
+  1603d sin_zero
+  16046 IP_RECVTOS 13
+  16054 in_port_t
+  1605e SO_OOBINLINE 10
+  1606e SO_GET_FILTER SO_ATTACH_FILTER
+  1608d PF_RXRPC 33
+  16099 IPPROTO_GRE IPPROTO_GRE
+  160b1 IPPROTO_UDP IPPROTO_UDP
+  160c9 MSG_OOB MSG_OOB
+  160d9 MSG_PEEK MSG_PEEK
+  160eb SO_PEEK_OFF 42
+  160fa PF_IRDA 23
+  16105 IPV6_MTU 24
+  16111 SCM_TIMESTAMPNS SO_TIMESTAMPNS
+  16130 AF_UNSPEC PF_UNSPEC
+  16144 PF_KEY 15
+  1614e IN_CLASSB_HOST (0xffffffff & ~IN_CLASSB_NET)
+  1617b __SOCKADDR_COMMON(sa_prefix) sa_family_t sa_prefix ##family
+  161b7 AF_APPLETALK PF_APPLETALK
+  161d1 SOCK_DGRAM SOCK_DGRAM
+  161e7 SCM_TIMESTAMPING SO_TIMESTAMPING
+  16208 IN_CLASSB_NSHIFT 16
+  1621c sa_family
+  16226 PF_ASH 18
+  16230 IPPROTO_MTP IPPROTO_MTP
+  16248 IPPROTO_TCP IPPROTO_TCP
+  16260 s6_addr16 __in6_u.__u6_addr16
+  1627e IN_EXPERIMENTAL(a) ((((in_addr_t)(a)) & 0xe0000000) == 0xe0000000)
+  162c1 SO_RCVBUF 8
+  162cd IN_CLASSB_MAX 65536
+  162e1 __SOCKADDR_COMMON_SIZE (sizeof (unsigned short int))
+  16316 IPPROTO_IPIP IPPROTO_IPIP
+  16330 SCM_SRCRT IPV6_RXSRCRT
+  16347 IN_CLASSB(a) ((((in_addr_t)(a)) & 0xc0000000) == 0x80000000)
+  16384 SHUT_RDWR SHUT_RDWR
+  16398 SO_SNDTIMEO 21
+  163a7 IN6_IS_ADDR_MULTICAST(a) (((const uint8_t *) (a))[0] == 0xff)
+  163e5 sockaddr
+  163ee PF_SECURITY 14
+  163fd SOCK_SEQPACKET SOCK_SEQPACKET
+  1641b PF_ECONET 19
+  16428 SO_TYPE 3
+  16432 INADDR_ALLHOSTS_GROUP ((in_addr_t) 0xe0000001)
+  16461 AF_IUCV PF_IUCV
+  16471 SHUT_WR SHUT_WR
+  16481 PF_BLUETOOTH 31
+  16491 _SS_PADSIZE (_SS_SIZE - (2 * sizeof (__ss_aligntype)))
+  164c8 AF_BRIDGE PF_BRIDGE
+  164dc IPPROTO_ESP IPPROTO_ESP
+  164f4 AF_BLUETOOTH PF_BLUETOOTH
+  1650e MCAST_UNBLOCK_SOURCE 44
+  16526 SHUT_RD SHUT_RD
+  16536 GROUP_FILTER_SIZE(numsrc) (sizeof (struct group_filter) - sizeof (struct sockaddr_storage) + ((numsrc) * sizeof (struct sockaddr_storage)))
+  165c2 sin_family
+  165cd AF_IRDA PF_IRDA
+  165dd MCAST_BLOCK_SOURCE 43
+  165f3 AF_VSOCK PF_VSOCK
+  16605 SO_WIFI_STATUS 41
+  16617 IPV6_RECVHOPOPTS 53
+  1662b _SYS_SOCKET_H 1
+  1663b MSG_WAITALL MSG_WAITALL
+  16653 SO_RCVTIMEO 20
+  16662 AF_ISDN PF_ISDN
+  16672 sun_client_len
+  16681 IN_MULTICAST(a) IN_CLASSD(a)
+  1669e IPV6_PMTUDISC_DO 2
+  166b1 MSG_WAITFORONE MSG_WAITFORONE
+  166cf IN_CLASSA(a) ((((in_addr_t)(a)) & 0x80000000) == 0)
+  16703 s6_addr __in6_u.__u6_addr8
+  1671e FIOSETOWN 0x8901
+  1672f IPPROTO_RAW IPPROTO_RAW
+  16747 sin_port
+  16750 AF_PACKET PF_PACKET
+  16764 sa_data
+  1676c MSG_FIN MSG_FIN
+  1677c SOL_X25 262
+  16788 IPV6_MULTICAST_IF 17
+  1679d IP_IPSEC_POLICY 16
+  167b0 PF_ROSE 11
+  167bb PF_NFC 39
+  167c5 AF_NETBEUI PF_NETBEUI
+  167db PF_NETLINK 16
+  167e9 PF_INET6 10
+  167f5 IN_CLASSA_MAX 128
+  16807 SO_MAX_PACING_RATE 47
+  1681d IP_RECVERR 11
+  1682b PF_ATMPVC 8
+  16837 IP_MULTICAST_TTL 33
+  1684b IPV6_PMTUDISC_WANT 1
+  16860 INET6_ADDRSTRLEN 46
+  16874 SOMAXCONN 128
+  16882 IP_PMTUDISC_PROBE 3
+  16896 CMSG_ALIGN(len) (((len) + sizeof (size_t) - 1) & (size_t) ~(sizeof (size_t) - 1))
+  168e8 PF_PPPOX 24
+  168f4 SIOCGSTAMPNS 0x8907
+  16908 IP_RECVTTL 12
+  16916 IP_PKTOPTIONS 9
+  16926 __ASM_GENERIC_SOCKET_H 
+  1693e IPV6_TCLASS 67
+  1694d MCAST_JOIN_GROUP 42
+  16961 IPV6_MTU_DISCOVER 23
+  16976 IPV6_MULTICAST_LOOP 19
+  1698d IP_MSFILTER_SIZE(numsrc) (sizeof (struct ip_msfilter) - sizeof (struct in_addr) + (numsrc) * sizeof (struct in_addr))
+  16a03 _NETINET_IN_H 1
+  16a13 IP_MTU_DISCOVER 10
+  16a26 IPV6_RECVRTHDR 56
+  16a38 IN6ADDR_ANY_INIT { { { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 } } }
+  16a75 AF_RXRPC PF_RXRPC
+  16a87 IPV6_JOIN_ANYCAST 27
+  16a9c SOL_IP 0
+  16aa5 __BITS_SOCKET_H 
+  16ab6 IP_RECVRETOPTS IP_RETOPTS
+  16ad0 IP_PMTUDISC_WANT 1
+  16ae3 PF_ROUTE PF_NETLINK
+  16af7 IN_CLASSC_HOST (0xffffffff & ~IN_CLASSC_NET)
+  16b24 PF_IUCV 32
+  16b2f PF_X25 9
+  16b38 CMSG_NXTHDR(mhdr,cmsg) __cmsg_nxthdr (mhdr, cmsg)
+  16b6a IN6_ARE_ADDR_EQUAL(a,b) (__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (a); const struct in6_addr *__b = (const struct in6_addr *) (b); __a->s6_addr32[0] == __b->s6_addr32[0] && __a->s6_addr32[1] == __b->s6_addr32[1] && __a->s6_addr32[2] == __b->s6_addr32[2] && __a->s6_addr32[3] == __b->s6_addr32[3]; }))
+  16cb6 PF_PHONET 35
+  16cc3 IPPROTO_ICMP IPPROTO_ICMP
+  16cdd CMSG_FIRSTHDR(mhdr) ((size_t) (mhdr)->msg_controllen >= sizeof (struct cmsghdr) ? (struct cmsghdr *) (mhdr)->msg_control : (struct cmsghdr *) 0)
+  16d6e MCAST_EXCLUDE 0
+  16d7e network.c
+  16d88 IP_PMTUDISC_DONT 0
+  16d9b IN_CLASSA_HOST (0xffffffff & ~IN_CLASSA_NET)
+  16dc8 PF_BRIDGE 7
+  16dd4 IN6_IS_ADDR_MC_ORGLOCAL(a) (IN6_IS_ADDR_MULTICAST(a) && ((((const uint8_t *) (a))[1] & 0xf) == 0x8))
+  16e39 SCM_RIGHTS SCM_RIGHTS
+  16e4f IP_MULTICAST_ALL 49
+  16e63 AF_ROUTE PF_ROUTE
+  16e75 IN_CLASSB_NET 0xffff0000
+  16e8e SO_PASSSEC 34
+  16e9c SO_MARK 36
+  16ea7 IPV6_CHECKSUM 7
+  16eb7 SOL_ICMPV6 58
+  16ec5 PF_ISDN 34
+  16ed0 IPPROTO_ROUTING IPPROTO_ROUTING
+  16ef0 IPPROTO_IP IPPROTO_IP
+  16f06 MSG_TRUNC MSG_TRUNC
+  16f1a SOCK_STREAM SOCK_STREAM
+  16f32 SO_KEEPALIVE 9
+  16f41 IPV6_RECVTCLASS 66
+  16f54 IPV6_ADD_MEMBERSHIP IPV6_JOIN_GROUP
+  16f78 IPPROTO_NONE IPPROTO_NONE
+  16f92 AF_SECURITY PF_SECURITY
+  16faa _BITS_SOCKADDR_H 1
+  16fbd IPV6_2292RTHDR 5
+  16fce SO_SECURITY_ENCRYPTION_TRANSPORT 23
+  16ff2 AF_UNIX PF_UNIX
+  17002 AF_MAX PF_MAX
+  17010 AF_CAN PF_CAN
+  1701e IN6_IS_ADDR_LOOPBACK(a) (__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (a); __a->s6_addr32[0] == 0 && __a->s6_addr32[1] == 0 && __a->s6_addr32[2] == 0 && __a->s6_addr32[3] == htonl (1); }))
+  170f6 AF_NETROM PF_NETROM
+  1710a AF_X25 PF_X25
+  17118 CMSG_LEN(len) (CMSG_ALIGN (sizeof (struct cmsghdr)) + (len))
+  17155 PF_UNIX PF_LOCAL
+  17166 helptxt
+  1716e PF_TIPC 30
+  17179 IP_FREEBIND 15
+  17188 PF_CAIF 37
+  17193 MSG_EOR MSG_EOR
+  171a3 AF_NFC PF_NFC
+  171b1 SO_DOMAIN 39
+  171be IP_DROP_SOURCE_MEMBERSHIP 40
+  171db IPV6_RECVERR 25
+  171eb AF_ATMPVC PF_ATMPVC
+  171ff INADDR_BROADCAST ((in_addr_t) 0xffffffff)
+  17229 SOCK_NONBLOCK SOCK_NONBLOCK
+  17245 IPV6_AUTHHDR 10
+  17255 IP_ORIGDSTADDR 20
+  17267 SOL_AAL 265
+  17273 AF_WANPIPE PF_WANPIPE
+  17289 AF_KEY PF_KEY
+  17297 IP_RECVOPTS 6
+  172a5 PF_IPX 4
+  172ae IP_ADD_MEMBERSHIP 35
+  172c3 IPV6_DSTOPTS 59
+  172d3 PF_ATMSVC 20
+  172e0 AF_ALG PF_ALG
+  172ee IP_DROP_MEMBERSHIP 36
+  17304 SCM_TIMESTAMP SO_TIMESTAMP
+  1731f AF_ECONET PF_ECONET
+  17333 MSG_DONTWAIT MSG_DONTWAIT
+  1734d PF_VSOCK 40
+  17359 INADDR_ANY ((in_addr_t) 0x00000000)
+  1737d IN6_IS_ADDR_MC_LINKLOCAL(a) (IN6_IS_ADDR_MULTICAST(a) && ((((const uint8_t *) (a))[1] & 0xf) == 0x2))
+  173e3 IPV6_2292DSTOPTS 4
+  173f6 IN6_IS_ADDR_LINKLOCAL(a) (__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (a); (__a->s6_addr32[0] & htonl (0xffc00000)) == htonl (0xfe800000); }))
+  174a1 SO_NO_CHECK 11
+  174b0 s6_addr32 __in6_u.__u6_addr32
+  174ce IPV6_IPSEC_POLICY 34
+  174e3 IP_ADD_SOURCE_MEMBERSHIP 39
+  174ff IN_LOOPBACKNET 127
+  17512 __SOCKADDR_ARG struct sockaddr *__restrict
+  1753d IPPROTO_COMP IPPROTO_COMP
+  17557 SO_BPF_EXTENSIONS 48
+  1756c IPPROTO_PIM IPPROTO_PIM
+  17584 _BITS_UIO_H 1
+  17592 IP_PMTUDISC 10
+  175a1 IN_CLASSC_NSHIFT 8
+  175b4 SO_TIMESTAMPING 37
+  175c7 IN6ADDR_LOOPBACK_INIT { { { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1 } } }
+  17609 SO_LINGER 13
+  17616 IPV6_RTHDR_TYPE_0 0
+  1762a IPV6_ADDRFORM 1
+  1763a PF_ALG 38
+  17644 IPV6_HOPOPTS 54
+  17654 IP_MAX_MEMBERSHIPS 20
+  1766a SO_SNDLOWAT 19
+  17679 AF_ATMSVC PF_ATMSVC
+  1768d IPV6_NEXTHOP 9
+  1769c SOL_RAW 255
+  176a8 IPV6_PKTINFO 50
+  176b8 AF_INET6 PF_INET6
+  176ca MSG_PROXY MSG_PROXY
+  176de PF_SNA 22
+  176e8 MSG_RST MSG_RST
+  176f8 PF_APPLETALK 5
+  17707 IP_MSFILTER 41
+  17716 IPPROTO_ENCAP IPPROTO_ENCAP
+  17732 IP_RETOPTS 7
+  1773f SO_RXQ_OVFL 40
+  1774e __ASM_GENERIC_SOCKIOS_H 
+  17767 SO_SNDBUF 7
+  17773 MSG_CTRUNC MSG_CTRUNC
+  17789 IP_PKTINFO 8
+  17796 IN_BADCLASS(a) ((((in_addr_t)(a)) & 0xf0000000) == 0xf0000000)
+  177d5 IPPROTO_ICMPV6 IPPROTO_ICMPV6
+  177f3 IPV6_PMTUDISC_DONT 0
+  17808 INET_ADDRSTRLEN 16
+  1781b IPPROTO_IGMP IPPROTO_IGMP
+  17835 network_close
+  17843 SO_RCVLOWAT 18
+  17852 IPPROTO_DCCP IPPROTO_DCCP
+  1786c SO_DETACH_FILTER 27
+  17880 IPV6_2292PKTINFO 2
+  17893 IPPROTO_FRAGMENT IPPROTO_FRAGMENT
+  178b5 IPV6_LEAVE_ANYCAST 28
+  178cb IPPROTO_EGP IPPROTO_EGP
+  178e3 IPV6_ROUTER_ALERT 22
+  178f8 MSG_CMSG_CLOEXEC MSG_CMSG_CLOEXEC
+  1791a AF_SNA PF_SNA
+  17928 IP_OPTIONS 4
+  17935 SO_BROADCAST 6
+  17944 AF_ASH PF_ASH
+  17952 SO_SECURITY_AUTHENTICATION 22
+  17970 SO_REUSEPORT 15
+  17980 SO_NOFCS 43
+  1798c handle_client_read
+  1799f AF_RDS PF_RDS
+  179ad SOCK_PACKET SOCK_PACKET
+  179c5 IPV6_UNICAST_HOPS 16
+  179da INADDR_ALLRTRS_GROUP ((in_addr_t) 0xe0000002)
+  17a08 IN6_IS_ADDR_V4COMPAT(a) (__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (a); __a->s6_addr32[0] == 0 && __a->s6_addr32[1] == 0 && __a->s6_addr32[2] == 0 && ntohl (__a->s6_addr32[3]) > 1; }))
+  17adf IP_TTL 2
+  17ae8 SO_BINDTODEVICE 25
+  17afb __ss_aligntype unsigned long int
+  17b1c SIOCATMARK 0x8905
+  17b2e IPPROTO_MH IPPROTO_MH
+  17b44 network_open
+  17b51 IPV6_JOIN_GROUP 20
+  17b64 SO_BUSY_POLL 46
+  17b74 MSG_SYN MSG_SYN
+  17b84 MSG_FASTOPEN MSG_FASTOPEN
+  17b9e AF_LOCAL PF_LOCAL
+  17bb0 PF_LLC 26
+  17bba SO_PASSCRED 16
+  17bc9 sin_addr
+  17bd2 IN_CLASSA_NSHIFT 24
+  17be6 _SYS_UIO_H 1
+  17bf3 IPV6_RECVPKTINFO 49
+  17c07 AF_NETLINK PF_NETLINK
+  17c1d IN6_IS_ADDR_MC_SITELOCAL(a) (IN6_IS_ADDR_MULTICAST(a) && ((((const uint8_t *) (a))[1] & 0xf) == 0x5))
+  17c83 IN_CLASSD(a) ((((in_addr_t)(a)) & 0xf0000000) == 0xe0000000)
+  17cc0 IPPROTO_UDPLITE IPPROTO_UDPLITE
+  17ce0 IPPROTO_IDP IPPROTO_IDP
+  17cf8 in_addr_t
+  17d02 SOCK_DCCP SOCK_DCCP
+  17d16 IN6_IS_ADDR_MC_GLOBAL(a) (IN6_IS_ADDR_MULTICAST(a) && ((((const uint8_t *) (a))[1] & 0xf) == 0xe))
+  17d79 IN_CLASSC_NET 0xffffff00
+  17d92 MCAST_LEAVE_GROUP 45
+  17da7 SOL_ATM 264
+  17db3 IPV6_XFRM_POLICY 35
+  17dc7 IN6_IS_ADDR_V4MAPPED(a) (__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (a); __a->s6_addr32[0] == 0 && __a->s6_addr32[1] == 0 && __a->s6_addr32[2] == htonl (0xffff); }))
+  17e8a SOCK_CLOEXEC SOCK_CLOEXEC
+  17ea4 UIO_MAXIOV 1024
+  17eb4 SO_SELECT_ERR_QUEUE 45
+  17ecb IP_MULTICAST_LOOP 34
+  17ee0 AF_CAIF PF_CAIF
+  17ef0 IPV6_2292PKTOPTIONS 6
+  17f06 AF_PPPOX PF_PPPOX
+  17f18 MSG_MORE MSG_MORE
+  17f2a SOL_DECNET 261
+  17f39 SIOCSPGRP 0x8902
+  17f4a IP_XFRM_POLICY 17
+  17f5c SOCK_RAW SOCK_RAW
+  17f6e MSG_ERRQUEUE MSG_ERRQUEUE
+  17f88 PF_PACKET 17
+  17f95 IP_UNICAST_IF 50
+  17fa6 SO_SNDBUFFORCE 32
+  17fb8 SOCK_RDM SOCK_RDM
+  17fca SIOCGPGRP 0x8904
+  17fdb SO_PEERNAME 28
+  17fea PF_IEEE802154 36
+  17ffb PF_FILE PF_LOCAL
+  1800c SO_REUSEADDR 2
+  1801b MCAST_MSFILTER 48
+  1802d IPV6_RXDSTOPTS IPV6_DSTOPTS
+  18049 IPV6_RXHOPOPTS IPV6_HOPOPTS
+  18065 AF_PHONET PF_PHONET
+  18079 IP_UNBLOCK_SOURCE 37
+  1808e SO_DEBUG 1
+  18099 IP_HDRINCL 3
+  180a6 IP_TRANSPARENT 19
+  180b8 PF_CAN 29
+  180c2 iter
+  180c7 IPV6_RECVHOPLIMIT 51
+  180dc AF_ROSE PF_ROSE
+  180ec IN6_IS_ADDR_UNSPECIFIED(a) (__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (a); __a->s6_addr32[0] == 0 && __a->s6_addr32[1] == 0 && __a->s6_addr32[2] == 0 && __a->s6_addr32[3] == 0; }))
+  181bf rlen
+  181c4 IP_DEFAULT_MULTICAST_TTL 1
+  181df SOL_PACKET 263
+  181ee IPPROTO_RSVP IPPROTO_RSVP
+  18208 PF_MAX 41
+  18212 IP_DEFAULT_MULTICAST_LOOP 1
+  1822e PF_AX25 3
+  18238 INADDR_NONE ((in_addr_t) 0xffffffff)
+  1825d IPPROTO_IPV6 IPPROTO_IPV6
+  18277 IP_ROUTER_ALERT 5
+  18289 AF_FILE PF_FILE
+  18299 AF_INET PF_INET
+  182a9 INADDR_UNSPEC_GROUP ((in_addr_t) 0xe0000000)
+  182d6 IPV6_LEAVE_GROUP 21
+  182ea IP_RECVORIGDSTADDR IP_ORIGDSTADDR
+  1830c IN_CLASSC(a) ((((in_addr_t)(a)) & 0xe0000000) == 0xc0000000)
+  18349 IPPROTO_TP IPPROTO_TP
+  1835f IP_PMTUDISC_DO 2
+  18370 IPV6_RTHDR_LOOSE 0
+  18383 __socket_type
+  18391 uint16_t
+  1839a IN6_IS_ADDR_MC_NODELOCAL(a) (IN6_IS_ADDR_MULTICAST(a) && ((((const uint8_t *) (a))[1] & 0xf) == 0x1))
+  18400 AF_DECnet PF_DECnet
+  18414 SOL_SOCKET 1
+  18421 xmit(data) send(cs, data, strlen(data), 0)
+  1844c IPV6_PMTUDISC_PROBE 3
+  18462 IPV6_HOPLIMIT 52
+  18473 AF_TIPC PF_TIPC
+  18483 IPV6_DROP_MEMBERSHIP IPV6_LEAVE_GROUP
+  184a9 PF_NETROM 6
+  184b5 SO_PEERCRED 17
+  184c4 INADDR_LOOPBACK ((in_addr_t) 0x7f000001)
+  184ed s_addr
+  184f4 IP_MINTTL 21
+  18501 IP_MTU 14
+  1850b MSG_CONFIRM MSG_CONFIRM
+  18523 IPV6_2292HOPLIMIT 8
+  18537 IP_TOS 1
+  18540 intbuf
+  18547 SO_TIMESTAMP 29
+  18557 SO_PROTOCOL 38
+  18566 IP_BLOCK_SOURCE 38
+  18579 IPV6_V6ONLY 26
+  18588 SO_BSDCOMPAT 14
+  18598 CMSG_DATA(cmsg) ((cmsg)->__cmsg_data)
+  185be SOL_IRDA 266
+  185cb PF_NETBEUI 13
+  185d9 SO_LOCK_FILTER 44
+  185eb SO_SECURITY_ENCRYPTION_NETWORK 24
+  1860d MSG_NOSIGNAL MSG_NOSIGNAL
+  18627 IN_CLASSA_NET 0xff000000
+  18640 AF_IEEE802154 PF_IEEE802154
+  1865c IN6_IS_ADDR_SITELOCAL(a) (__extension__ ({ const struct in6_addr *__a = (const struct in6_addr *) (a); (__a->s6_addr32[0] & htonl (0xffc00000)) == htonl (0xfec00000); }))
+  18707 IPV6_RTHDR_STRICT 1
+  1871b AF_AX25 PF_AX25
+  1872b _SS_SIZE 128
+  18738 sun_client
+  18743 MCAST_LEAVE_SOURCE_GROUP 47
+  1875f PF_LOCAL 1
+  1876a IPV6_RTHDRDSTOPTS 55
+  1877f SO_ACCEPTCONN 30
+  18790 MSG_DONTROUTE MSG_DONTROUTE
+  187ac MCAST_INCLUDE 1
+  187bc SIOCGSTAMP 0x8906
+  187ce AF_LLC PF_LLC
+  187dc SO_RCVBUFFORCE 33
+  187ee SO_DONTROUTE 5
+  187fd IPPROTO_PUP IPPROTO_PUP
+  18815 SOL_IPV6 41
+  18821 CMSG_SPACE(len) (CMSG_ALIGN (len) + CMSG_ALIGN (sizeof (struct cmsghdr)))
+  1886b __NR_get_mempolicy (__NR_SYSCALL_BASE+320)
+  18896 __CPU_SET_S(cpu,setsize,cpusetp) (__extension__ ({ size_t __cpu = (cpu); __cpu / 8 < (setsize) ? (((__cpu_mask *) ((cpusetp)->__bits))[__CPUELT (__cpu)] |= __CPUMASK (__cpu)) : 0; }))
+  1894e SYS_close __NR_close
+  18963 SYS_inotify_init __NR_inotify_init
+  18986 SYS_chroot __NR_chroot
+  1899d __NR_quotactl (__NR_SYSCALL_BASE+131)
+  189c3 SYS_umount2 __NR_umount2
+  189dc SYS_io_destroy __NR_io_destroy
+  189fb SYS_setfsgid32 __NR_setfsgid32
+  18a1a __NR_rt_sigqueueinfo (__NR_SYSCALL_BASE+178)
+  18a47 MREMAP_FIXED 2
+  18a56 SYS_getitimer __NR_getitimer
+  18a73 __NR_settimeofday (__NR_SYSCALL_BASE+ 79)
+  18a9d __NR_signalfd4 (__NR_SYSCALL_BASE+355)
+  18ac4 SYS_pciconfig_iobase __NR_pciconfig_iobase
+  18aef __NR_capset (__NR_SYSCALL_BASE+185)
+  18b13 SYS_fchown32 __NR_fchown32
+  18b2e SYS_ioprio_set __NR_ioprio_set
+  18b4d SYS_rename __NR_rename
+  18b64 __NR_stime (__NR_SYSCALL_BASE+ 25)
+  18b87 __NR_ioctl (__NR_SYSCALL_BASE+ 54)
+  18baa CPU_SET(cpu,cpusetp) __CPU_SET_S (cpu, sizeof (cpu_set_t), cpusetp)
+  18bee __NR_readdir (__NR_SYSCALL_BASE+ 89)
+  18c13 SYS_inotify_init1 __NR_inotify_init1
+  18c38 __NR_stat (__NR_SYSCALL_BASE+106)
+  18c5a __NR_pciconfig_write (__NR_SYSCALL_BASE+273)
+  18c87 SYS_sched_yield __NR_sched_yield
+  18ca8 __NR_setresgid32 (__NR_SYSCALL_BASE+210)
+  18cd1 __NR_recvfrom (__NR_SYSCALL_BASE+292)
+  18cf7 SYS_rmdir __NR_rmdir
+  18d0c __NR_mount (__NR_SYSCALL_BASE+ 21)
+  18d2f SYS_setxattr __NR_setxattr
+  18d4a SYS_setrlimit __NR_setrlimit
+  18d67 __NR_OABI_SYSCALL_BASE 0x900000
+  18d87 __NR_nanosleep (__NR_SYSCALL_BASE+162)
+  18dae __NR_setreuid (__NR_SYSCALL_BASE+ 70)
+  18dd4 __NR_kill (__NR_SYSCALL_BASE+ 37)
+  18df6 CLONE_PARENT_SETTID 0x00100000
+  18e15 __NR_link (__NR_SYSCALL_BASE+ 9)
+  18e36 SYS_prctl __NR_prctl
+  18e4b __NR_add_key (__NR_SYSCALL_BASE+309)
+  18e70 __FDS_BITS(set) ((set)->fds_bits)
+  18e92 __NR_mlockall (__NR_SYSCALL_BASE+152)
+  18eb8 __NR_timerfd_create (__NR_SYSCALL_BASE+350)
+  18ee4 SYS_stat __NR_stat
+  18ef7 __NR_capget (__NR_SYSCALL_BASE+184)
+  18f1b SYS_fremovexattr __NR_fremovexattr
+  18f3e __NR_finit_module (__NR_SYSCALL_BASE+379)
+  18f68 CPU_OR(destset,srcset1,srcset2) __CPU_OP_S (sizeof (cpu_set_t), destset, srcset1, srcset2, |)
+  18fc6 SYS_pciconfig_write __NR_pciconfig_write
+  18fef __NR_msgsnd (__NR_SYSCALL_BASE+301)
+  19013 SYS_setregid32 __NR_setregid32
+  19032 __NR_recv (__NR_SYSCALL_BASE+291)
+  19054 __NR_acct (__NR_SYSCALL_BASE+ 51)
+  19076 __CPU_ZERO_S(setsize,cpusetp) do __builtin_memset (cpusetp, '\0', setsize); while (0)
+  190cc __NR_lremovexattr (__NR_SYSCALL_BASE+236)
+  190f6 __NR_bdflush (__NR_SYSCALL_BASE+134)
+  1911b __NR_io_setup (__NR_SYSCALL_BASE+243)
+  19141 SYS_vmsplice __NR_vmsplice
+  1915c SYS_fanotify_init __NR_fanotify_init
+  19181 __NR_ipc (__NR_SYSCALL_BASE+117)
+  191a2 SYS_msync __NR_msync
+  191b7 _ISOC95_SOURCE
+  191c6 __NR_socketcall (__NR_SYSCALL_BASE+102)
+  191ee SYS_get_robust_list __NR_get_robust_list
+  19217 __CPU_ALLOC_SIZE(count) ((((count) + __NCPUBITS - 1) / __NCPUBITS) * sizeof (__cpu_mask))
+  19271 SYS_shutdown __NR_shutdown
+  1928c SYS_swapon __NR_swapon
+  192a3 __NR_mkdir (__NR_SYSCALL_BASE+ 39)
+  192c6 SYS_exit_group __NR_exit_group
+  192e5 SYS_lookup_dcookie __NR_lookup_dcookie
+  1930c CLONE_NEWUSER 0x10000000
+  19325 __NR_reboot (__NR_SYSCALL_BASE+ 88)
+  19349 SYS_dup2 __NR_dup2
+  1935c __NR_recvmmsg (__NR_SYSCALL_BASE+365)
+  19382 __NR_uselib (__NR_SYSCALL_BASE+ 86)
+  193a6 __NR_fcntl64 (__NR_SYSCALL_BASE+221)
+  193cb __NR_shutdown (__NR_SYSCALL_BASE+293)
+  193f1 SYS_shmdt __NR_shmdt
+  19406 __NR_inotify_rm_watch (__NR_SYSCALL_BASE+318)
+  19434 __NR_vserver (__NR_SYSCALL_BASE+313)
+  19459 __NR_fchown (__NR_SYSCALL_BASE+ 95)
+  1947d SYS_getpeername __NR_getpeername
+  1949e __NR_memfd_create (__NR_SYSCALL_BASE+385)
+  194c8 __NR_clock_gettime (__NR_SYSCALL_BASE+263)
+  194f3 CPU_ALLOC_SIZE(count) __CPU_ALLOC_SIZE (count)
+  19522 __cpu_set_t_defined 
+  19537 SYS_setgid32 __NR_setgid32
+  19552 __NR_chroot (__NR_SYSCALL_BASE+ 61)
+  19576 SYS_listxattr __NR_listxattr
+  19593 SYS_geteuid __NR_geteuid
+  195ac noti_fd
+  195b4 __NR_pivot_root (__NR_SYSCALL_BASE+218)
+  195dc __CPU_COUNT_S(setsize,cpusetp) __sched_cpucount (setsize, cpusetp)
+  1961f SYS_socket __NR_socket
+  19636 __NR_listxattr (__NR_SYSCALL_BASE+232)
+  1965d __NR_sched_rr_get_interval (__NR_SYSCALL_BASE+161)
+  19690 __NR_execve (__NR_SYSCALL_BASE+ 11)
+  196b4 SYS_getpgrp __NR_getpgrp
+  196cd CPU_COUNT_S(setsize,cpusetp) __CPU_COUNT_S (setsize, cpusetp)
+  1970b SYS_signalfd4 __NR_signalfd4
+  19728 __NR_tkill (__NR_SYSCALL_BASE+238)
+  1974b SYS_pciconfig_read __NR_pciconfig_read
+  19772 SYS_statfs64 __NR_statfs64
+  1978d __NR_fallocate (__NR_SYSCALL_BASE+352)
+  197b4 SYS_getresgid32 __NR_getresgid32
+  197d5 SYS_creat __NR_creat
+  197ea __NR_mmap2 (__NR_SYSCALL_BASE+192)
+  1980d __USE_LARGEFILE64 1
+  19821 SYS_clock_adjtime __NR_clock_adjtime
+  19846 SYS_mknodat __NR_mknodat
+  1985f SYS_gettimeofday __NR_gettimeofday
+  19882 __NR_fchdir (__NR_SYSCALL_BASE+133)
+  198a6 __NR_nfsservctl (__NR_SYSCALL_BASE+169)
+  198ce __NR_open_by_handle_at (__NR_SYSCALL_BASE+371)
+  198fd SYS_renameat __NR_renameat
+  19918 SYS_prlimit64 __NR_prlimit64
+  19935 __NR_sched_setattr (__NR_SYSCALL_BASE+380)
+  19960 SYS_getxattr __NR_getxattr
+  1997b __NR_pipe (__NR_SYSCALL_BASE+ 42)
+  1999d __NR_getpeername (__NR_SYSCALL_BASE+287)
+  199c6 SYS_faccessat __NR_faccessat
+  199e3 SYS_inotify_rm_watch __NR_inotify_rm_watch
+  19a0e SYS_sigpending __NR_sigpending
+  19a2d SYS_adjtimex __NR_adjtimex
+  19a48 CPU_AND_S(setsize,destset,srcset1,srcset2) __CPU_OP_S (setsize, destset, srcset1, srcset2, &)
+  19aa6 __NR_setitimer (__NR_SYSCALL_BASE+104)
+  19acd __NR_utimes (__NR_SYSCALL_BASE+269)
+  19af1 __USE_UNIX98 1
+  19b00 SYS_lsetxattr __NR_lsetxattr
+  19b1d CLONE_DETACHED 0x00400000
+  19b37 __NR_recvmsg (__NR_SYSCALL_BASE+297)
+  19b5c SYS_fstatfs __NR_fstatfs
+  19b75 SYS_tgkill __NR_tgkill
+  19b8c __NR_rt_sigprocmask (__NR_SYSCALL_BASE+175)
+  19bb8 __NR_chown (__NR_SYSCALL_BASE+182)
+  19bdb __NR_fsync (__NR_SYSCALL_BASE+118)
+  19bfe _ISOC99_SOURCE
+  19c0d SYS_writev __NR_writev
+  19c24 __NR_munlockall (__NR_SYSCALL_BASE+153)
+  19c4c SYS_arm_fadvise64_64 __NR_arm_fadvise64_64
+  19c77 SYS_setitimer __NR_setitimer
+  19c94 SYS_truncate64 __NR_truncate64
+  19cb3 __NR_getegid (__NR_SYSCALL_BASE+ 50)
+  19cd8 SYS_lremovexattr __NR_lremovexattr
+  19cfb __NR_mq_timedsend (__NR_SYSCALL_BASE+276)
+  19d25 SYS_read __NR_read
+  19d38 __NR_setgid (__NR_SYSCALL_BASE+ 46)
+  19d5c SYS_sched_get_priority_max __NR_sched_get_priority_max
+  19d93 __NR_getrlimit
+  19da2 SYS_setreuid32 __NR_setreuid32
+  19dc1 CPU_CLR(cpu,cpusetp) __CPU_CLR_S (cpu, sizeof (cpu_set_t), cpusetp)
+  19e05 CPU_ISSET(cpu,cpusetp) __CPU_ISSET_S (cpu, sizeof (cpu_set_t), cpusetp)
+  19e4d __NR_syscall (__NR_SYSCALL_BASE+113)
+  19e72 __NR_sched_setscheduler (__NR_SYSCALL_BASE+156)
+  19ea2 __NR_time (__NR_SYSCALL_BASE+ 13)
+  19ec4 SYS_getgroups32 __NR_getgroups32
+  19ee5 __ino64_t_defined 
+  19ef8 SYS_setgroups __NR_setgroups
+  19f15 SYS_msgget __NR_msgget
+  19f2c SYS_sendfile __NR_sendfile
+  19f47 __NR_lsetxattr (__NR_SYSCALL_BASE+227)
+  19f6e SYS_msgrcv __NR_msgrcv
+  19f85 __NR_unlinkat (__NR_SYSCALL_BASE+328)
+  19fab __NR_fanotify_init (__NR_SYSCALL_BASE+367)
+  19fd6 __NR_brk (__NR_SYSCALL_BASE+ 45)
+  19ff7 SYS_rt_sigqueueinfo __NR_rt_sigqueueinfo
+  1a020 __NR_fstat (__NR_SYSCALL_BASE+108)
+  1a043 SYS_epoll_pwait __NR_epoll_pwait
+  1a064 __NR_sigpending (__NR_SYSCALL_BASE+ 73)
+  1a08c __NR_ioprio_get (__NR_SYSCALL_BASE+315)
+  1a0b4 SYS_gettid __NR_gettid
+  1a0cb SYS_sched_setaffinity __NR_sched_setaffinity
+  1a0f8 CPU_SETSIZE __CPU_SETSIZE
+  1a112 SYS_sethostname __NR_sethostname
+  1a133 __NR_clock_getres (__NR_SYSCALL_BASE+264)
+  1a15d __NR_select
+  1a169 __NR_setfsuid (__NR_SYSCALL_BASE+138)
+  1a18f __NR_signalfd (__NR_SYSCALL_BASE+349)
+  1a1b5 SYS_open __NR_open
+  1a1c8 __NR_arm_sync_file_range (__NR_SYSCALL_BASE+341)
+  1a1f9 SYS_setsid __NR_setsid
+  1a210 __NR_send (__NR_SYSCALL_BASE+289)
+  1a232 __NR_getgid (__NR_SYSCALL_BASE+ 47)
+  1a256 CPU_XOR(destset,srcset1,srcset2) __CPU_OP_S (sizeof (cpu_set_t), destset, srcset1, srcset2, ^)
+  1a2b5 SYS_delete_module __NR_delete_module
+  1a2da __NR_bind (__NR_SYSCALL_BASE+282)
+  1a2fc __ARM_NR_usr32 (__ARM_NR_BASE+4)
+  1a31d SYS_chdir __NR_chdir
+  1a332 SYS_sendmmsg __NR_sendmmsg
+  1a34d MREMAP_MAYMOVE 1
+  1a35e __NR_msgrcv (__NR_SYSCALL_BASE+302)
+  1a382 __NR_fork (__NR_SYSCALL_BASE+ 2)
+  1a3a3 __sigisemptyset(set) (__extension__ ({ int __cnt = _SIGSET_NWORDS; const sigset_t *__set = (set); int __ret = __set->__val[--__cnt]; while (!__ret && --__cnt >= 0) __ret = __set->__val[__cnt]; __ret == 0; }))
+  1a474 CLONE_NEWPID 0x20000000
+  1a48c CLONE_SYSVSEM 0x00040000
+  1a4a5 SYS_fdatasync __NR_fdatasync
+  1a4c2 __NR_sched_yield (__NR_SYSCALL_BASE+158)
+  1a4eb SYS_setfsuid __NR_setfsuid
+  1a506 __NR_prctl (__NR_SYSCALL_BASE+172)
+  1a529 __NR_sendmmsg (__NR_SYSCALL_BASE+374)
+  1a54f SYS_shmat __NR_shmat
+  1a564 __NR_epoll_create1 (__NR_SYSCALL_BASE+357)
+  1a58f __NR_timerfd_gettime (__NR_SYSCALL_BASE+354)
+  1a5bc __NR_stime
+  1a5c7 __NR_sysfs (__NR_SYSCALL_BASE+135)
+  1a5ea CHILD_STACK_SIZE 32*4096
+  1a603 __NR_umount (__NR_SYSCALL_BASE+ 22)
+  1a627 SYS_uname __NR_uname
+  1a63c __NR_setrlimit (__NR_SYSCALL_BASE+ 75)
+  1a663 SYS_bind __NR_bind
+  1a676 SYS_request_key __NR_request_key
+  1a697 __NR_statfs (__NR_SYSCALL_BASE+ 99)
+  1a6bb __NCPUBITS (8 * sizeof (__cpu_mask))
+  1a6e0 __NR_fgetxattr (__NR_SYSCALL_BASE+231)
+  1a707 __NR_wait4 (__NR_SYSCALL_BASE+114)
+  1a72a CLONE_SIGHAND 0x00000800
+  1a743 CEOL '\0'
+  1a74d SYS_ftruncate64 __NR_ftruncate64
+  1a76e __NR_semget (__NR_SYSCALL_BASE+299)
+  1a792 watched_dir
+  1a79e __NR_dup (__NR_SYSCALL_BASE+ 41)
+  1a7bf SYS_get_mempolicy __NR_get_mempolicy
+  1a7e4 SYS_setregid __NR_setregid
+  1a7ff SYS_ftruncate __NR_ftruncate
+  1a81c __NR_preadv (__NR_SYSCALL_BASE+361)
+  1a840 __NR_getdents64 (__NR_SYSCALL_BASE+217)
+  1a868 SYS_getsockname __NR_getsockname
+  1a889 __NR_fsetxattr (__NR_SYSCALL_BASE+228)
+  1a8b0 __NR_mknod (__NR_SYSCALL_BASE+ 14)
+  1a8d3 SYS_msgsnd __NR_msgsnd
+  1a8ea __CPU_SETSIZE 1024
+  1a8fd SYS_pipe2 __NR_pipe2
+  1a912 __NR_timer_create (__NR_SYSCALL_BASE+257)
+  1a93c __NR_pciconfig_read (__NR_SYSCALL_BASE+272)
+  1a968 SYS_setpriority __NR_setpriority
+  1a989 CLONE_NEWNS 0x00020000
+  1a9a0 __NR_shmdt (__NR_SYSCALL_BASE+306)
+  1a9c3 SYS_nice __NR_nice
+  1a9d6 SYS_splice __NR_splice
+  1a9ed _SCHED_H 1
+  1a9f8 __NR_inotify_init1 (__NR_SYSCALL_BASE+360)
+  1aa23 SYS_pause __NR_pause
+  1aa38 __NR_socketpair (__NR_SYSCALL_BASE+288)
+  1aa60 __NR_mincore (__NR_SYSCALL_BASE+219)
+  1aa85 SYS_capget __NR_capget
+  1aa9c SYS_fcntl __NR_fcntl
+  1aab1 SYS_setsockopt __NR_setsockopt
+  1aad0 SYS_setfsuid32 __NR_setfsuid32
+  1aaef __NR_gettimeofday (__NR_SYSCALL_BASE+ 78)
+  1ab19 SYS_acct __NR_acct
+  1ab2c _GNU_SOURCE 
+  1ab39 __NR_msync (__NR_SYSCALL_BASE+144)
+  1ab5c CLONE_NEWIPC 0x08000000
+  1ab74 SYS_mq_getsetattr __NR_mq_getsetattr
+  1ab99 __NR_sched_getscheduler (__NR_SYSCALL_BASE+157)
+  1abc9 __NR_dup3 (__NR_SYSCALL_BASE+358)
+  1abeb init_notify
+  1abf7 SYS_truncate __NR_truncate
+  1ac12 __NR_rt_sigsuspend (__NR_SYSCALL_BASE+179)
+  1ac3d __NR_select (__NR_SYSCALL_BASE+ 82)
+  1ac61 _LARGEFILE64_SOURCE 1
+  1ac77 __NR_syscall
+  1ac84 __NR_timerfd_settime (__NR_SYSCALL_BASE+353)
+  1acb1 _XOPEN_SOURCE 700
+  1acc3 SYS_fchmod __NR_fchmod
+  1acda SYS_sysfs __NR_sysfs
+  1acef pending_rescan
+  1acfe tid_master
+  1ad09 SYS_vfork __NR_vfork
+  1ad1e SYS_io_getevents __NR_io_getevents
+  1ad41 __NR_get_robust_list (__NR_SYSCALL_BASE+339)
+  1ad6e SYS_mq_timedreceive __NR_mq_timedreceive
+  1ad97 SYS_swapoff __NR_swapoff
+  1adb0 __NR_rt_sigreturn (__NR_SYSCALL_BASE+173)
+  1adda __NR_sendto (__NR_SYSCALL_BASE+290)
+  1adfe notify.c
+  1ae07 __NR_timer_gettime (__NR_SYSCALL_BASE+259)
+  1ae32 SYS_getresgid __NR_getresgid
+  1ae4f SYS_recv __NR_recv
+  1ae62 SYS_fstat __NR_fstat
+  1ae77 __NR_set_robust_list (__NR_SYSCALL_BASE+338)
+  1aea4 __NR_renameat2 (__NR_SYSCALL_BASE+382)
+  1aecb __NR_getresgid (__NR_SYSCALL_BASE+171)
+  1aef2 SYS_sched_setattr __NR_sched_setattr
+  1af17 __NR_getxattr (__NR_SYSCALL_BASE+229)
+  1af3d __NR_setfsuid32 (__NR_SYSCALL_BASE+215)
+  1af65 __NR_setresgid (__NR_SYSCALL_BASE+170)
+  1af8c __NR_setfsgid (__NR_SYSCALL_BASE+139)
+  1afb2 __NR_pwritev (__NR_SYSCALL_BASE+362)
+  1afd7 SYS_sched_getattr __NR_sched_getattr
+  1affc SYS_unlink __NR_unlink
+  1b013 SYS_name_to_handle_at __NR_name_to_handle_at
+  1b040 __NR_getresuid (__NR_SYSCALL_BASE+165)
+  1b067 __NR_mkdirat (__NR_SYSCALL_BASE+323)
+  1b08c __CPUELT(cpu) ((cpu) / __NCPUBITS)
+  1b0af newdir
+  1b0b6 SYS_rt_sigaction __NR_rt_sigaction
+  1b0d9 SYS_recvmmsg __NR_recvmmsg
+  1b0f4 __NR_ugetrlimit (__NR_SYSCALL_BASE+191)
+  1b11c SYS_flistxattr __NR_flistxattr
+  1b13b drop
+  1b140 SYS_fsetxattr __NR_fsetxattr
+  1b15d SYS_mmap2 __NR_mmap2
+  1b172 SYS_eventfd2 __NR_eventfd2
+  1b18d __NR_ptrace (__NR_SYSCALL_BASE+ 26)
+  1b1b1 SYS_send __NR_send
+  1b1c4 SYS_removexattr __NR_removexattr
+  1b1e5 SCHED_OTHER 0
+  1b1f3 __NR_getgroups32 (__NR_SYSCALL_BASE+205)
+  1b21c __CPU_ALLOC(count) __sched_cpualloc (count)
+  1b248 __NR_splice (__NR_SYSCALL_BASE+340)
+  1b26c CLONE_VFORK 0x00004000
+  1b283 __NR_kcmp (__NR_SYSCALL_BASE+378)
+  1b2a5 SYS_ustat __NR_ustat
+  1b2ba SYS_msgctl __NR_msgctl
+  1b2d1 SYS_signalfd __NR_signalfd
+  1b2ec SYS_geteuid32 __NR_geteuid32
+  1b309 __NR_fchmodat (__NR_SYSCALL_BASE+333)
+  1b32f CLONE_NEWUTS 0x04000000
+  1b347 __NR_vmsplice (__NR_SYSCALL_BASE+343)
+  1b36d __off64_t_defined 
+  1b380 __NR_symlink (__NR_SYSCALL_BASE+ 83)
+  1b3a5 __CPU_CLR_S(cpu,setsize,cpusetp) (__extension__ ({ size_t __cpu = (cpu); __cpu / 8 < (setsize) ? (((__cpu_mask *) ((cpusetp)->__bits))[__CPUELT (__cpu)] &= ~__CPUMASK (__cpu)) : 0; }))
+  1b45e __NR_mq_notify (__NR_SYSCALL_BASE+278)
+  1b485 __NR_umask (__NR_SYSCALL_BASE+ 60)
+  1b4a8 SYS_fork __NR_fork
+  1b4bb __NR_init_module (__NR_SYSCALL_BASE+128)
+  1b4e4 SYS_getcwd __NR_getcwd
+  1b4fb __USE_XOPEN2K8XSI 1
+  1b50f SYS_timer_gettime __NR_timer_gettime
+  1b534 SYS_sched_getscheduler __NR_sched_getscheduler
+  1b563 __NR_io_getevents (__NR_SYSCALL_BASE+245)
+  1b58d SYS_fallocate __NR_fallocate
+  1b5aa __NR_sigsuspend (__NR_SYSCALL_BASE+ 72)
+  1b5d2 __NR_getcpu (__NR_SYSCALL_BASE+345)
+  1b5f6 __NR_utime (__NR_SYSCALL_BASE+ 30)
+  1b619 SYS_link __NR_link
+  1b62c __NR_epoll_pwait (__NR_SYSCALL_BASE+346)
+  1b655 __USE_XOPEN2KXSI 1
+  1b668 SYS_timerfd_gettime __NR_timerfd_gettime
+  1b691 SYS_flock __NR_flock
+  1b6a6 SYS_mq_open __NR_mq_open
+  1b6bf __NR_times (__NR_SYSCALL_BASE+ 43)
+  1b6e2 SYS_semop __NR_semop
+  1b6f7 __NR_fdatasync (__NR_SYSCALL_BASE+148)
+  1b71e __NR_sigaction (__NR_SYSCALL_BASE+ 67)
+  1b745 __NR_unlink (__NR_SYSCALL_BASE+ 10)
+  1b769 SYS_add_key __NR_add_key
+  1b782 SYS_getgroups __NR_getgroups
+  1b79f SYS_getuid __NR_getuid
+  1b7b6 __NR_rt_tgsigqueueinfo (__NR_SYSCALL_BASE+363)
+  1b7e5 SYS_timerfd_create __NR_timerfd_create
+  1b80c __NR_mq_getsetattr (__NR_SYSCALL_BASE+279)
+  1b837 CPU_ALLOC(count) __CPU_ALLOC (count)
+  1b85c SYS_open_by_handle_at __NR_open_by_handle_at
+  1b889 __NR_syncfs (__NR_SYSCALL_BASE+373)
+  1b8ad SYS_mq_unlink __NR_mq_unlink
+  1b8ca __NR_prlimit64 (__NR_SYSCALL_BASE+369)
+  1b8f1 __NR_getitimer (__NR_SYSCALL_BASE+105)
+  1b918 CPU_ISSET_S(cpu,setsize,cpusetp) __CPU_ISSET_S (cpu, setsize, cpusetp)
+  1b95f SYS_memfd_create __NR_memfd_create
+  1b982 __NR_delete_module (__NR_SYSCALL_BASE+129)
+  1b9ad __NR_nice (__NR_SYSCALL_BASE+ 34)
+  1b9cf __ASM_ARM_UNISTD_H 
+  1b9e3 SYS_getuid32 __NR_getuid32
+  1b9fe __USE_GNU 1
+  1ba0a __NR_syslog (__NR_SYSCALL_BASE+103)
+  1ba2e __NR_setuid (__NR_SYSCALL_BASE+ 23)
+  1ba52 __NR_move_pages (__NR_SYSCALL_BASE+344)
+  1ba7a SYS_fchmodat __NR_fchmodat
+  1ba95 __NR_renameat (__NR_SYSCALL_BASE+329)
+  1babb __NR_setgroups32 (__NR_SYSCALL_BASE+206)
+  1bae4 SYS_vserver __NR_vserver
+  1bafd SYS_getpgid __NR_getpgid
+  1bb16 __NR_munmap (__NR_SYSCALL_BASE+ 91)
+  1bb3a SYS_lchown __NR_lchown
+  1bb51 SYS_fstatfs64 __NR_fstatfs64
+  1bb6e SYS_accept4 __NR_accept4
+  1bb87 CLONE_CHILD_SETTID 0x01000000
+  1bba5 __NR_process_vm_readv (__NR_SYSCALL_BASE+376)
+  1bbd3 SYS_setresgid __NR_setresgid
+  1bbf0 __NR_pselect6 (__NR_SYSCALL_BASE+335)
+  1bc16 SYS_uselib __NR_uselib
+  1bc2d __NR_setns (__NR_SYSCALL_BASE+375)
+  1bc50 __NR_getuid32 (__NR_SYSCALL_BASE+199)
+  1bc76 __NR_sigreturn (__NR_SYSCALL_BASE+119)
+  1bc9d CLONE_VM 0x00000100
+  1bcb1 SYS_getresuid __NR_getresuid
+  1bcce __NR_mmap (__NR_SYSCALL_BASE+ 90)
+  1bcf0 SYS_fstatat64 __NR_fstatat64
+  1bd0d SYS_pipe __NR_pipe
+  1bd20 SYS_readv __NR_readv
+  1bd35 __NR_madvise (__NR_SYSCALL_BASE+220)
+  1bd5a SYS_lchown32 __NR_lchown32
+  1bd75 SYS_listen __NR_listen
+  1bd8c SYS_getgid __NR_getgid
+  1bda3 watchlist
+  1bdad __NR_getuid (__NR_SYSCALL_BASE+ 24)
+  1bdd1 __NR_socket (__NR_SYSCALL_BASE+281)
+  1bdf5 SYS_nfsservctl __NR_nfsservctl
+  1be14 __NR_getppid (__NR_SYSCALL_BASE+ 64)
+  1be39 __NR_truncate64 (__NR_SYSCALL_BASE+193)
+  1be61 SYS_mlock __NR_mlock
+  1be76 strndupa(s,n) (__extension__ ({ const char *__old = (s); size_t __len = strnlen (__old, (n)); char *__new = (char *) __builtin_alloca (__len + 1); __new[__len] = '\0'; (char *) memcpy (__new, __old, __len); }))
+  1bf49 SYS_chown __NR_chown
+  1bf5e __NR_close (__NR_SYSCALL_BASE+ 6)
+  1bf80 SYS_unshare __NR_unshare
+  1bf99 __NR_getgroups (__NR_SYSCALL_BASE+ 80)
+  1bfc0 SYS_wait4 __NR_wait4
+  1bfd5 SYS_restart_syscall __NR_restart_syscall
+  1bffe CLONE_PTRACE 0x00002000
+  1c016 SYS_fchownat __NR_fchownat
+  1c031 _XOPEN_SOURCE_EXTENDED 1
+  1c04a SYS_setgroups32 __NR_setgroups32
+  1c06b __NR_sethostname (__NR_SYSCALL_BASE+ 74)
+  1c094 SYS_munmap __NR_munmap
+  1c0ab SYS_mkdirat __NR_mkdirat
+  1c0c4 CPU_OR_S(setsize,destset,srcset1,srcset2) __CPU_OP_S (setsize, destset, srcset1, srcset2, |)
+  1c121 __NR_pause (__NR_SYSCALL_BASE+ 29)
+  1c144 __NR_mlock (__NR_SYSCALL_BASE+150)
+  1c167 SYS_remap_file_pages __NR_remap_file_pages
+  1c192 __NR_getpgrp (__NR_SYSCALL_BASE+ 65)
+  1c1b7 __NR_eventfd2 (__NR_SYSCALL_BASE+356)
+  1c1dd __NR_exit_group (__NR_SYSCALL_BASE+248)
+  1c205 SYS_sigreturn __NR_sigreturn
+  1c222 SYS_pwrite64 __NR_pwrite64
+  1c23d SYS_sigaction __NR_sigaction
+  1c25a __NR_rmdir (__NR_SYSCALL_BASE+ 40)
+  1c27d __NR_ftruncate64 (__NR_SYSCALL_BASE+194)
+  1c2a6 __CPUMASK(cpu) ((__cpu_mask) 1 << ((cpu) % __NCPUBITS))
+  1c2de __NR_umount2 (__NR_SYSCALL_BASE+ 52)
+  1c303 __NR_setsockopt (__NR_SYSCALL_BASE+294)
+  1c32b __NR_openat (__NR_SYSCALL_BASE+322)
+  1c34f SYS_getgid32 __NR_getgid32
+  1c36a __NR_setregid32 (__NR_SYSCALL_BASE+204)
+  1c392 __NR_clock_nanosleep (__NR_SYSCALL_BASE+265)
+  1c3bf SYS_reboot __NR_reboot
+  1c3d6 __ARM_NR_cacheflush (__ARM_NR_BASE+2)
+  1c3fc SYS_semctl __NR_semctl
+  1c413 CPU_ZERO(cpusetp) __CPU_ZERO_S (sizeof (cpu_set_t), cpusetp)
+  1c450 SYS_epoll_create1 __NR_epoll_create1
+  1c475 SYS_move_pages __NR_move_pages
+  1c494 __USE_XOPEN_EXTENDED 1
+  1c4ab SYS_SYSCALL_BASE __NR_SYSCALL_BASE
+  1c4ce SYS_madvise __NR_madvise
+  1c4e7 SYS_set_mempolicy __NR_set_mempolicy
+  1c50c SYS_sched_getaffinity __NR_sched_getaffinity
+  1c539 __NR_semop (__NR_SYSCALL_BASE+298)
+  1c55c SYS_readlinkat __NR_readlinkat
+  1c57b __NR_unshare (__NR_SYSCALL_BASE+337)
+  1c5a0 SYS_rt_tgsigqueueinfo __NR_rt_tgsigqueueinfo
+  1c5cd SYS_semtimedop __NR_semtimedop
+  1c5ec __NR_sched_getaffinity (__NR_SYSCALL_BASE+242)
+  1c61b __NR_ipc
+  1c624 SYS_clone __NR_clone
+  1c639 _ISOC11_SOURCE
+  1c648 __NR_flistxattr (__NR_SYSCALL_BASE+234)
+  1c670 __defined_schedparam 1
+  1c687 SYS_timer_delete __NR_timer_delete
+  1c6aa SYS_timer_create __NR_timer_create
+  1c6cd __NR_flock (__NR_SYSCALL_BASE+143)
+  1c6f0 __NR__sysctl (__NR_SYSCALL_BASE+149)
+  1c715 SYS_pivot_root __NR_pivot_root
+  1c734 __NR_lstat64 (__NR_SYSCALL_BASE+196)
+  1c759 SYS_timer_getoverrun __NR_timer_getoverrun
+  1c784 SYS_settimeofday __NR_settimeofday
+  1c7a7 __NR_pipe2 (__NR_SYSCALL_BASE+359)
+  1c7ca __NR_perf_event_open (__NR_SYSCALL_BASE+364)
+  1c7f7 SYS_ugetrlimit __NR_ugetrlimit
+  1c816 SYS_timer_settime __NR_timer_settime
+  1c83b SYS_umask __NR_umask
+  1c850 SYS_setresuid32 __NR_setresuid32
+  1c871 __NR_sendmsg (__NR_SYSCALL_BASE+296)
+  1c896 __NR_munlock (__NR_SYSCALL_BASE+151)
+  1c8bb __NR_inotify_init (__NR_SYSCALL_BASE+316)
+  1c8e5 __NR_setfsgid32 (__NR_SYSCALL_BASE+216)
+  1c90d _XOPEN_SOURCE_EXTENDED
+  1c924 SYS_futimesat __NR_futimesat
+  1c941 SYS_timerfd_settime __NR_timerfd_settime
+  1c96a SYS_setpgid __NR_setpgid
+  1c983 SYS_mq_timedsend __NR_mq_timedsend
+  1c9a6 __NR_setgid32 (__NR_SYSCALL_BASE+214)
+  1c9cc add_notify
+  1c9d7 CLONE_PARENT 0x00008000
+  1c9ef SYS_set_robust_list __NR_set_robust_list
+  1ca18 __NR_sched_setaffinity (__NR_SYSCALL_BASE+241)
+  1ca47 __NR_ioprio_set (__NR_SYSCALL_BASE+314)
+  1ca6f rescan_all
+  1ca7a __NR_fcntl (__NR_SYSCALL_BASE+ 55)
+  1ca9d SCHED_RR 2
+  1caa8 __NR_pread64 (__NR_SYSCALL_BASE+180)
+  1cacd SYS_fanotify_mark __NR_fanotify_mark
+  1caf2 SYS_recvmsg __NR_recvmsg
+  1cb0b SYS_capset __NR_capset
+  1cb22 __NR_clone (__NR_SYSCALL_BASE+120)
+  1cb45 SYS_munlock __NR_munlock
+  1cb5e SYS_io_setup __NR_io_setup
+  1cb79 __NR_readahead (__NR_SYSCALL_BASE+225)
+  1cba0 CPU_XOR_S(setsize,destset,srcset1,srcset2) __CPU_OP_S (setsize, destset, srcset1, srcset2, ^)
+  1cbfe __NR_geteuid32 (__NR_SYSCALL_BASE+201)
+  1cc25 SYS_mremap __NR_mremap
+  1cc3c SYS_waitid __NR_waitid
+  1cc53 SYS_kcmp __NR_kcmp
+  1cc66 SYS_ioprio_get __NR_ioprio_get
+  1cc85 SYS_sigprocmask __NR_sigprocmask
+  1cca6 __NR_listen (__NR_SYSCALL_BASE+284)
+  1ccca SYS_fgetxattr __NR_fgetxattr
+  1cce7 __NR_keyctl (__NR_SYSCALL_BASE+311)
+  1cd0b SYS_linkat __NR_linkat
+  1cd22 __NR_sendfile (__NR_SYSCALL_BASE+187)
+  1cd48 SYS_connect __NR_connect
+  1cd61 __NR_uname (__NR_SYSCALL_BASE+122)
+  1cd84 CPU_AND(destset,srcset1,srcset2) __CPU_OP_S (sizeof (cpu_set_t), destset, srcset1, srcset2, &)
+  1cde3 __NR_setregid (__NR_SYSCALL_BASE+ 71)
+  1ce09 SYS_OABI_SYSCALL_BASE __NR_OABI_SYSCALL_BASE
+  1ce36 SYS_getpid __NR_getpid
+  1ce4d __NR_rt_sigpending (__NR_SYSCALL_BASE+176)
+  1ce78 SYS_getsockopt __NR_getsockopt
+  1ce97 SYS_getegid __NR_getegid
+  1ceb0 _SYSCALL_H 1
+  1cebd SYS_ioctl __NR_ioctl
+  1ced2 SYS_setns __NR_setns
+  1cee7 __NR_sigprocmask (__NR_SYSCALL_BASE+126)
+  1cf10 __NR_timer_delete (__NR_SYSCALL_BASE+261)
+  1cf3a __NR_lgetxattr (__NR_SYSCALL_BASE+230)
+  1cf61 __NR_write (__NR_SYSCALL_BASE+ 4)
+  1cf83 __NR_set_mempolicy (__NR_SYSCALL_BASE+321)
+  1cfae wdpp
+  1cfb3 __NR_alarm (__NR_SYSCALL_BASE+ 27)
+  1cfd6 __sigorset(dest,left,right) (__extension__ ({ int __cnt = _SIGSET_NWORDS; sigset_t *__dest = (dest); const sigset_t *__left = (left); const sigset_t *__right = (right); while (--__cnt >= 0) __dest->__val[__cnt] = (__left->__val[__cnt] | __right->__val[__cnt]); 0; }))
+  1d0e2 __CPU_OP_S(setsize,destset,srcset1,srcset2,op) (__extension__ ({ cpu_set_t *__dest = (destset); const __cpu_mask *__arr1 = (srcset1)->__bits; const __cpu_mask *__arr2 = (srcset2)->__bits; size_t __imax = (setsize) / sizeof (__cpu_mask); size_t __i; for (__i = 0; __i < __imax; ++__i) ((__cpu_mask *) __dest->__bits)[__i] = __arr1[__i] op __arr2[__i]; __dest; }))
+  1d24d SYS_process_vm_readv __NR_process_vm_readv
+  1d278 __NR_ppoll (__NR_SYSCALL_BASE+336)
+  1d29b SYS_rt_sigprocmask __NR_rt_sigprocmask
+  1d2c2 __NR_pciconfig_iobase (__NR_SYSCALL_BASE+271)
+  1d2f0 __NR_utime
+  1d2fb __NR_ftruncate (__NR_SYSCALL_BASE+ 93)
+  1d322 __NR_SYSCALL_BASE 0
+  1d336 __CPU_EQUAL_S(setsize,cpusetp1,cpusetp2) (__builtin_memcmp (cpusetp1, cpusetp2, setsize) == 0)
+  1d395 __NR_request_key (__NR_SYSCALL_BASE+310)
+  1d3be CLONE_SETTLS 0x00080000
+  1d3d6 SYS_arm_sync_file_range __NR_arm_sync_file_range
+  1d407 SYS_kill __NR_kill
+  1d41a SYS_sync_file_range2 __NR_sync_file_range2
+  1d445 __NR_sysinfo (__NR_SYSCALL_BASE+116)
+  1d46a SCHED_IDLE 5
+  1d477 __NR_io_submit (__NR_SYSCALL_BASE+246)
+  1d49e SYS_llistxattr __NR_llistxattr
+  1d4bd SYS__llseek __NR__llseek
+  1d4d6 SCHED_RESET_ON_FORK 0x40000000
+  1d4f5 __NR_rt_sigtimedwait (__NR_SYSCALL_BASE+177)
+  1d522 __NR_fstatat64 (__NR_SYSCALL_BASE+327)
+  1d549 __NR_tee (__NR_SYSCALL_BASE+342)
+  1d56a SYS_utimes __NR_utimes
+  1d581 SYS_fsync __NR_fsync
+  1d596 CSIGNAL 0x000000ff
+  1d5a9 TEMP_FAILURE_RETRY(expression) (__extension__ ({ long int __result; do __result = (long int) (expression); while (__result == -1L && errno == EINTR); __result; }))
+  1d64d __NR_timer_settime (__NR_SYSCALL_BASE+258)
+  1d678 __NR_shmat (__NR_SYSCALL_BASE+305)
+  1d69b SYS_chown32 __NR_chown32
+  1d6b4 SYS_access __NR_access
+  1d6cb SYS_sched_setscheduler __NR_sched_setscheduler
+  1d6fa __NR_llistxattr (__NR_SYSCALL_BASE+233)
+  1d722 __NR_getsockopt (__NR_SYSCALL_BASE+295)
+  1d74a __NR_truncate (__NR_SYSCALL_BASE+ 92)
+  1d770 __NR_open (__NR_SYSCALL_BASE+ 5)
+  1d791 SYS_eventfd __NR_eventfd
+  1d7aa SYS_rt_sigpending __NR_rt_sigpending
+  1d7cf __NR_read (__NR_SYSCALL_BASE+ 3)
+  1d7f0 __NR_fstat64 (__NR_SYSCALL_BASE+197)
+  1d815 SEEK_DATA 3
+  1d821 __USE_ISOC11 1
+  1d830 SYS_sysinfo __NR_sysinfo
+  1d849 SYS_readlink __NR_readlink
+  1d864 SYS_bdflush __NR_bdflush
+  1d87d __NR_chown32 (__NR_SYSCALL_BASE+212)
+  1d8a2 __NR_utimensat (__NR_SYSCALL_BASE+348)
+  1d8c9 _ISOC95_SOURCE 1
+  1d8da __ARM_NR_usr26 (__ARM_NR_BASE+3)
+  1d8fb __NR_futimesat (__NR_SYSCALL_BASE+326)
+  1d922 SYS_sendfile64 __NR_sendfile64
+  1d941 SYS_sigaltstack __NR_sigaltstack
+  1d962 SYS_mknod __NR_mknod
+  1d977 __NR_msgget (__NR_SYSCALL_BASE+303)
+  1d99b __NR_name_to_handle_at (__NR_SYSCALL_BASE+370)
+  1d9ca SYS_dup3 __NR_dup3
+  1d9dd SYS_getpriority __NR_getpriority
+  1d9fe SYS_mincore __NR_mincore
+  1da17 SYS_sigsuspend __NR_sigsuspend
+  1da36 SYS_getresuid32 __NR_getresuid32
+  1da57 SYS_symlink __NR_symlink
+  1da70 CLONE_NEWNET 0x40000000
+  1da88 SYS_setuid __NR_setuid
+  1da9f __NR_lchown32 (__NR_SYSCALL_BASE+198)
+  1dac5 __NR_linkat (__NR_SYSCALL_BASE+330)
+  1dae9 __NR_msgctl (__NR_SYSCALL_BASE+304)
+  1db0d SYS_inotify_add_watch __NR_inotify_add_watch
+  1db3a __NR_epoll_ctl (__NR_SYSCALL_BASE+251)
+  1db61 SYS_ppoll __NR_ppoll
+  1db76 __NR_sigaltstack (__NR_SYSCALL_BASE+186)
+  1db9f __NR_getrusage (__NR_SYSCALL_BASE+ 77)
+  1dbc6 __NR_accept4 (__NR_SYSCALL_BASE+366)
+  1dbeb __NR_removexattr (__NR_SYSCALL_BASE+235)
+  1dc14 __NR_futex (__NR_SYSCALL_BASE+240)
+  1dc37 SYS_clock_settime __NR_clock_settime
+  1dc5c __NR_rename (__NR_SYSCALL_BASE+ 38)
+  1dc80 SYS_readahead __NR_readahead
+  1dc9d SYS_mprotect __NR_mprotect
+  1dcb8 SEEK_HOLE 4
+  1dcc4 SYS_fchown __NR_fchown
+  1dcdb SCHED_BATCH 3
+  1dce9 SYS_process_vm_writev __NR_process_vm_writev
+  1dd16 SYS_rt_sigsuspend __NR_rt_sigsuspend
+  1dd3b CPU_EQUAL(cpusetp1,cpusetp2) __CPU_EQUAL_S (sizeof (cpu_set_t), cpusetp1, cpusetp2)
+  1dd8f SYS_fchdir __NR_fchdir
+  1dda6 SYS_clock_getres __NR_clock_getres
+  1ddc9 SYS_clock_gettime __NR_clock_gettime
+  1ddee rescanner_stack_page
+  1de03 del_notify
+  1de0e CSTATUS '\0'
+  1de1b SYS_pselect6 __NR_pselect6
+  1de36 SYS_ptrace __NR_ptrace
+  1de4d SYS_futex __NR_futex
+  1de62 __NR_mknodat (__NR_SYSCALL_BASE+324)
+  1de87 SYS_lstat64 __NR_lstat64
+  1dea0 __sigandset(dest,left,right) (__extension__ ({ int __cnt = _SIGSET_NWORDS; sigset_t *__dest = (dest); const sigset_t *__left = (left); const sigset_t *__right = (right); while (--__cnt >= 0) __dest->__val[__cnt] = (__left->__val[__cnt] & __right->__val[__cnt]); 0; }))
+  1dfad __ARM_NR_breakpoint (__ARM_NR_BASE+1)
+  1dfd3 __NR_readlink (__NR_SYSCALL_BASE+ 85)
+  1dff9 __NR_geteuid (__NR_SYSCALL_BASE+ 49)
+  1e01e watch_id
+  1e027 __NR_dup2 (__NR_SYSCALL_BASE+ 63)
+  1e049 __NR_sendfile64 (__NR_SYSCALL_BASE+239)
+  1e071 __USE_LARGEFILE 1
+  1e083 __ARM_NR_set_tls (__ARM_NR_BASE+5)
+  1e0a6 CPU_CLR_S(cpu,setsize,cpusetp) __CPU_CLR_S (cpu, setsize, cpusetp)
+  1e0e9 SYS_mbind __NR_mbind
+  1e0fe __NR_tgkill (__NR_SYSCALL_BASE+268)
+  1e122 _LARGEFILE64_SOURCE
+  1e136 __NR_mq_unlink (__NR_SYSCALL_BASE+275)
+  1e15d SYS_getrusage __NR_getrusage
+  1e17a __NR_pwrite64 (__NR_SYSCALL_BASE+181)
+  1e1a0 __NR_shmctl (__NR_SYSCALL_BASE+308)
+  1e1c4 __NR_lookup_dcookie (__NR_SYSCALL_BASE+249)
+  1e1f0 SYS_rt_sigreturn __NR_rt_sigreturn
+  1e213 __NR_connect (__NR_SYSCALL_BASE+283)
+  1e238 SYS_tee __NR_tee
+  1e249 CLONE_FILES 0x00000400
+  1e260 SYS_shmctl __NR_shmctl
+  1e277 __NR_epoll_wait (__NR_SYSCALL_BASE+252)
+  1e29f __NR_umount
+  1e2ab SYS_write __NR_write
+  1e2c0 __NR_setsid (__NR_SYSCALL_BASE+ 66)
+  1e2e4 SYS_execve __NR_execve
+  1e2fb SYS_socketpair __NR_socketpair
+  1e31a SYS_finit_module __NR_finit_module
+  1e33d __NR_remap_file_pages (__NR_SYSCALL_BASE+253)
+  1e36b CPU_FREE(cpuset) __CPU_FREE (cpuset)
+  1e390 SYS_pread64 __NR_pread64
+  1e3a9 _LARGEFILE_SOURCE
+  1e3bb SYS_lstat __NR_lstat
+  1e3d0 __NR_mmap
+  1e3da CLONE_IO 0x80000000
+  1e3ee _XOPEN_SOURCE
+  1e3fc __NR_writev (__NR_SYSCALL_BASE+146)
+  1e420 __NR_fchownat (__NR_SYSCALL_BASE+325)
+  1e446 __NR_swapoff (__NR_SYSCALL_BASE+115)
+  1e46b SYS_epoll_wait __NR_epoll_wait
+  1e48a SYS_utimensat __NR_utimensat
+  1e4a7 __NR_mq_timedreceive (__NR_SYSCALL_BASE+277)
+  1e4d4 __NR_process_vm_writev (__NR_SYSCALL_BASE+377)
+  1e503 SYS_sched_rr_get_interval __NR_sched_rr_get_interval
+  1e538 __NR_mbind (__NR_SYSCALL_BASE+319)
+  1e55b __NR_setuid32 (__NR_SYSCALL_BASE+213)
+  1e581 __NR_personality (__NR_SYSCALL_BASE+136)
+  1e5aa SYS_sync __NR_sync
+  1e5bd SYS_unlinkat __NR_unlinkat
+  1e5d8 __NR_getegid32 (__NR_SYSCALL_BASE+202)
+  1e5ff __NR_arm_fadvise64_64 (__NR_SYSCALL_BASE+270)
+  1e62d CLONE_UNTRACED 0x00800000
+  1e647 __NR_fchown32 (__NR_SYSCALL_BASE+207)
+  1e66d __NR_getsid (__NR_SYSCALL_BASE+147)
+  1e691 SYS_getcpu __NR_getcpu
+  1e6a8 CPU_COUNT(cpusetp) __CPU_COUNT_S (sizeof (cpu_set_t), cpusetp)
+  1e6e7 __NR_semtimedop (__NR_SYSCALL_BASE+312)
+  1e70f __NR_getcwd (__NR_SYSCALL_BASE+183)
+  1e733 SYS_statfs __NR_statfs
+  1e74a SYS__newselect __NR__newselect
+  1e769 SYS_stat64 __NR_stat64
+  1e780 __NR_access (__NR_SYSCALL_BASE+ 33)
+  1e7a4 __NR_setresuid (__NR_SYSCALL_BASE+164)
+  1e7cb __NR_fstatfs (__NR_SYSCALL_BASE+100)
+  1e7f0 __NR_readlinkat (__NR_SYSCALL_BASE+332)
+  1e818 __NR_exit (__NR_SYSCALL_BASE+ 1)
+  1e839 __NR_gettid (__NR_SYSCALL_BASE+224)
+  1e85d __NR_accept (__NR_SYSCALL_BASE+285)
+  1e881 __NR_chmod (__NR_SYSCALL_BASE+ 15)
+  1e8a4 __NR_alarm
+  1e8af SYS_shmget __NR_shmget
+  1e8c6 __NR_io_cancel (__NR_SYSCALL_BASE+247)
+  1e8ed __NR_eventfd (__NR_SYSCALL_BASE+351)
+  1e912 __NR_getpriority (__NR_SYSCALL_BASE+ 96)
+  1e93b SYS_tkill __NR_tkill
+  1e950 SYS_clock_nanosleep __NR_clock_nanosleep
+  1e979 __NR_creat (__NR_SYSCALL_BASE+ 8)
+  1e99b __NR_getresuid32 (__NR_SYSCALL_BASE+209)
+  1e9c4 SYS_getppid __NR_getppid
+  1e9dd __NR_symlinkat (__NR_SYSCALL_BASE+331)
+  1ea04 __NR_getpid (__NR_SYSCALL_BASE+ 20)
+  1ea28 __NR_getgid32 (__NR_SYSCALL_BASE+200)
+  1ea4e SYS_getsid __NR_getsid
+  1ea65 SYS_setresuid __NR_setresuid
+  1ea82 SIG_HOLD ((__sighandler_t) 2)
+  1eaa0 SYS_sched_get_priority_min __NR_sched_get_priority_min
+  1ead7 __NR_setpgid (__NR_SYSCALL_BASE+ 57)
+  1eafc _LARGEFILE_SOURCE 1
+  1eb10 SYS_kexec_load __NR_kexec_load
+  1eb2f __NR_lstat (__NR_SYSCALL_BASE+107)
+  1eb52 L_cuserid 9
+  1eb5e __NR_readdir
+  1eb6b SYS_setgid __NR_setgid
+  1eb82 __NR_setxattr (__NR_SYSCALL_BASE+226)
+  1eba8 __NR_vfork (__NR_SYSCALL_BASE+190)
+  1ebcb SYS_rt_sigtimedwait __NR_rt_sigtimedwait
+  1ebf4 SYS_mq_notify __NR_mq_notify
+  1ec11 CLONE_THREAD 0x00010000
+  1ec29 SYS_syslog __NR_syslog
+  1ec40 __NR_clock_settime (__NR_SYSCALL_BASE+262)
+  1ec6b SYS_keyctl __NR_keyctl
+  1ec82 strdupa(s) (__extension__ ({ const char *__old = (s); size_t __len = strlen (__old) + 1; char *__new = (char *) __builtin_alloca (__len); (char *) memcpy (__new, __old, __len); }))
+  1ed37 SYS_mlockall __NR_mlockall
+  1ed52 __NR_fchmod (__NR_SYSCALL_BASE+ 94)
+  1ed76 __NR_set_tid_address (__NR_SYSCALL_BASE+256)
+  1eda3 __NR_timer_getoverrun (__NR_SYSCALL_BASE+260)
+  1edd1 __NR_chdir (__NR_SYSCALL_BASE+ 12)
+  1edf4 __NR_setresuid32 (__NR_SYSCALL_BASE+208)
+  1ee1d SYS_renameat2 __NR_renameat2
+  1ee3a __NR__llseek (__NR_SYSCALL_BASE+140)
+  1ee5f __need_schedparam
+  1ee71 SYS_setuid32 __NR_setuid32
+  1ee8c CLONE_CHILD_CLEARTID 0x00200000
+  1eeac SYS_perf_event_open __NR_perf_event_open
+  1eed5 rescanner_thread
+  1eee6 SYS_poll __NR_poll
+  1eef9 SCHED_FIFO 1
+  1ef06 __NR_fstatfs64 (__NR_SYSCALL_BASE+267)
+  1ef2d __NR__newselect (__NR_SYSCALL_BASE+142)
+  1ef55 SYS_fstat64 __NR_fstat64
+  1ef6e __CPU_FREE(cpuset) __sched_cpufree (cpuset)
+  1ef9a handle_notify
+  1efa8 __NR_shmget (__NR_SYSCALL_BASE+307)
+  1efcc __NR_poll (__NR_SYSCALL_BASE+168)
+  1efee _ISOC11_SOURCE 1
+  1efff __NR_waitid (__NR_SYSCALL_BASE+280)
+  1f023 __NR_fanotify_mark (__NR_SYSCALL_BASE+368)
+  1f04e SYS_quotactl __NR_quotactl
+  1f069 __NR_vhangup (__NR_SYSCALL_BASE+111)
+  1f08e SYS_setreuid __NR_setreuid
+  1f0a9 __NR_setpriority (__NR_SYSCALL_BASE+ 97)
+  1f0d2 SYS_preadv __NR_preadv
+  1f0e9 SYS_sendto __NR_sendto
+  1f100 __NR_restart_syscall (__NR_SYSCALL_BASE+ 0)
+  1f12c CLONE_FS 0x00000200
+  1f140 SYS_symlinkat __NR_symlinkat
+  1f15d __NR_getdents (__NR_SYSCALL_BASE+141)
+  1f183 SYS_io_cancel __NR_io_cancel
+  1f1a0 SYS_init_module __NR_init_module
+  1f1c1 CPU_SET_S(cpu,setsize,cpusetp) __CPU_SET_S (cpu, setsize, cpusetp)
+  1f204 SYS_personality __NR_personality
+  1f225 __NR_sched_getattr (__NR_SYSCALL_BASE+381)
+  1f250 __NR_mq_open (__NR_SYSCALL_BASE+274)
+  1f275 SYS_sched_getparam __NR_sched_getparam
+  1f29c __NR_setdomainname (__NR_SYSCALL_BASE+121)
+  1f2c7 __NR_mprotect (__NR_SYSCALL_BASE+125)
+  1f2ed __ARM_NR_BASE (__NR_SYSCALL_BASE+0x0f0000)
+  1f318 __NR_lchown (__NR_SYSCALL_BASE+ 16)
+  1f33c __NR_statfs64 (__NR_SYSCALL_BASE+266)
+  1f362 __NR_kexec_load (__NR_SYSCALL_BASE+347)
+  1f38a SYS_mkdir __NR_mkdir
+  1f39f __NR_faccessat (__NR_SYSCALL_BASE+334)
+  1f3c6 SYS_io_submit __NR_io_submit
+  1f3e3 CPU_ZERO_S(setsize,cpusetp) __CPU_ZERO_S (setsize, cpusetp)
+  1f41f __NR_swapon (__NR_SYSCALL_BASE+ 87)
+  1f443 SYS_getegid32 __NR_getegid32
+  1f460 __NR_mremap (__NR_SYSCALL_BASE+163)
+  1f484 SYS_epoll_ctl __NR_epoll_ctl
+  1f4a1 __NR_inotify_add_watch (__NR_SYSCALL_BASE+317)
+  1f4d0 sched_priority __sched_priority
+  1f4f0 __NR_sync_file_range2 __NR_arm_sync_file_range
+  1f51f SYS_set_tid_address __NR_set_tid_address
+  1f548 SYS_exit __NR_exit
+  1f55b __NR_socketcall
+  1f56b SYS_openat __NR_openat
+  1f582 SYS_syncfs __NR_syncfs
+  1f599 _ISOC99_SOURCE 1
+  1f5aa CPU_EQUAL_S(setsize,cpusetp1,cpusetp2) __CPU_EQUAL_S (setsize, cpusetp1, cpusetp2)
+  1f5fd SYS_accept __NR_accept
+  1f614 SYS_brk __NR_brk
+  1f625 SYS_nanosleep __NR_nanosleep
+  1f642 SYS_times __NR_times
+  1f657 __NR_sched_get_priority_max (__NR_SYSCALL_BASE+159)
+  1f68b __NR_adjtimex (__NR_SYSCALL_BASE+124)
+  1f6b1 __NR_fremovexattr (__NR_SYSCALL_BASE+237)
+  1f6db __NR_setgroups (__NR_SYSCALL_BASE+ 81)
+  1f702 __NR_time
+  1f70c __NR_getsockname (__NR_SYSCALL_BASE+286)
+  1f735 __NR_readv (__NR_SYSCALL_BASE+145)
+  1f758 __NR_sched_get_priority_min (__NR_SYSCALL_BASE+160)
+  1f78c __NR_sched_setparam (__NR_SYSCALL_BASE+154)
+  1f7b8 SYS_lgetxattr __NR_lgetxattr
+  1f7d5 __CPU_ISSET_S(cpu,setsize,cpusetp) (__extension__ ({ size_t __cpu = (cpu); __cpu / 8 < (setsize) ? ((((const __cpu_mask *) ((cpusetp)->__bits))[__CPUELT (__cpu)] & __CPUMASK (__cpu))) != 0 : 0; }))
+  1f89b SYS_setdomainname __NR_setdomainname
+  1f8c0 __NR_lseek (__NR_SYSCALL_BASE+ 19)
+  1f8e3 SYS_vhangup __NR_vhangup
+  1f8fc __NR_clock_adjtime (__NR_SYSCALL_BASE+372)
+  1f927 tid_scanner
+  1f933 SYS_recvfrom __NR_recvfrom
+  1f94e SYS_dup __NR_dup
+  1f95f __NR_getrlimit (__NR_SYSCALL_BASE+ 76)
+  1f986 SYS_getdents __NR_getdents
+  1f9a1 SYS_epoll_create __NR_epoll_create
+  1f9c4 __NR_setreuid32 (__NR_SYSCALL_BASE+203)
+  1f9ec __NR_io_destroy (__NR_SYSCALL_BASE+244)
+  1fa14 __USE_XOPEN 1
+  1fa22 SYS_chmod __NR_chmod
+  1fa37 SYS__sysctl __NR__sysctl
+  1fa50 __NR_epoll_create (__NR_SYSCALL_BASE+250)
+  1fa7a dummy
+  1fa80 SYS_fcntl64 __NR_fcntl64
+  1fa99 __NR_rt_sigaction (__NR_SYSCALL_BASE+174)
+  1fac3 __NR_ustat (__NR_SYSCALL_BASE+ 62)
+  1fae6 SYS_pwritev __NR_pwritev
+  1faff SYS_setresgid32 __NR_setresgid32
+  1fb20 __NR_sched_getparam (__NR_SYSCALL_BASE+155)
+  1fb4c __NR_stat64 (__NR_SYSCALL_BASE+195)
+  1fb70 SYS_setfsgid __NR_setfsgid
+  1fb8b __NR_getpgid (__NR_SYSCALL_BASE+132)
+  1fbb0 SYS_lseek __NR_lseek
+  1fbc5 __NR_sync (__NR_SYSCALL_BASE+ 36)
+  1fbe7 SYS_sendmsg __NR_sendmsg
+  1fc00 __NR_getresgid32 (__NR_SYSCALL_BASE+211)
+  1fc29 SYS_getdents64 __NR_getdents64
+  1fc48 SYS_semget __NR_semget
+  1fc5f SYS_sched_setparam __NR_sched_setparam
+  1fc86 SYS_munlockall __NR_munlockall
+  1fca5 SYS_mount __NR_mount
+  1fcba __NR_semctl (__NR_SYSCALL_BASE+300)
+  20bb5 "__P
+  27b0d .symtab
+  27b15 .strtab
+  27b1d .shstrtab
+  27b27 .interp
+  27b2f .note.ABI-tag
+  27b3d .note.gnu.build-id
+  27b50 .gnu.hash
+  27b5a .dynsym
+  27b62 .dynstr
+  27b6a .gnu.version
+  27b77 .gnu.version_r
+  27b86 .rel.dyn
+  27b8f .rel.plt
+  27b98 .init
+  27b9e .text
+  27ba4 .fini
+  27baa .rodata
+  27bb2 .ARM.exidx
+  27bbd .eh_frame
+  27bc7 .init_array
+  27bd3 .fini_array
+  27bdf .jcr
+  27be4 .dynamic
+  27bed .got
+  27bf2 .data
+  27bf8 .bss
+  27bfd .comment
+  27c06 .ARM.attributes
+  27c16 .debug_aranges
+  27c25 .debug_info
+  27c31 .debug_abbrev
+  27c3f .debug_line
+  27c4b .debug_frame
+  27c58 .debug_str
+  27c63 .debug_macro
+  28c71 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o
+  28cc0 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o
+  28d0c call_weak_fn
+  28d19 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
+  28d62 crtstuff.c
+  28d6d __JCR_LIST__
+  28d7a deregister_tm_clones
+  28d8f register_tm_clones
+  28da2 __do_global_dtors_aux
+  28db8 completed.9004
+  28dc7 __do_global_dtors_aux_fini_array_entry
+  28dee frame_dummy
+  28dfa __frame_dummy_init_array_entry
+  28e19 main.c
+  28e20 media_path
+  28e2b dd_fd
+  28e31 default_reaper
+  28e40 handle_mount
+  28e4d mev.c
+  28e53 mevh
+  28e58 master_fds
+  28e63 master_maxfd
+  28e70 content.c
+  28e7a media_handlers
+  28e89 media_default_handlers
+  28ea0 generic_exec
+  28ead scan.c
+  28eb4 head
+  28eb9 libmagic_cookie
+  28ec9 allocate_chunk
+  28ed8 find_existing_dirs
+  28eeb misc.c
+  28ef2 buffer
+  28ef9 network.c
+  28f0d helptxt
+  28f15 unix_command
+  28f22 handle_client_read
+  28f35 handle_client_connection
+  28f4e notify.c
+  28f57 noti_fd
+  28f5f watchlist
+  28f69 rescanner_stack_page
+  28f7e tid_master
+  28f89 tid_scanner
+  28f95 handle_notify
+  28fa3 rescanner_thread
+  28fb4 elf-init.oS
+  28fc0 stat.oS
+  28fc8 __FRAME_END__
+  28fd6 __JCR_END__
+  28fe2 _GLOBAL_OFFSET_TABLE_
+  28ff8 __init_array_end
+  29009 __init_array_start
+  2901c _DYNAMIC
+  29025 data_start
+  29030 open@@GLIBC_2.4
+  29040 mmap@@GLIBC_2.4
+  29050 abort@@GLIBC_2.4
+  29061 __libc_csu_fini
+  29071 find_handler
+  2907e opendir@@GLIBC_2.4
+  29091 _start
+  29098 forget_dir
+  290a3 magic_load
+  290ae __xstat@@GLIBC_2.4
+  290c1 __libc_start_main@@GLIBC_2.4
+  290de mev_add
+  290e6 inet_ntoa@@GLIBC_2.4
+  290fb signal@@GLIBC_2.4
+  2910d __gmon_start__
+  2911c _Jv_RegisterClasses
+  29130 vsnprintf@@GLIBC_2.4
+  29145 recv@@GLIBC_2.4
+  29155 _fini
+  2915b strchr@@GLIBC_2.4
+  2916d listen@@GLIBC_2.4
+  2917f clone@@GLIBC_2.4
+  29190 del_notify
+  2919b htons@@GLIBC_2.4
+  291ac memset@@GLIBC_2.4
+  291be mev_run
+  291c6 advance_cursor
+  291d5 __stat
+  291dc stat
+  291e1 _ITM_deregisterTMCloneTable
+  291fd magic_file
+  29208 _IO_stdin_used
+  29217 free@@GLIBC_2.4
+  29227 read@@GLIBC_2.4
+  29237 _ITM_registerTMCloneTable
+  29251 __data_start
+  2925e accept@@GLIBC_2.4
+  29270 __bss_start__
+  2927e socket@@GLIBC_2.4
+  29290 ioctl@@GLIBC_2.4
+  292a1 strlen@@GLIBC_2.4
+  292b3 memcpy@@GLIBC_2.4
+  292c5 __TMC_END__
+  292d1 mev_del
+  292d9 __dso_handle
+  292e6 strcpy@@GLIBC_2.4
+  292f8 waitpid@@GLIBC_2.4
+  2930b __end__
+  29313 __libc_csu_init
+  29323 __bss_end__
+  2932f rescan_all
+  2933a network_open
+  29347 total_count
+  29353 bind@@GLIBC_2.4
+  29363 sun_client
+  2936e select@@GLIBC_2.4
+  29380 close@@GLIBC_2.4
+  29391 closedir@@GLIBC_2.4
+  293a5 cursor
+  293ac init_play_subsystem
+  293c0 __bss_start
+  293cc execve@@GLIBC_2.4
+  293de mediacenter_log
+  293ee malloc@@GLIBC_2.4
+  29400 _bss_end__
+  2940b inotify_rm_watch@@GLIBC_2.4
+  29427 init_notify
+  29433 sleep@@GLIBC_2.4
+  29444 send@@GLIBC_2.4
+  29454 medialog
+  2945d _end
+  29462 getpid@@GLIBC_2.4
+  29474 inotify_add_watch@@GLIBC_2.4
+  29491 fork@@GLIBC_2.4
+  294a1 htonl@@GLIBC_2.4
+  294b2 munmap@@GLIBC_2.4
+  294c4 play_file
+  294ce magic_open
+  294d9 sun_client_len
+  294e8 snprintf@@GLIBC_2.4
+  294fc scan_dir
+  29505 openmedialog
+  29512 _edata
+  29519 strncmp@@GLIBC_2.4
+  2952c init_scan_subsystem
+  29540 add_notify
+  2954b syscall@@GLIBC_2.4
+  2955e readdir@@GLIBC_2.4
+  29571 inotify_init@@GLIBC_2.4
+  29589 next_file
+  29593 network_close
+  295a1 strcmp@@GLIBC_2.4
+  295b3 exit@@GLIBC_2.4
+  295c3 sprintf@@GLIBC_2.4
+  295d6 main
+  295db _init

@@ -1,0 +1,4 @@
+scan.c:139:mediacenter_log
+/var/log
+%x%x%x%x.ogg
+09 06 2017 20:38 raspberrypi media: New file: /media/test/126b876ab3e6476e30db810adb2c.ogg

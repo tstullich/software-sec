@@ -1,0 +1,2 @@
+DBUS
+dbus-send --system --dest=media.log.medialog.mediad --type=signal /media/log/medialog/mediad media.log.medialog.media_handle string:'Dbg'

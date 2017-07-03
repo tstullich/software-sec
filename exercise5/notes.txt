@@ -1,4 +1,4 @@
 * Chunks always allocated to fixed size and rounded up
 * Heap breaks when writing a chunk of size 4 (eg: aaaa)
 Looks like heap can be broken when using option 0 after removing some entries with 2
-Address of maint_shell = movw #7544 movt #2 (0x0001d7a)
+Address of maint_shell = 0x21d78

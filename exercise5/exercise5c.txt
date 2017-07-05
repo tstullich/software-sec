@@ -1,3 +1,3 @@
-The least significant byte of the chunk size that was xmalloc()'d
-We can only create chunks that end on the 00 byte, since the \0 character gets written into the least significant byte during strcpy()
-The following chunk will have data from the overflown chunk "user data" which can be used to 
+The least significant byte of the chunk size header that follows the chunk that was just allocated (0x1234 -> 0x1200)
+We can only create chunks that start on an offset ending 00 byte, since the \0 character gets written into the least significant byte of a newly xmalloc()'d during strcpy()
+The following chunk will have data from the overflown chunk "user data" which can be used to craft a new memory layout

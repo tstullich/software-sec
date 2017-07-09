@@ -1,5 +1,6 @@
 8
 0x000233ac:media_handlers
+# Need to find correct address. Maybe w/ or w/o ASLR
 0x000231f4
 0x0001264c:/usr/bin/mpg123
 0x76e677f0
